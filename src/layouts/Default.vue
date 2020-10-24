@@ -17,16 +17,10 @@
           data-cypress="menu"
         >
           <li>
-            <g-link to="/about" class="text-copy-primary hover:text-gray-600">About</g-link>
+            <g-link to="/about" class="text-white hover:text-gray-300">About</g-link>
           </li>
           <li>
-            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-white hover:text-gray-300" data-cypress="projects">Projects</a>
-            <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</g-link>
-          </li>
-          
-          <li>
-            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-white hover:text-gray-300" data-cypress="contact">Contact</a>
-            <g-link v-else to="/#contact" class="text-copy-primary hover:text-white hover:text-gray-300">Contact</g-link>
+            <g-link to="/contact" class="text-white hover:text-gray-300">Contact</g-link>
           </li>
           <li>
             <g-link to="/blog" class="text-white hover:text-gray-300" data-cypress="blog">Blog</g-link>

@@ -145,7 +145,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About Us | Centro Carpintero'
+    title: 'Contact'
   }
 }
 </script>
