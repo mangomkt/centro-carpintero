@@ -17,8 +17,7 @@
           data-cypress="menu"
         >
           <li>
-            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-white hover:text-gray-300" data-cypress="about">About</a>
-            <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
+            <g-link to="/about" class="text-copy-primary hover:text-gray-600">About</g-link>
           </li>
           <li>
             <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-white hover:text-gray-300" data-cypress="projects">Projects</a>
