@@ -16,7 +16,9 @@
 
   --border-border-color-primary: white;
 }
-
+p {
+  margin: 0 0 15px;
+}
 .theme-light .search-highlighted {
   background: #f0fff4;
 }
@@ -36,7 +38,9 @@
 .theme-dark .search-hover:hover {
   background: #2d3748;
 }
-
+.hero {
+  background: #eee;
+}
 .theme-dark {
   --bg-background-primary: #0D2438;
   --bg-background-secondary: #102C44;
