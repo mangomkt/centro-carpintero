@@ -8,7 +8,7 @@
         </div>
       </div> <!-- end hero -->
     </div>
-    <div class="container-inner py-20 mx-auto">
+    <div class="container-inner py-20 mx-auto px-2">
       <div class="font-bold w-full text-center sm:text-center mb-10">
         <div class="text-4xl leading-tight">Why Choose Centro Carpintero?</div>
       </div>
@@ -76,8 +76,8 @@
       </div> <!-- end contact-me -->
     </div>
     <div class="container-inner mx-auto py-20">
-      <div class="flex">
-        <div v-for="post in $page.posts.edges" :key="post.id" class="w-1/4 px-8 post border-gray-400 border-b mb-12">
+      <div class="flex flex-wrap">
+        <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-1/2 w-full lg:w-1/4 px-8 post border-gray-400 border-b mb-12">
           <h2 class="text-3xl font-bold"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
           <div class="text-copy-secondary mb-4">
             <span>{{ post.node.date }}</span>
