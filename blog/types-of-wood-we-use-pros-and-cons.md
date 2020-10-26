@@ -12,7 +12,7 @@ tags: ['parota', 'coding', 'vue']
 
 Wood is one of the oldest and common materials used for building around the world , especially here in Mexico, It is used to make furniture, cabinets, and for custom fine carpentry. In fact what's amazing is that there's approximately 52 different types of wood in Mexico, but we are only going to focus on the 3 main types of wood we use in our fine carpentry. Those are Parota, Primavera and Amapa (rosewood) and we're going to highlight there pros and its cons:
 
-# Parota  
+## Parota  
 Parota wood, also called guanacaste, is primarily found in Mexico and in Central America. Its color is a golden-brown, beautiful for furniture designs.
 
 
@@ -31,7 +31,7 @@ Parota wood, also called guanacaste, is primarily found in Mexico and in Central
 **Safety** : Parota wood can be toxic, and if it is not handled properly it can cause eye or respiratory infection, so make sure that you let a skilled and experienced carpenter do the work for you.
 
 
-# Amapa (rosewood)
+## Amapa (rosewood)
 Amapa wood (rosewood), found in Central America in the Amazon Regions, its color comes in different types of shades from light brown to white,used for musical instruments, veneers and for furniture.  
 
 
@@ -47,7 +47,7 @@ Amapa wood (rosewood), found in Central America in the Amazon Regions, its color
   * It can be expensive depending on where you purchase it.
   * It can be very heavy.
 
-# Primavera
+## Primavera
 Primavera wood, found in South Mexico it comes in different types of pail colors and is one of the most commonly used in Mexico for carpentry.
 
 ### Pros

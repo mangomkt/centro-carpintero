@@ -3,8 +3,8 @@
     <div class="hero">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-40">
         <div class="font-bold w-full text-center sm:text-center">
-          <div class="text-6xl leading-tight">Centro Carpintero</div>
-          <div class="text-2xl text-green-700 leading-tight">Home Renovations & Fine Carpentry</div>
+          <div class="text-6xl text-white leading-tight">Centro Carpintero</div>
+          <div class="text-2xl text-white font-light leading-tight">Home Renovations & Fine Carpentry</div>
         </div>
       </div> <!-- end hero -->
     </div>
@@ -14,22 +14,33 @@
       </div>
       <p class="text-lg sm:text-xl">Centro Carpintero is an artistic carpentry business focused on functional furnishing and elegant design in high-quality wood. If you are looking to think outside the box to better use your residence’s space, then you will love our integrative wood-crafted solutions!</p>
       <p class="text-lg sm:text-xl">Infuse your home or business with our extensive experience in classy wood designs that stand the test of time and add value and personality to your estate. With a passion for carpentry and commitment to the quality of our work, we will partner with you to propose combinations of the latest trends in functionality, style, and beauty for all types of fine furniture and woodworking. Here is a glimpse of what we do:</p>
-
-      <div class="flex flex-wrap justify-between items-center py-6">
-        <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
-          <g-image src="../../static/mind_map.svg" alt="browser" class="mx-auto"/>
+    </div>
+    <div class="bg-background-secondary">
+      <div class="container-inner py-20 mx-auto px-2">
+        <div class="font-bold w-full text-center sm:text-center mb-10">
+          <div class="text-4xl leading-tight">Our Services</div>
         </div>
-        <div class="sw:w-full md:w-full lg:w-1/3 px-8 mx-auto">
-          <g-image src="../../static/code_review.svg" alt="mobile" class="mx-auto" />
-        </div>
-        <div class="sw:w-full md:w-full lg:w-1/3 px-8 mx-auto">
-          <g-image src="../../static/code_review.svg" alt="mobile" class="mx-auto" />
+        <div class="flex flex-wrap justify-between items-center py-6">
+          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+            <g-image src="../../static/home1.jpg" alt="browser" class="mx-auto"/>
+            <div class="text-2xl leading-tight mt-2">Custom Kitchens</div>
+            <div class="leading-tight">Minimalist | Sophisticated | Rustic</div>
+          </div>
+          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+            <g-image src="../../static/home2.jpg" alt="mobile" class="mx-auto" />
+            <div class="text-2xl leading-tight mt-2">Bedrooms & Bathrooms</div>
+            <div class="leading-tight">Cabinets | Remodeling | Lighting</div>
+          </div>
+          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+            <g-image src="../../static/home3.jpg" alt="mobile" class="mx-auto" />
+            <div class="text-2xl leading-tight mt-2">Custom Carpentry</div>
+            <div class="leading-tight">Closets | Frames | Decoration</div>
+          </div>
         </div>
       </div>
     </div>
-
     <div class="overflow-x-hidden">
-      <div class="contact-me bg-background-secondary pt-16">
+      <div class="contact-me pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
           <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
 
@@ -75,24 +86,29 @@
         </div>
       </div> <!-- end contact-me -->
     </div>
-    <div class="container-inner mx-auto py-20">
-      <div class="flex flex-wrap">
-        <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post border-gray-400 border-b mb-12">
-          <h2 class="text-3xl font-bold leading-none mb-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
-          <div class="text-copy-secondary mb-4">
-            <span>{{ post.node.date }}</span>
-            <span> &middot; </span>
-            <span>{{ post.node.timeToRead }} min read</span>
-          </div>
+    <div class="bg-background-secondary">
+      <div class="container-inner mx-auto py-20">
+        <div class="font-bold w-full text-center sm:text-center mb-10">
+          <div class="text-4xl leading-tight">Our Blog</div>
+        </div>
+        <div class="flex flex-wrap">
+          <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post border-gray-400 border-b mb-12">
+            <h2 class="text-2xl font-bold leading-none mb-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
+            <div class="text-copy-secondary mb-4">
+              <span>{{ post.node.date }}</span>
+              <span> &middot; </span>
+              <span>{{ post.node.timeToRead }} min read</span>
+            </div>
 
-          <div class="text-lg mb-4">
-            {{ post.node.summary }}
-          </div>
+            <div class="text-lg mb-4">
+              {{ post.node.summary }}
+            </div>
 
-          <div class="mb-8">
-            <g-link :to="post.node.path" class="font-bold uppercase">Read More</g-link>
-          </div>
-        </div> <!-- end post -->
+            <div class="mb-8">
+              <g-link :to="post.node.path" class="font-bold uppercase">Read More</g-link>
+            </div>
+          </div> <!-- end post -->
+        </div>
       </div>
     </div>
     <div class="newsletter bg-background-tertiary">
