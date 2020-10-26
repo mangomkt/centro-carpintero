@@ -3,17 +3,17 @@ title: The types of wood we use and its pros and cons
 path: /types-of-wood-we-use-pros-and-cons
 date: 2020-10-20
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
-tags: ['parota', 'coding', 'vue']
+tags: ['parota','amapa - rosewood', 'primavera', woodworking', 'home renovations', 'pros and cons']
 ---
 
 ![background](./images/blog_bg_3.jpg)
 
 # The types of wood we use and its pros and cons
 
-Wood is one of the oldest and common materials used for building around the world , especially here in Mexico, It is used to make furniture, cabinets, and for custom fine carpentry. In fact what's amazing is that there's approximately 52 different types of wood in Mexico, but we are only going to focus on the 3 main types of wood we use in our fine carpentry. Those are Parota, Primavera and Amapa (rosewood) and we're going to highlight there pros and its cons:
+Wood is one of the oldest and common materials used for building around the world , especially here in Mexico. It is used to make furniture, cabinets, and for custom fine carpentry. In fact what's amazing is that there's approximately 52 different types of wood in Mexico, but we are only going to focus on the 3 main types of wood we use in our fine carpentry and home renovations. They are Parota, Primavera and Amapa (rosewood). Below are the pros and cons of each wood:
 
 ## Parota  
-Parota wood, also called guanacaste, is primarily found in Mexico and in Central America. Its color is a golden-brown, beautiful for furniture designs.
+Parota wood, also called guanacaste, is primarily found in Mexico and in Central America. Its color is a golden-brown. A beautiful wood to use for furniture designs.
 
 
 ### Pros
@@ -32,12 +32,12 @@ Parota wood, also called guanacaste, is primarily found in Mexico and in Central
 
 
 ## Amapa (rosewood)
-Amapa wood (rosewood), found in Central America in the Amazon Regions, its color comes in different types of shades from light brown to white,used for musical instruments, veneers and for furniture.  
+Amapa wood (rosewood), found in Central America in the Amazon Regions, its comes in different shades from light brown to white, and is used for musical instruments, veneers & for furniture.  
 
 
 ### Pros
 
-  * Amapa wood is easy to work with, when sawing, nailing in screws and also glueing.
+  * Amapa wood is easy to work with, sawing, nailing and also glueing.
   * It's stable in any sort of climate, and resistant to the UV rays of the sun.
   * Insect and rot resistant.
   * It's known to last longer than other types of wood.
@@ -48,7 +48,7 @@ Amapa wood (rosewood), found in Central America in the Amazon Regions, its color
   * It can be very heavy.
 
 ## Primavera
-Primavera wood, found in South Mexico it comes in different types of pail colors and is one of the most commonly used in Mexico for carpentry.
+Primavera wood, found in South Mexico it comes in different types of pale colors and is one of the most commonly used in Mexico for carpentry.
 
 ### Pros
   * Primavera wood is a softer wood so it makes it easy to work with.
