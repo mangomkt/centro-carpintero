@@ -4,7 +4,7 @@
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-40">
         <div class="font-bold w-full text-center sm:text-center">
           <div class="text-6xl leading-tight">Centro Carpintero</div>
-          <div class="text-2xl text-green-700 leading-tight">Home renovations and fine carpentry</div>
+          <div class="text-2xl text-green-700 leading-tight">Home Renovations & Fine Carpentry</div>
         </div>
       </div> <!-- end hero -->
     </div>
