@@ -15,15 +15,15 @@
       <p class="text-lg sm:text-xl">Centro Carpintero is an artistic carpentry business focused on functional furnishing and elegant design in high-quality wood. If you are looking to think outside the box to better use your residence’s space, then you will love our integrative wood-crafted solutions!</p>
       <p class="text-lg sm:text-xl">Infuse your home or business with our extensive experience in classy wood designs that stand the test of time and add value and personality to your estate. With a passion for carpentry and commitment to the quality of our work, we will partner with you to propose combinations of the latest trends in functionality, style, and beauty for all types of fine furniture and woodworking. Here is a glimpse of what we do:</p>
 
-      <div class="flex justify-between items-center py-6">
-        <div class="w-full sm:w-1/3 px-8 py-8 sm:py-0">
-          <g-image src="../../static/mind_map.svg" alt="browser" />
+      <div class="flex flex-wrap justify-between items-center py-6">
+        <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+          <g-image src="../../static/mind_map.svg" alt="browser" class="mx-auto"/>
         </div>
-        <div class="w-1/3 px-8 hidden sm:flex justify-end">
-          <g-image src="../../static/code_review.svg" alt="mobile" />
+        <div class="sw:w-full md:w-full lg:w-1/3 px-8 mx-auto">
+          <g-image src="../../static/code_review.svg" alt="mobile" class="mx-auto" />
         </div>
-        <div class="w-1/3 px-8 hidden sm:flex justify-end">
-          <g-image src="../../static/code_review.svg" alt="mobile" />
+        <div class="sw:w-full md:w-full lg:w-1/3 px-8 mx-auto">
+          <g-image src="../../static/code_review.svg" alt="mobile" class="mx-auto" />
         </div>
       </div>
     </div>
@@ -77,8 +77,8 @@
     </div>
     <div class="container-inner mx-auto py-20">
       <div class="flex flex-wrap">
-        <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-1/2 w-full lg:w-1/4 px-8 post border-gray-400 border-b mb-12">
-          <h2 class="text-3xl font-bold"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
+        <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post border-gray-400 border-b mb-12">
+          <h2 class="text-3xl font-bold leading-none mb-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
           <div class="text-copy-secondary mb-4">
             <span>{{ post.node.date }}</span>
             <span> &middot; </span>
@@ -122,7 +122,7 @@
 </template>
 <page-query>
 query Posts ($page: Int) {
-  posts: allPost (sortBy: "date", order: DESC, perPage: 4, page: $page) @paginate {
+  posts: allPost (sortBy: "date", order: DESC, perPage: 3, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages

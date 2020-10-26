@@ -60,15 +60,15 @@ module.exports = {
       white: '#fff',
 
       green: {
-        100: '#f0fff4',
-        200: '#c6f6d5',
-        300: '#9ae6b4',
-        400: '#68d391',
-        500: '#48bb78',
-        600: '#38a169',
-        700: '#2f855a',
-        800: '#276749',
-        900: '#22543d',
+        100: '#023D34',
+        200: '#023D34',
+        300: '#023D34',
+        400: '#023D34',
+        500: '#023D34',
+        600: '#023D34',
+        700: '#023D34',
+        800: '#023D34',
+        900: '#023D34',
       },
 
       gray: {
@@ -85,21 +85,17 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Nunito Sans',
-        'Roboto',
+        'Karla',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
-        '"Helvetica Neue"',
         'Arial',
-        '"Noto Sans"',
         'sans-serif',
         '"Apple Color Emoji"',
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: ['Karla','sans-serif'],
       mono: [
         'Menlo',
         'Monaco',

@@ -5,10 +5,21 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Portfolio Starter',
-  siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
-  siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+  siteName: 'Centro Carpintero PV',
+  siteDescription: 'Your source for home renovations in Puerto Vallarta, Mexico',
+  siteUrl: 'https://centrocarpinterpv.com',
   plugins: [
+    {
+      use: "gridsome-plugin-manifest",
+      options: {
+        background_color: "#023D34",
+        icon_path: "./src/assets/img/centrocarpintero-icon.png",
+        name: "Centro Carpintero",
+        short_name: "Centro Carpintero",
+        theme_color: "#FFFFFF",
+        lang: "en",
+      },
+    },
     {
       use: 'gridsome-plugin-tailwindcss',
     },
@@ -42,15 +53,15 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Portfolio Starter Blog',
-          feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
-          site_url: 'https://gridsome-portfolio-starter.netlify.com/'
+          title: 'Centro Carpintero PV Blog',
+          feed_url: 'https://centrocarpinterpv.com/rss.xml',
+          site_url: 'https://centrocarpinterpv.com'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
-          author: 'Andre Madarang',
+          url: 'https://centrocarpinterpv.com' + node.path,
+          author: 'Curtis Grant',
           date: node.date
         }),
         output: {

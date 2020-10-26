@@ -99,6 +99,9 @@ nav .active {
   .container-inner {
     max-width: 1280px;
   }
+  .container-inner.single {
+    max-width: 800px;
+  }
 }
 
 .checkmark {
