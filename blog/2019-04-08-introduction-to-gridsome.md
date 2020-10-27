@@ -1,68 +1,54 @@
 ---
-title: Introduction to Gridsome
-path: /introduction-to-gridsome
-date: 2019-04-08
-summary: Gridsome is a Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files. Gridsome makes it easy and fun for developers to create fast, beautiful websites without needing to become a performance expert.
-tags: ['frontend', 'coding', 'vue']
+title: Is it safe to renovate my home during Covid-19?
+path: /is-it-safe-to-renovate-my-home-during-covid-19
+date: 2020-10-26
+summary: Is it safe to renovate during COVID-19? Should I allow workers to come into my home?
+tags: ['covid-19', 'safety', 'home renovations']
 ---
 
 ![background](./images/blog_bg_1.jpg)
 
-> Gridsome is a Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files. Gridsome makes it easy and fun for developers to create fast, beautiful websites without needing to become a performance expert.
+# Is it safe to renovate my home during Covid-19?
 
-### Why Gridsome?
+When the pandemic started everything sort of went through a brief pause, but then gradually things started opening up, people started trying new hobbies and projects, and whether you are maybe thinking of renovating your home during the pandemic or maybe already started, a while ago before the pandemic, we are going to highlight if it is safe and what are we has a home renovation company are doing:
 
-- **Local development with hot-reloading** - See code changes in real-time.
-- **Data source plugins** - Use it for any popular Headless CMSs, APIs or Markdown-files.
-- **File-based page routing** - Quickly create and manage routes with files.
-- **Centralized data managment** - Pull data into a local, unified GraphQL data layer.
-- **Vue.js for frontend** - A lightweight and approachable front-end framework.
-- **Auto-optimized code** - Get code-splitting and asset optimization out-of-the-box.
-- **Static files generation** - Deploy securely to any CDN or static web host.
+## Safety Tips:
 
-[Learn more about how Gridsome works](/docs/how-it-works)
+So if you already started or are planning to renovate your home this are some things to keep in mind:
 
-```js
-<template>
-  <Layout>
-    <div class="container-inner mx-auto my-16">
-      <h1 class="text-4xl font-bold leading-tight">{{ $page.post.title }}</h1>
-      <div class="text-xl text-gray-600 mb-8">{{ $page.post.date }}</div>
-      <div class="markdown-body" v-html="$page.post.content" />
-    </div>
-  </Layout>
-</template>
-```
+* Communicate first with your contractors: ask before hiring them, what safety measures are they taking with the pandemic.
+* Don't do it yourself: it's always important when it comes to renovating your house that you hire someone who has experience in renovations. I know we all want to be handyman but if you do not have any experience and didn't hire anyone because of the pandemic and did it yourself, that could lead to injuring yourself or someone else.
+* Be mindful: it's important to respect those who are renovating your house, so being extra careful keeping your distance brings safety for you and those around you.	
+* Be patient: since the pandemic started some businesses have been going a bit slower because of backorder issues of certain materials.
+
+### What safety precautions are we taking?
+
+Here in Centro Carpintero we want to show that we respect our costumes by following these safety procedures:
+
+* On-site training and individual set-up with masks and hand sanitizers.
+* Regularly spraydown the tools and equipment, including locks and trailers.
+* Sanitizing everything in the workplace. 
+* Keeping workers showing coronavirus symptoms off the site, even if those symptoms might be caused by seasonal allergies.
 
 
-### Prerequisites
-You should have basic knowledge about HTML, CSS, [Vue.js](https://vuejs.org) and how to use the [Terminal](https://www.linode.com/docs/tools-reference/tools/using-the-terminal/). Knowing how [Vue Single File components](https://vuejs.org/v2/guide/single-file-components.html) & [GraphQL](https://www.graphql.com/) works is a plus, but not required. Gridsome is a great way to learn both.
-
-Gridsome requires **Node.js** and recommends **Yarn**. [How to setup](/docs/prerequisites)
-
-![background](./images/background.jpg)
-
-### 1. Install Gridsome CLI tool
-
-Using yarn:
-`yarn global add @gridsome/cli`
-
-Using npm:
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to create a new project </li>
-2. `cd my-gridsome-site` to open folder
-3. `gridsome develop` to start local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
-
-### 3. Next steps
-
-1. Create `.vue` components in the `/pages` directory to create page routes.
-2. Use `gridsome build` to generate static files in a `/dist` folder
 
 
-- [How it works](/docs/how-it-works)
-- [How Pages work](/docs/pages)
-- [How to deploy](/docs/deployment)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
