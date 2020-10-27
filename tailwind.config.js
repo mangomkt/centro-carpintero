@@ -95,7 +95,6 @@ module.exports = {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
       ],
-      serif: ['Karla','sans-serif'],
       mono: [
         'Menlo',
         'Monaco',

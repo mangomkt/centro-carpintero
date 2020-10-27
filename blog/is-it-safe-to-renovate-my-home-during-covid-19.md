@@ -6,9 +6,7 @@ summary: Is it safe to renovate during COVID-19? Should I allow workers to come 
 tags: ['covid-19', 'safety', 'home renovations']
 ---
 
-![background](./images/blog_bg_1.jpg)
-
-# Is it safe to renovate my home during Covid-19?
+![background](./images/home-renovations.jpg)
 
 When the pandemic started everything sort of went through a brief pause, but then gradually things started opening up, people started trying new hobbies and projects, and whether you are maybe thinking of renovating your home during the pandemic or maybe already started, a while ago before the pandemic, we are going to highlight if it is safe and what are we has a home renovation company are doing:
 

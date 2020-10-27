@@ -23,7 +23,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Centro Carpintero PV - High quality home renovations.'
+    content: 'Centro Carpintero PV - High quality home renovation.'
   })
 
   head.meta.push({

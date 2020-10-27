@@ -2,13 +2,11 @@
 title: The types of wood we use and its pros and cons
 path: /types-of-wood-we-use-pros-and-cons
 date: 2020-10-20
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
-tags: ['parota','amapa - rosewood', 'primavera', woodworking', 'home renovations', 'pros and cons']
+summary: Wood is one of the oldest and common materials used for building around the world , especially here in Mexico. Out of the three main types that we use, what are the pros and cons.
+tags: ['parota','amapa', 'primavera', 'home renovations', 'pros and cons']
 ---
 
-![background](./images/blog_bg_3.jpg)
-
-# The types of wood we use and its pros and cons
+![background](./images/wood-types.jpg)
 
 Wood is one of the oldest and common materials used for building around the world , especially here in Mexico. It is used to make furniture, cabinets, and for custom fine carpentry. In fact what's amazing is that there's approximately 52 different types of wood in Mexico, but we are only going to focus on the 3 main types of wood we use in our fine carpentry and home renovations. They are Parota, Primavera and Amapa (rosewood). Below are the pros and cons of each wood:
 

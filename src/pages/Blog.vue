@@ -1,5 +1,12 @@
 <template>
   <Layout>
+    <div class="hero">
+      <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
+        <div class="font-bold w-full text-center sm:text-center">
+          <div class="text-6xl text-white leading-tight">Our Blog</div>
+        </div>
+      </div> <!-- end hero -->
+    </div>
     <div class="container-inner mx-auto py-16">
       <div v-for="post in $page.posts.edges" :key="post.id" class="post border-gray-400 border-b mb-12">
         <h2 class="text-3xl font-bold"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>

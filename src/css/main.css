@@ -90,7 +90,7 @@ header {
 }
 .theme-dark {
   --bg-background-primary: #000;
-  --bg-background-secondary: #102C44;
+  --bg-background-secondary: #2d2d2d;
   --bg-background-tertiary: #1E3951;
 
   --bg-background-form: #f7f7f7;
@@ -105,10 +105,6 @@ header {
     color: #cbd5e0;
 }
 
-.theme-dark nav .active {
-    @apply border-white border-b;
-}
-
 .content-wrapper {
   transition: background-color .25s;
 }
@@ -119,16 +115,18 @@ header {
 }
 
 a {
-  @apply text-green-700 font-bold;
+  @apply text-green-700;
 }
 
 a:hover {
   @apply text-green-800;
 }
 
-nav .active {
-  font-weight: bold;
-  @apply border-black border-b;
+.theme-dark a {
+  color: #feffd5;
+}
+.theme-dark a:hover {
+  color: #fff;
 }
 
 .container-inner {
