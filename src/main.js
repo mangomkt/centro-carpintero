@@ -30,11 +30,6 @@ export default function (Vue, { router, head, isClient }) {
     name: 'author',
     content: 'Curtis Grant'
   })
-
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap'
-  })
 }
 
 
