@@ -25,7 +25,7 @@
           <div class="contact-me pt-4">
              <div class="mx-auto text-xl pb-4 relative">
                 <div class="text-lg sm:text-lg">
-                  <form name="contact" method="POST" data-netlify="true">
+                  <form name="contactform" method="POST" data-netlify="true">
                     <div class="flex flex-wrap mb-6 -mx-4">
                         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                             <label class="block mb-2 text-copy-primary" for="name">
