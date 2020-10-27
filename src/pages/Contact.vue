@@ -25,7 +25,7 @@
           <div class="contact-me pt-4">
              <div class="mx-auto text-xl pb-4 relative">
                 <div class="text-lg sm:text-lg">
-                  <form name="contactform" method="POST" data-netlify="true">
+                  <form name="contactform" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <div class="flex flex-wrap mb-6 -mx-4">
                         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                             <label class="block mb-2 text-copy-primary" for="name">
@@ -69,6 +69,30 @@
 export default {
   metaInfo: {
     title: 'Contact'
+  },
+  data() {
+    return {
+      formData: {},
+    }
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&')
+    },
+    handleSubmit(e) {
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({
+          'form-name': e.target.getAttribute('name'),
+          ...this.formData,
+        }),
+      })
+      .then(() => this.$router.push('/thankyou'))
+      .catch(error => alert(error))
+    }
   }
 }
 </script>
