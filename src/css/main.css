@@ -69,7 +69,7 @@ header {
 }
 @media(min-width: 981px) {
   .hero {
-    background: url(../../static/slider1.jpg);
+    background: url(../../static/custom-carpentry-kitchen-home-renovation.jpg);
     background-size: cover;
     background-position: center;
   }
