@@ -41,10 +41,10 @@
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
-        <div class="sw:w-full md:w-full lg:w-1/2 px-8 mx-auto">
-          <div class="text-4xl leading-tight">Contact Us</div>
-          <div class="text-2xl leading-tight mt-4">
-            Centro Cerpintero PV<br>
+        <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
+          <div class="text-4xl leading-tight md:text-left sm:text-center">Contact Us</div>
+          <div class="text-1xl leading-tight mt-4">
+            <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
             Puerto Vallarta, Jalisco 48280<br>
             <a href="tel:+52-322-190-1508">[+52] 322-190-1508</a><br>
@@ -52,7 +52,7 @@
             <a href="mailto:centrocarpinteropv@gmail.com">centrocarpinteropv@gmail.com</a>
           </div>
         </div>
-        <div class="sw:w-full md:w-full lg:w-1/2 px-8 mx-auto">
+        <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
           <div class="text-4xl leading-tight">Send Us A Message</div>
           <div class="contact-me pt-4">
              <div class="mx-auto text-xl pb-4 relative">
