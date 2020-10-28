@@ -19,13 +19,13 @@
             <g-link to="/" class="text-white hover:text-gray-300">Home</g-link>
           </li>
           <li>
-            <g-link to="/about/" class="text-white hover:text-gray-300">About</g-link>
+            <g-link to="/about" class="text-white hover:text-gray-300">About</g-link>
           </li>
           <li>
-            <g-link to="/blog/" class="text-white hover:text-gray-300" data-cypress="blog">Blog</g-link>
+            <g-link to="/blog" class="text-white hover:text-gray-300" >Blog</g-link>
           </li>
           <li>
-            <g-link to="/contact/" class="text-white hover:text-gray-300">Contact</g-link>
+            <g-link to="/contact" class="text-white hover:text-gray-300">Contact</g-link>
           </li>
           <li class="mb-6 lg:mb-0">
             <search-input />
