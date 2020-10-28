@@ -3,8 +3,12 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+   
 
 module.exports = {
+  chainWebpack (config) {
+    config.mode('development')
+  },
   siteName: 'Centro Carpintero PV',
   siteDescription: 'Your source for home renovations in Puerto Vallarta, Mexico',
   siteUrl: 'https://centrocarpinterpv.com',
@@ -57,15 +61,5 @@ module.exports = {
   ],
   templates: {
     Tag: '/tag/:id'
-  },
-  transformers: {
-    remark: {
-      plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
-      ],
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-    }
-  },
+  }
 }
