@@ -49,28 +49,6 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-rss',
-      options: {
-        contentTypeName: 'Post',
-        feedOptions: {
-          title: 'Centro Carpintero PV Blog',
-          feed_url: 'https://centrocarpinterpv.com/rss.xml',
-          site_url: 'https://centrocarpinterpv.com'
-        },
-        feedItemOptions: node => ({
-          title: node.title,
-          description: node.summary,
-          url: 'https://centrocarpinterpv.com' + node.path,
-          author: 'Curtis Grant',
-          date: node.date
-        }),
-        output: {
-          dir: './static',
-          name: 'rss.xml'
-        }
-      }
-    },
-    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
