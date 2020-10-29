@@ -25,7 +25,32 @@
           <div class="contact-me pt-4">
              <div class="mx-auto text-xl pb-4 relative">
                 <div class="text-lg sm:text-lg">
-                  <form name="hpcontactform" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
+                  <form name="contact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p hidden>
+                      <label>
+                        Don’t fill this out: <input name="bot-field" />
+                      </label>
+                    </p>
+                    <div class="sender-info">
+                      <div>
+                        <label for="name" class="label" >Your name</label>
+                        <input type="text" name="name" v-model="formData.name" />
+                      </div>
+                      <div>
+                        <label for="email">Your email</label>
+                        <input type="email" name="email" v-model="formData.email" />
+                      </div>
+                    </div>
+
+                    <div class="message-wrapper">
+                      <label for="message">Message</label>
+                      <textarea name="message" v-model="formData.message"></textarea>
+                    </div>
+
+                    <button type="submit">Submit form</button>
+                  </form>
+                  <form name="contactform" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <div class="flex flex-wrap mb-6 -mx-4">
                         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                             <label class="block mb-2 text-copy-primary" for="name">
