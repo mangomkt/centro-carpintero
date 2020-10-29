@@ -55,7 +55,7 @@
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
           <div class="text-4xl leading-tight">Send Us A Message</div>
           <div class="contact-me pt-4">
-            <form name="contact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
                     <p hidden>
                       <label>
