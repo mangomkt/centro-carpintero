@@ -32,32 +32,13 @@
                         Don’t fill this out: <input name="bot-field" />
                       </label>
                     </p>
-                    <div class="sender-info">
-                      <div>
-                        <label for="name" class="label" >Your name</label>
-                        <input type="text" name="name" v-model="formData.name" />
-                      </div>
-                      <div>
-                        <label for="email">Your email</label>
-                        <input type="email" name="email" v-model="formData.email" />
-                      </div>
-                    </div>
-
-                    <div class="message-wrapper">
-                      <label for="message">Message</label>
-                      <textarea name="message" v-model="formData.message"></textarea>
-                    </div>
-
-                    <button type="submit">Submit form</button>
-                  </form>
-                  <form name="contactform" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <div class="flex flex-wrap mb-6 -mx-4">
                         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                             <label class="block mb-2 text-copy-primary" for="name">
                                 Name
                             </label>
 
-                            <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                            <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
                         </div>
 
                         <div class="w-full px-4 md:w-1/2">
@@ -65,7 +46,7 @@
                                 Email Address
                             </label>
 
-                            <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                            <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.email">
                         </div>
                     </div>
 
@@ -74,7 +55,7 @@
                             Message
                         </label>
 
-                        <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Enter your message here." required></textarea>
+                        <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Enter your message here." required v-model="formData.message"></textarea>
                     </div>
 
                     <div class="flex justify-end w-full">
