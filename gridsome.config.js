@@ -3,8 +3,12 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+   
 
 module.exports = {
+  chainWebpack (config) {
+    config.mode('development')
+  },
   siteName: 'Centro Carpintero PV',
   siteDescription: 'Your source for home renovations in Puerto Vallarta, Mexico',
   siteUrl: 'https://centrocarpinterpv.com',
@@ -49,28 +53,6 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-rss',
-      options: {
-        contentTypeName: 'Post',
-        feedOptions: {
-          title: 'Centro Carpintero PV Blog',
-          feed_url: 'https://centrocarpinterpv.com/rss.xml',
-          site_url: 'https://centrocarpinterpv.com'
-        },
-        feedItemOptions: node => ({
-          title: node.title,
-          description: node.summary,
-          url: 'https://centrocarpinterpv.com' + node.path,
-          author: 'Curtis Grant',
-          date: node.date
-        }),
-        output: {
-          dir: './static',
-          name: 'rss.xml'
-        }
-      }
-    },
-    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
@@ -79,15 +61,5 @@ module.exports = {
   ],
   templates: {
     Tag: '/tag/:id'
-  },
-  transformers: {
-    remark: {
-      plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ]
-      ],
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-    }
-  },
+  }
 }

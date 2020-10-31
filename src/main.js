@@ -23,18 +23,11 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Centro Carpintero PV - High quality home renovations.'
+    content: 'Centro Carpintero PV - High quality home renovation.'
   })
 
   head.meta.push({
     name: 'author',
     content: 'Curtis Grant'
   })
-
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap'
-  })
 }
-
-
