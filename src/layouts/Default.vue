@@ -30,7 +30,7 @@
               </li>
             </ul>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right hidden lg:block">
             <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Call Us: 322-121-6778</a>
           </div>
         </div>
