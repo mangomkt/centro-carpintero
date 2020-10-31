@@ -1,39 +1,39 @@
 <template>
-  <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header style="background: #023D34;">
-      <nav class="container mx-auto flex flex-wrap justify-between items-center py-4">
-        <div>
-          <g-link to="/"><g-image src="../../static/logowhite.png" class="w-40" alt="logo" /></g-link>
+  <div class="content-wrapper bg-background-white font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
+    <header>
+      <nav class="bg-background-light z-40 relative">
+        <div class="top-nav bg-background-white">
+          <div class="flex flex-wrap justify-between items-center py-2 container mx-auto">
+            <g-link to="/"><g-image src="../../static/logodark.png" class="nav-logo mx-auto lg:mx-4" alt="logo" /></g-link>
+            <search-input class="hidden lg:block" />
+            <div class="block lg:hidden">
+              <button @click="toggle" class="flex close-btn items-center px-3 py-2 border rounded border-gray-500" data-cypress="hamburger">
+                <svg class="current-color" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="primary" /></svg>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="block lg:hidden">
-          <button @click="toggle" class="flex close-btn items-center px-3 py-2 border rounded border-gray-500" data-cypress="hamburger">
-            <svg class="current-color" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="white" /></svg>
-          </button>
+        <div class="container mx-auto py-0 lg:py-2 bg-background-light flex flex-col lg:flex-row">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full">
+            <ul class="uppercase tracking-wide font-light w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
+              <li class="text-center lg:text-left my-2 lg:my-3">
+                <g-link to="/" class="text-1xl hover:text-gray-600 mx-4 py-4 lg:py-0 block">Home</g-link>
+              </li>
+              <li class="text-center lg:text-left my-2 lg:my-2">
+                <g-link to="/about" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">About</g-link>
+              </li>
+              <li class="text-center lg:text-left my-2 lg:my-2">
+                <g-link to="/blog" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
+              </li>
+              <li class="text-center lg:text-left my-2 lg:my-2">
+                <g-link to="/contact" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Contact</g-link>
+              </li>
+            </ul>
+          </div>
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right">
+            <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Call Us: 322-121-6778</a>
+          </div>
         </div>
-        <ul
-          class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
-          :class="isOpen ? 'block': 'hidden'"
-          data-cypress="menu"
-        >
-          <li>
-            <g-link to="/" class="text-white hover:text-gray-300">Home</g-link>
-          </li>
-          <li>
-            <g-link to="/about" class="text-white hover:text-gray-300">About</g-link>
-          </li>
-          <li>
-            <g-link to="/blog" class="text-white hover:text-gray-300" >Blog</g-link>
-          </li>
-          <li>
-            <g-link to="/contact" class="text-white hover:text-gray-300">Contact</g-link>
-          </li>
-          <li class="mb-6 lg:mb-0">
-            <search-input />
-          </li>
-          <li>
-            <theme-switcher :theme="theme" @themeChanged="updateTheme" />
-          </li>
-        </ul>
       </nav>
     </header>
     <div class="header-spacer"></div>

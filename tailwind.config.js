@@ -41,7 +41,10 @@ module.exports = {
         primary: 'var(--bg-background-primary)',
         secondary: 'var(--bg-background-secondary)',
         tertiary: 'var(--bg-background-tertiary)',
-
+        accenta: 'var(--bg-background-accenta)',
+        accentb: 'var(--bg-background-accentb)',
+        white:  'var(--bg-background-white)',
+        light:  'var(--bg-background-light)',
         form: 'var(--bg-background-form)',
       },
 
@@ -58,6 +61,11 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+      primary: 'var(--bg-background-primary)',
+      secondary: 'var(--bg-background-secondary)',
+      tertiary: 'var(--bg-background-tertiary)',
+      accenta: 'var(--bg-background-accenta)',
+      accentb: 'var(--bg-background-accentb)',
 
       green: {
         100: '#023D34',
