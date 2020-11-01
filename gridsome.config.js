@@ -9,8 +9,6 @@ module.exports = {
   chainWebpack (config) {
     config.mode('development')
   },
-  siteName: 'Centro Carpintero PV',
-  siteDescription: 'Your source for home renovations in Puerto Vallarta, Mexico',
   siteUrl: 'https://centrocarpinterpv.com',
   plugins: [
     {

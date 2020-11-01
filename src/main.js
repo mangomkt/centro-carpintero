@@ -25,17 +25,7 @@ export default function (Vue, { router, head, isClient }) {
   });
 
   head.meta.push({
-    name: 'keywords',
-    content: 'home renovations, puerto vallarta, fine carpentry, custom woodworking'
-  })
-
-  head.meta.push({
-    name: 'description',
-    content: 'Centro Carpintero PV - High quality home renovation.'
-  })
-
-  head.meta.push({
     name: 'author',
-    content: 'Curtis Grant'
+    content: 'Curtis Grant | Mango MKT'
   })
 }
