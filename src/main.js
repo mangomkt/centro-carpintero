@@ -5,6 +5,8 @@ import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
 
+import VueGtag from "vue-gtag";
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
@@ -16,18 +18,14 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.use(VueFuse)
 
-  head.meta.push({
-    name: 'keywords',
-    content: 'home renovations, puerto vallarta, fine carpentry, custom woodworking'
-  })
-
-  head.meta.push({
-    name: 'description',
-    content: 'Centro Carpintero PV - High quality home renovation.'
-  })
+  Vue.use(VueGtag, {
+    config: { 
+      id: "G-0S825P54SM"
+    }
+  });
 
   head.meta.push({
     name: 'author',
-    content: 'Curtis Grant'
+    content: 'Curtis Grant | Mango MKT'
   })
 }
