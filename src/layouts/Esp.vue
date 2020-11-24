@@ -14,30 +14,30 @@
           </div>
         </div>
         <div class="container mx-auto py-0 lg:py-2 bg-background-light flex flex-col lg:flex-row">
-          <div class="sw:w-full md:w-full lg:w-1/2 w-full">
+          <div class="sw:w-full md:w-full lg:w-3/4 w-full">
             <ul class="uppercase tracking-wide font-light w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
               <li class="text-center lg:text-left my-2 lg:my-3">
-                <g-link to="/" class="text-1xl hover:text-gray-600 mx-4 py-4 lg:py-0 block">Home</g-link>
+                <g-link to="/es" class="text-1xl hover:text-gray-600 mx-4 py-4 lg:py-0 block">Inicio</g-link>
               </li>
               <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/about" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">About Us</g-link>
+                <g-link to="/es/about" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Sobre nosotros</g-link>
               </li>
               <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/gallery" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Our Gallery</g-link>
+                <g-link to="/es/gallery" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
               </li>
               <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/blog" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
+                <g-link to="/es/blog" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
               </li>
               <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/contact" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Contact</g-link>
+                <g-link to="/es/contact" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Contacto</g-link>
               </li>
               <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/es" class="bg-background-primary text-white px-2 hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Español</g-link>
+                <g-link to="/" class="bg-background-primary text-white px-2 hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">English</g-link>
               </li>
             </ul>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right hidden lg:block">
-            <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Call Us: 322-121-6778</a>
+          <div class="sw:w-full md:w-full lg:w-1/4 w-full text-right hidden lg:block">
+            <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Llámanos: 322-121-6778</a>
           </div>
         </div>
       </nav>

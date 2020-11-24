@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Esp>
     <div class="hero">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
@@ -68,13 +68,13 @@
          </div>
       </div>
     </div>
-  </Layout>
+  </Esp>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Contact Puerto Vallarta Carpenter | Centro Carpintero'
+    title: 'Comuníquese con el Carpintero de Puerto Vallarta | Centro Carpintero'
   },
   data() {
     return {
