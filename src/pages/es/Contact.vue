@@ -74,7 +74,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Comuníquese con el Carpintero de Puerto Vallarta | Centro Carpintero'
+    title: 'Comuníquese con el Carpintero de Puerto Vallarta | Centro Carpintero',
+    titleTemplate: '%s'
   },
   data() {
     return {

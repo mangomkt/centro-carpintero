@@ -74,7 +74,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Contact Puerto Vallarta Carpenter | Centro Carpintero'
+    title: 'Contact Puerto Vallarta Carpenter | Centro Carpintero',
+    titleTemplate: '%s'
   },
   data() {
     return {

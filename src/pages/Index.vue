@@ -230,8 +230,12 @@ query Posts ($page: Int) {
 export default {
   metaInfo: {
     title: 'Remodeling and Renovations | Centro Carpintero | Puerto Vallarta ',
+    titleTemplate: '%s',
     meta: [
-      { name: 'description', content:  'Looking for a contractor to help you with your next remodeling or renovation project in Puerto Vallarta? Martha and her team of expert carpenters are ready to make your dreams come true.'},
+      { name: 'description', 
+        key: 'description',
+        content:  'Looking for a contractor to help you with your next remodeling or renovation project in Puerto Vallarta? Martha and her team of expert carpenters are ready to make your dreams come true.'
+      },
       { property: 'og:title', content: "Remodeling and Renovations | Centro Carpintero | Puerto Vallarta"},
       { property: 'og:site_name', content: 'Centro Carpintero'},
       {property: 'og:type', content: 'website'},    

@@ -230,6 +230,7 @@ query Posts ($page: Int) {
 export default {
   metaInfo: {
     title: 'Reformas y Remodelaciones de Casas | Puerto Vallarta | Centro Carpintero ',
+    titleTemplate: '%s',
     meta: [
       { name: 'description', content:  '¿Busca un contratista que lo ayude con su próximo proyecto de remodelación o renovación en Puerto Vallarta? Martha y su equipo de carpinteros expertos están listos para hacer realidad sus sueños.'},
       { property: 'og:title', content: "Reformas y Remodelaciones de Casas | Puerto Vallarta | Centro Carpintero"},

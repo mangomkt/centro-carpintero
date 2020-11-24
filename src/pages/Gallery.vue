@@ -92,7 +92,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Carpentry | Custom Woodworking | Puerto Vallarta'
+    title: 'Carpentry | Custom Woodworking | Puerto Vallarta',
+    titleTemplate: '%s'
   }
 }
 </script>

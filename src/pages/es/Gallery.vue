@@ -92,7 +92,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Carpinteria | Carpintería a medida | Puerto Vallarta'
+    title: 'Carpinteria | Carpintería a medida | Puerto Vallarta',
+    titleTemplate: '%s'
   }
 }
 </script>

@@ -47,7 +47,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta'
+    title: 'Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta',
+    titleTemplate: '%s'
   }
 }
 </script>

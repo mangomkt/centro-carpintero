@@ -47,7 +47,8 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About Us | Centro Carpintero'
+    title: 'About Us | Centro Carpintero',
+    titleTemplate: '%s'
   }
 }
 </script>

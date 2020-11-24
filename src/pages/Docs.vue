@@ -35,7 +35,8 @@ query Documentation {
 <script>
 export default {
   metaInfo: {
-    title: 'Docs'
+    title: 'Docs',
+    titleTemplate: '%s'
   }
 }
 </script>
