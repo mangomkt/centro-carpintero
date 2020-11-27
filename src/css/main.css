@@ -24,6 +24,12 @@
 p {
   margin: 0 0 15px;
 }
+.sm-icon {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  max-width: 80px;
+}
 .theme-light .search-highlighted {
   background: #f0fff4;
 }
