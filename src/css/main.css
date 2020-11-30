@@ -84,7 +84,7 @@ header {
 }
 @media(min-width: 981px) {
   .hero {
-    background: url(../../static/custom-carpentry-kitchen-home-renovation.jpg);
+    background: url(../assets/img/centro-carpintero-workshop.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -95,7 +95,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.5);
     z-index: 1;
   }
   .hero > * {

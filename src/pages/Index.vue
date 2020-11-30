@@ -2,12 +2,12 @@
   <Layout>
     <div class="hero">
       <div class="container-inner mx-auto flex flex-wrap sm:flex-row justify-between py-20">
-        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left sm:text-center lg:text-left lg:pr-4">
+        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left sm:text-center lg:text-left lg:pr-4 align-middle">
           <div class="text-6xl text-white leading-tight">Centro Carpintero</div>
           <h1 class="mt-2 text-3xl text-white font-light leading-tight">Home Renovations and Remodeling in Puerto Vallarta</h1>
           <p class="text-2xl mt-4 text-white font-light leading-tight">Centro Carpintero is an artistic carpentry business focused on functional furnishing and elegant design in high-quality wood.</p>
         </div>
-        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left">
+        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle">
           <div class="bg-background-white p-8 rounded">
             <div class="text-3xl text-pink text-center leading-tight font-light mb-6">CONTACT US FOR A FREE ESTIMATE</div>
             <form name="hpestimate" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
