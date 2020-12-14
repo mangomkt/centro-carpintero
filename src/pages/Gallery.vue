@@ -113,8 +113,18 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Carpentry | Custom Woodworking | Puerto Vallarta',
-    titleTemplate: '%s'
+    title: 'Gallery | Home Renovations Custom Carpentry | Puerto Vallarta',
+    titleTemplate: '%s',
+    meta: [
+        { name: 'description', 
+          key: 'description',
+          content:  "Come take a look at are gallery of recent home renovations and some costume wood working projects."
+        },
+        { property: 'og:title', content: "Gallery | Home Renovations Custom Carpentry | Puerto Vallarta"},
+        { property: 'og:site_name', content: 'Centro Carpintero'},
+        {property: 'og:type', content: 'website'},    
+        {name: 'robots', content: 'index,follow'}
+      ]
   }
 }
 </script>

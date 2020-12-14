@@ -48,8 +48,18 @@
 export default {
   metaInfo: {
     title: 'Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta',
-    titleTemplate: '%s'
-  }
+    titleTemplate: '%s',
+    meta: [
+      { name: 'description', 
+        key: 'description',
+        content:  "Learn and get to know a bit better of who is working behind the scenes in making your dreams come true."
+      },
+      { property: 'og:title', content: "Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta"},
+      { property: 'og:site_name', content: 'Centro Carpintero'},
+      {property: 'og:type', content: 'website'},    
+      {name: 'robots', content: 'index,follow'} 
+    ]
+  },
 }
 </script>
 

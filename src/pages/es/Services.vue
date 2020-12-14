@@ -90,7 +90,18 @@
 export default {
   metaInfo: {
     title: 'Carpintería fina | Carpintería | Centro Carpintero Puert Vallarta',
-    titleTemplate: '%s'
+    titleTemplate: '%s',
+     meta: [
+      { name: 'description', 
+        key: 'description',
+        content:  'Eche un vistazo a lo que hacemos y en lo que nos especializamos.'
+      },
+      { property: 'og:title', content: "Carpintería fina | Carpintería | Centro Carpintero Puert Vallarta"},
+      { property: 'og:site_name', content: 'Centro Carpintero'},
+      {property: 'og:type', content: 'website'},    
+      {name: 'robots', content: 'index,follow'} 
+    ]
+
   }
 }
 </script>

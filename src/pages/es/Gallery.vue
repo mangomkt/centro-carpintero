@@ -116,8 +116,18 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Carpinteria | Carpintería a medida | Puerto Vallarta',
-    titleTemplate: '%s'
+    title: 'Carpintería | Carpintería a medida | Puerto Vallarta ',
+    titleTemplate: '%s',
+    meta: [
+        { name: 'description', 
+          key: 'description',
+          content:  "Ven a echar un vistazo a la galería de renovaciones recientes en el hogar y algunos proyectos de trabajo de madera."
+        },
+        { property: 'og:title', content: "Carpintería | Carpintería a medida | Puerto Vallarta "},
+        { property: 'og:site_name', content: 'Centro Carpintero'},
+        {property: 'og:type', content: 'website'},    
+        {name: 'robots', content: 'index,follow'}
+      ]
   }
 }
 </script>

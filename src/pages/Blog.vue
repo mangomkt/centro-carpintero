@@ -63,7 +63,17 @@ import PaginationPosts from '../components/PaginationPosts'
 export default {
   metaInfo: {
     title: 'Blog',
-    titleTemplate: '%s'
+    titleTemplate: '%s',
+     meta: [
+        { name: 'description', 
+          key: 'description',
+          content:  "When starting a home renovation it's always good to know the How to's and the What's and Why's to make the renovation successful."
+        },
+        { property: 'og:title', content: "Blog"},
+        { property: 'og:site_name', content: 'Centro Carpintero'},
+        {property: 'og:type', content: 'website'},    
+        {name: 'robots', content: 'index,follow'} 
+    ]
   },
   components: {
     PaginationPosts

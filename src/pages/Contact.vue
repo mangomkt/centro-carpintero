@@ -75,7 +75,17 @@
 export default {
   metaInfo: {
     title: 'Contact Puerto Vallarta Carpenter | Centro Carpintero',
-    titleTemplate: '%s'
+    titleTemplate: '%s', 
+     meta: [
+        { name: 'description', 
+          key: 'description', 
+          content:  "Got any questions about are service, contact us here."
+        },
+        { property: 'og:title', content: "Contact Puerto Vallarta Carpenter | Centro Carpintero"},
+        { property: 'og:site_name', content: 'Centro Carpintero'},
+        {property: 'og:type', content: 'website'},    
+        {name: 'robots', content: 'index,follow'}
+      ]
   },
   data() {
     return {

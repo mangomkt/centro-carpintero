@@ -89,8 +89,18 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta',
-    titleTemplate: '%s'
-  }
+    title: 'Carpentry Services | Remodeling and Renovations | Puerto Vallarta ',
+    titleTemplate: '%s',
+    meta: [
+      { name: 'description', 
+        key: 'description',
+        content:  'Take a look at what we do, and what we specialize at.'
+      },
+      { property: 'og:title', content: "Carpentry Services | Remodeling and Renovations | Puerto Vallarta"},
+      { property: 'og:site_name', content: 'Centro Carpintero'},
+      {property: 'og:type', content: 'website'},    
+      {name: 'robots', content: 'index,follow'} 
+    ]
+  },
 }
 </script>

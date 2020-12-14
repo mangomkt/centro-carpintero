@@ -63,7 +63,18 @@ import PaginationPosts from '../../components/PaginationPosts'
 export default {
   metaInfo: {
     title: 'Blog',
-    titleTemplate: '%s'
+    titleTemplate: '%s',
+    meta: [
+        { name: 'description', 
+          key: 'description',
+          content:  "Al iniciar la renovación de una casa, siempre es bueno saber cómo,el qué y el por qué para que la renovación sea un éxito.."
+        },
+        { property: 'og:title', content: "Blog"},
+        { property: 'og:site_name', content: 'Centro Carpintero'},
+        {property: 'og:type', content: 'website'},    
+        {name: 'robots', content: 'index,follow'} 
+    ]
+    
   },
   components: {
     PaginationPosts

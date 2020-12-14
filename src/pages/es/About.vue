@@ -47,8 +47,19 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About Us | Centro Carpintero',
-    titleTemplate: '%s'
+    title: 'Sobre nosotros | Centro Carpintero',
+    titleTemplate: '%s', 
+    meta: [
+      { name: 'description', 
+        key: 'description',
+        content:  "
+Aprenda y conozca un poco mejor quién está trabajando detrás de escena para hacer realidad sus sueños.."
+      },
+      { property: 'og:title', content: "Sobre nosotros | Centro Carpintero"},
+      { property: 'og:site_name', content: 'Centro Carpintero'},
+      {property: 'og:type', content: 'website'},    
+      {name: 'robots', content: 'index,follow'} 
+    ]
   }
 }
 </script>
