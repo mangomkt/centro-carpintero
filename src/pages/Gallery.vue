@@ -92,6 +92,7 @@
           <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Pantries</div>
         </div>
 
+        
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/New-livingroom.jpg" alt="Custom Livingroom Cabinets" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Livingroom Cabinets</div>
@@ -101,6 +102,22 @@
           <g-image src="../../static/gallery/SHOWER.jpg" alt="Renovated Bathroom Shower" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Renovated Bathroom Shower</div>
         </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/RENOVATED-NEW-CABINETS.jpg" alt="Custom Kitchen Cabinets" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Cabinets</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/RENOVATED-NEW-BAR.jpg" alt="Custom Livingroom Bar" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Livingroom Bar</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/RENOVATED-UPDATING-KITCHEN.jpg" alt="Installing New Kitchen Island" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Installing New Kitchen Island</div>
+        </div>
+
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/UPDATED-BEDROOM-CLOSETS.jpg" alt="Updated Bedroom closets" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Updated Bedroom closets</div>
