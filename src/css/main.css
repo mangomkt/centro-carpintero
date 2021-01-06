@@ -87,6 +87,7 @@ header {
     background: url(../assets/img/centro-carpintero-workshop.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   .hero:before {
     content: "";

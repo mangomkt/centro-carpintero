@@ -4,6 +4,7 @@ path: /welcome-to-our-blog
 date: 2020-09-09
 summary: Centro Carpintero home renovations and fine carpentry company in Puerto Vallarta.
 tags: ['centro carpintero', 'custom carpentery', 'home renovations']
+cover_image: ./images/hello.jpg
 ---
 
 ![background](./images/hello.jpg)

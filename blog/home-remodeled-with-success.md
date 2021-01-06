@@ -4,6 +4,7 @@ path: /home-remodeled-with-success
 date: 2020-11-27
 summary: home-remodeled-with-success, checklist
 tags: ['home renovations','checklist']
+cover_image: ./images/home-renovations.jpg
 ---
 
 ![background](./images/home-renovations.jpg)

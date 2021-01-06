@@ -4,6 +4,7 @@ path: /is-it-safe-to-renovate-my-home-during-covid-19
 date: 2020-10-26
 summary: Is it safe to renovate during COVID-19? Should I allow workers to come into my home?
 tags: ['covid-19', 'safety', 'home renovations']
+cover_image: ./images/home-renovations.jpg
 ---
 
 ![background](./images/home-renovations.jpg)

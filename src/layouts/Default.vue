@@ -31,13 +31,11 @@
               <li class="text-center lg:text-left my-2 lg:my-2">
                 <g-link to="/contact" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Contact</g-link>
               </li>
-              <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/es" class="bg-background-primary text-white px-2 hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Español</g-link>
-              </li>
             </ul>
           </div>
           <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right hidden lg:block">
-            <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Call Us: 322-121-6778</a>
+            <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block border-primary  border-2">Call Us: 322-121-6778</a>
+            <g-link to="/es" class="ml-2 bg-background-white border-primary  border-2 text-primary hover:text-white hover:bg-background-primary rounded-full py-3 px-6 inline-block ">Español</g-link>
           </div>
         </div>
       </nav>

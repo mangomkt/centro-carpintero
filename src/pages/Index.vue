@@ -123,21 +123,24 @@
           <div class="text-4xl leading-tight">Our Blog</div>
         </div>
         <div class="flex flex-wrap">
-          <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post border-gray-400 border-b mb-12">
-            <h3 class="text-2xl font-bold leading-none mb-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
-            <div class="text-copy-secondary mb-4">
+          <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post mb-12">
+          <div class="shadow-md h-full pb-20 relative">
+            <g-image alt="Cover image" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
+            <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
+            <div class="text-copy-secondary mb-4  px-4">
               <span>{{ post.node.date }}</span>
               <span> &middot; </span>
               <span>{{ post.node.timeToRead }} min read</span>
             </div>
 
-            <div class="text-lg mb-4">
+            <div class="text-lg mb-4 px-4">
               {{ post.node.summary }}
             </div>
 
-            <div class="mb-8">
-              <g-link :to="post.node.path" class="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">Read More</g-link>
+            <div class="mb-8 px-4 block absolute bottom-0 left">
+              <g-link :to="post.node.path" class="bg-transparent inline-block hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">Read More</g-link>
             </div>
+          </div>
           </div> <!-- end post -->
         </div>
         <div class="text-center mt-10">
@@ -221,6 +224,7 @@ query Posts ($page: Int) {
         summary
         timeToRead
         path
+        cover_image (width: 770, height: 380, blur: 10)
       }
     }
   }
