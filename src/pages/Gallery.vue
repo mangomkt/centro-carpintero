@@ -43,6 +43,26 @@
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/RENOVATED-BATHROOM-TILES2.jpg" alt="Bathroom Floor Tiles" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Bathroom Floor Tiles</div>
+        </div> 
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/custom-bathroom-designs.jpg" alt="Trendy bathroom desings" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Trendy bathroom desings</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/custom-high-wood-ceilings.jpg" alt="Custom Wood High Ceilings"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Wood High Ceilings</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/wood-ceilings.jpg" alt="Wood Ceilings"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Wood Ceilings</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/custom-sinks.jpg" alt="Custom Sinks"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Sinks</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
