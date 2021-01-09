@@ -1,8 +1,8 @@
 ---
 title: Cómo remodelar tu casa con éxito.
-path: es/blog/como-remodelar-tu-casa-con-exito
+path: /como-remodelar-tu-casa-con-exito
 date: 2020-11-27
-summary:casa-remodelada-con-éxito, lista de verificación
+summary: Cuando va a remodelar su casa, quiere que el proyecto se desarrolle sin problemas y sin ningún tipo de estrés, y creo que estaría de acuerdo conmigo en que no siempre es así.
 etiqueta: ['home renovations','checklist']
 cover_image: ./images/home-renovations.jpg
 ---

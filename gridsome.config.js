@@ -41,8 +41,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'esblog/**/*.md',
-        typeName: 'ESPost',
+        path: 'nuestro-blog/**/*.md',
+        typeName: 'EsPost',
         refs: {
           etiqueta: {
             typeName: 'Etiqueta',
@@ -62,7 +62,7 @@ module.exports = {
       use: 'gridsome-plugin-feed',
       options: {
         // Required: array of `GraphQL` type names you wish to include
-        contentTypes: ['Post', 'ESPost'],
+        contentTypes: ['Post', 'EsPost'],
         // Optional: any properties you wish to set for `Feed()` constructor
         // See https://www.npmjs.com/package/feed#example for available properties
         feedOptions: {
@@ -107,6 +107,18 @@ module.exports = {
   ],
   templates: {
     Tag: '/tag/:id',
-    Post: '/blog/:path'
+    Post: '/blog/:path',
+    EsPost: [
+        {
+          path: '/es/blog/:path',
+          component: './src/templates/EsPost.vue'
+        }
+      ],
+    Etiqueta: [
+        {
+          path: '/es/etiqueta/:id',
+          component: './src/templates/EsTag.vue'
+        }
+      ]
   }
 }

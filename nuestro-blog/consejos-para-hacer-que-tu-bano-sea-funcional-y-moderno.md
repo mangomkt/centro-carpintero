@@ -1,6 +1,6 @@
 ---
 title: Consejos para hacer que tu baño sea funcional y moderno.
-path: es/blog/consejos-para-hacer-que-tu-bano-sea-funcional-y-moderno
+path: /consejos-para-hacer-que-tu-bano-sea-funcional-y-moderno
 date: 2021-01-06
 summary: A la hora de renovar tu baño hay tantos diseños y tendencias que puedes encontrar en la web para que tu baño luzca mejor y cómodo.
 etiqueta: ['bathroom trends','modern looks']

@@ -1,6 +1,6 @@
 ---
 title: 3 Common questions about Kitchen Cabinets.
-path: /3-common-questions-about-kitchen-cabinets.
+path: /3-common-questions-about-kitchen-cabinets
 date: 2021-01-06
 summary: Cabinets are one of the most important things to have in a kitchen, it's where you can store utensils, food, spices, pretty much anything of your choice.
 tags: ['cabinets','kitchen']

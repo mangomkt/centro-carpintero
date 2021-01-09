@@ -1,6 +1,6 @@
 ---
 title: ¿Es seguro renovar mi casa durante Covid-19?
-path: es/blog/es-seguro-renovar-mi-casa-durante-covid-19
+path: /es-seguro-renovar-mi-casa-durante-covid-19
 date: 2020-10-26
 summary: ¿Es seguro renovar durante COVID-19? ¿Debo permitir que los trabajadores entren a mi casa?
 etiqueta: ['covid-19', 'safety', 'home renovations']

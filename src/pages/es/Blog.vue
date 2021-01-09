@@ -3,7 +3,7 @@
     <div class="hero">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <div class="text-6xl text-white leading-tight">Our Blog</div>
+          <div class="text-6xl text-white leading-tight">Nuestro Blog</div>
         </div>
       </div> <!-- end hero -->
     </div>
@@ -32,7 +32,7 @@
 
       <pagination-posts
         v-if="$page.posts.pageInfo.totalPages > 1"
-        base="/blog"
+        base="es/blog"
         :totalPages="$page.posts.pageInfo.totalPages"
         :currentPage="$page.posts.pageInfo.currentPage"
       />
@@ -68,7 +68,7 @@ import PaginationPosts from '../../components/PaginationPosts'
 
 export default {
   metaInfo: {
-    title: 'Blog',
+    title: 'Nuestro Blog',
     titleTemplate: '%s',
     meta: [
         { name: 'description', 
