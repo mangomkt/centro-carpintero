@@ -224,7 +224,7 @@ query Posts ($page: Int) {
         summary
         timeToRead
         path
-        cover_image (width: 770, height: 380, blur: 10)
+        cover_image (width: 760, height: 399, blur: 10)
       }
     }
   }

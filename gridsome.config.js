@@ -39,17 +39,30 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'esblog/**/*.md',
+        typeName: 'ESPost',
+        refs: {
+          etiqueta: {
+            typeName: 'Etiqueta',
+            create: true
+          }
+        }
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
-        exclude: ['/tag/**','/2/','/es/2/']
+        exclude: ['/etiqueta/**','/tag/**','/2/','/es/2/']
       }
     },
     {
       use: 'gridsome-plugin-feed',
       options: {
         // Required: array of `GraphQL` type names you wish to include
-        contentTypes: ['Post'],
+        contentTypes: ['Post', 'ESPost'],
         // Optional: any properties you wish to set for `Feed()` constructor
         // See https://www.npmjs.com/package/feed#example for available properties
         feedOptions: {
