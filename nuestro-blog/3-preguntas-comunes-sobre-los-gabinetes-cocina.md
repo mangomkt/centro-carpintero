@@ -3,7 +3,7 @@ title: 3 preguntas comunes sobre los gabinetes de cocina.
 path: /3-preguntas-comunes-sobre-los-gabinetes-cocina
 date: 2021-01-06
 summary: Los gabinetes son una de las cosas más importantes para tener en una cocina, es donde puede almacenar utensilios, comida, especias, casi cualquier cosa que elija.
-etiqueta: ['cabinets','kitchen']
+etiqueta: ['armarios','cocina']
 cover_image: ./images/cabinets.jpg
 ---
 

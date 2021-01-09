@@ -6,9 +6,9 @@
       <div class="flex mb-8 text-sm">
         <g-link
           :to="etiqueta.path"
-          v-for="etiqueta in $page.post.tags"
+          v-for="etiqueta in $page.post.etiqueta"
           :key="etiqueta.id"
-          class="bg-gray-300 rounded-full px-4 py-2 mr-4 hover:bg-green-300">
+          class="bg-gray-300 rounded-full px-4 py-2 mr-4 hover:bg-green-300 hover:text-white">
           {{ etiqueta.title }}
         </g-link>
       </div>

@@ -3,7 +3,7 @@ title: Cómo remodelar tu casa con éxito.
 path: /como-remodelar-tu-casa-con-exito
 date: 2020-11-27
 summary: Cuando va a remodelar su casa, quiere que el proyecto se desarrolle sin problemas y sin ningún tipo de estrés, y creo que estaría de acuerdo conmigo en que no siempre es así.
-etiqueta: ['home renovations','checklist']
+etiqueta: ['renovaciones de viviendas','lista de verificacion']
 cover_image: ./images/home-renovations.jpg
 ---
 

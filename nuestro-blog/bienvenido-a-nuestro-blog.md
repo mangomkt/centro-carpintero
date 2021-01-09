@@ -3,7 +3,7 @@ title: Bienvenido a nuestro blog
 path: /bienvenido-a-nuestro-blog
 date: 2020-09-09
 summary: Centro Carpintero empresa de remodelaciones de viviendas y carpintería fina en Puerto Vallarta.
-etiqueta: ['centro carpintero', 'custom carpentery', 'home renovations']
+etiqueta: ['centro carpintero', 'carpintería a medida', 'renovaciones de viviendas']
 cover_image: ./images/hello.jpg
 ---
 

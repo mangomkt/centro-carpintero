@@ -32,7 +32,7 @@
 </template>
 
 <page-query>
-query Etiqueta ($id: ID!, $page: Int) {
+query etiqueta ($id: ID!, $page: Int) {
   tag: etiqueta (id: $id) {
     title
     belongsTo (page: $page, perPage: 3) @paginate {
