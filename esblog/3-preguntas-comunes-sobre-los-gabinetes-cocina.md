@@ -2,30 +2,31 @@
 title: 3 preguntas comunes sobre los gabinetes de cocina.
 path: es/blog/3-preguntas-comunes-sobre-los-gabinetes-cocina.
 date: 2021-01-06
-summary: Cabinets are one of the most important things to have in a kitchen, it's where you can store utensils, food, spices, pretty much anything of your choice.
+summary: 
+Los gabinetes son una de las cosas más importantes para tener en una cocina, es donde puede almacenar utensilios, comida, especias, casi cualquier cosa que elija.
 etiqueta: ['cabinets','kitchen']
 cover_image: ./images/cabinets.jpg
 ---
 
 ![background](./images/cabinets.jpg)
 
-Cabinets are one of the most important things to have in a kitchen, it's where you can store utensils, food, spices, pretty much anything of your choice.And ultimately it helps you to hide or even prevent clutter in your kitchen.
+Los gabinetes son una de las cosas más importantes para tener en una cocina, es donde puedes guardar utensilios, comida, especias, casi cualquier cosa que elijas y, en última instancia, te ayuda a esconder o incluso evitar el desorden en tu cocina.
 
-But also when it comes to the subject of cabinets, especially if you're renovating your kitchen, there's probably going to be some questions. 
+Pero también cuando se trata del tema de los gabinetes, especialmente si está renovando su cocina, probablemente habrá algunas preguntas.
 
-So where are 3 questions and answers that may be helpful:
+Así que aquí hay 3 preguntas y respuestas que pueden ser útiles:
 
-## Where's the best place to have your kitchen cabinets?
-
-The most recommended place to install  kitchen cabinets is above your head, it allows you to have more floor space in your kitchen, especially if you have a small kitchen.
-
-## Does adding new cabinets in my kitchen increase the value of my home?
-
-Absolutely, because one of the most primary places where a home buyer inspects is the kitchen, and if the kitchen looks modern and new it is probably going to catch the homebuyers eye.
+## ¿Cuál es el mejor lugar para tener los gabinetes de su cocina?
 
 
-## What are the cabinets made of in Centro Carpintero? 
+El lugar más recomendado para instalar los gabinetes de cocina es encima de tu cabeza, te permite tener más espacio en el piso de tu cocina, especialmente si tienes una cocina pequeña.
 
-In centro carpintero we primarily use 3 different types of wood which are Parota wood, Amapa (rosewood), and primavera wood.
-These 3 types of wood I mentioned are very durable and also affordable if you're on a budget.
+## ¿Agregar nuevos gabinetes en mi cocina aumenta el valor de mi hogar?
 
+
+Absolutamente, porque uno de los lugares más importantes donde un comprador de vivienda inspecciona es la cocina, y si la cocina parece moderna y nueva, probablemente llamará la atención de los compradores de vivienda.
+
+## ¿De qué están hechos los armarios del Centro Carpintero?
+
+En centro carpintero utilizamos principalmente 3 tipos diferentes de madera que son madera de Parota, Amapa (palo de rosa) y madera de primavera.
+Estos 3 tipos de madera que mencioné son muy duraderos y también asequibles si tienes un presupuesto limitado.

@@ -13,7 +13,7 @@ Cabinets are one of the most important things to have in a kitchen, it's where y
 
 But also when it comes to the subject of cabinets, especially if you're renovating your kitchen, there's probably going to be some questions. 
 
-So where are 3 questions and answers that may be helpful:
+So here are 3 questions and answers that may be helpful:
 
 ## Where's the best place to have your kitchen cabinets?
 

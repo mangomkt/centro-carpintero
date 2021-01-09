@@ -2,35 +2,34 @@
 title: Consejos para hacer que tu baño sea funcional y moderno.
 path: es/blog/consejos-para-hacer-que-tu-bano-sea-funcional-y-moderno
 date: 2021-01-06
-summary: When it comes to renovating your bathroom there are so many designs, and trends that you can find on the web to make your bathroom look better and comfortable.
+summary: A la hora de renovar tu baño hay tantos diseños y tendencias que puedes encontrar en la web para que tu baño luzca mejor y cómodo.
 etiqueta: ['bathroom trends','modern looks']
 cover_image: ./images/bathroom.jpg
 ---
 
 ![background](./images/bathroom.jpg)
 
-When it comes to renovating your bathroom there are so many designs, and trends that you can find on the web to make your bathroom look better and comfortable.
+A la hora de renovar tu baño hay tantos diseños y tendencias que puedes encontrar en la web para que tu baño luzca mejor y cómodo.
 
-Here at Centro Carpintero we don't just renovate bathrooms, but we also turn your simple ordinary bathroom into a dream bathroom, something you can brag about to your friends and family.
+Aquí en Centro Carpintero no solo renovamos baños, sino que también convertimos su simple baño ordinario en un baño de ensueño, algo de lo que puede presumir ante sus amigos y familiares.
 
-I'm just going to mention 3 simple ways to make your bathroom look and make you feel comfortable:
+Solo voy a mencionar 3 formas sencillas de hacer que su baño luzca y que se sienta cómodo:
 
+##Ilumina las cosas.
 
-## Brighten things up.
+Tener iluminación en el baño es imprescindible, a nadie le gusta entrar a un baño que tiene muy poca iluminación, solo hace que usted y los demás se sientan incómodos.
+Por lo tanto, agregar más de un dispositivo de iluminación puede agregar más color y hacer que se sienta relajado.
 
-Having lighting in the bathroom is a must, no one likes to enter a bathroom that has very poor lighting, it just makes you and others feel uncomfortable.
-So adding more than one lighting fixture, can add more color and make you feel relaxed.
+## Adición de ventilación.
 
-## Adding Ventilation.
+La ventilación es importante, especialmente si vives en un área tropical, agregar ventilación al baño evita que el moho se propague y arruine tu baño.
 
-Ventilation is important especially if you live in an area where it's tropical, adding ventilation to a bathroom prevents mold and mildew to spread and ruin your bathroom. 
+Por lo tanto, es importante agregar una ventana funcional o un ventilador de techo pequeño y, si no tiene ventilación incorporada en el baño, debe cuidarla de inmediato.
 
-So by adding a functional window or a small ceiling fan is important and if you don't have any ventilation built in your bathroom, it should be cared for right away. 
+## Piso.
 
-## Flooring.
-
-When it comes to flooring there are so many different types of colors, designs and patterns, but also just adding simple plan flooring makes your bathroom look just as nice.
-Also when choosing what type of flooring you want it's probably wise to choose ceramic tile, because it's waterproof as well it's easier to clean.
+Cuando se trata de pisos, hay muchos tipos diferentes de colores, diseños y patrones, pero también agregar pisos de planos simples hace que su baño se vea igual de agradable.
+Además, al elegir el tipo de piso que desea, probablemente sea aconsejable elegir baldosas de cerámica, ya que también es impermeable y es más fácil de limpiar.
 
 
 

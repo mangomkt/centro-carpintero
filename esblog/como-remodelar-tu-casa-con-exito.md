@@ -2,40 +2,40 @@
 title: Cómo remodelar tu casa con éxito.
 path: es/blog/como-remodelar-tu-casa-con-exito
 date: 2020-11-27
-summary: home-remodeled-with-success, checklist
+summary:casa-remodelada-con-éxito, lista de verificación
 etiqueta: ['home renovations','checklist']
 cover_image: ./images/home-renovations.jpg
 ---
 
 ![background](./images/home-renovations.jpg)
 
-When you are going to remodel your home you want the project to go smoothly and easily without any stress at all, and I think would agree with me it doesn't always go that way.
 
-Here's a checklist of the top 4 things that will help you on your next home remodeling project:
+Cuando va a remodelar su casa, quiere que el proyecto se desarrolle sin problemas y sin ningún tipo de estrés, y creo que estaría de acuerdo conmigo en que no siempre es así.
 
-## 1. Have a remodeling budget.
+Aquí hay una lista de verificación de las 4 cosas principales que lo ayudarán en su próximo proyecto de remodelación de su hogar:
 
-Having a budget in mind is very important, it helps you know how much you are going to spend on paint, cabinets, flooring and much more.When you have a budget you save money and also reduces the stress on spending too much for what it is. 
+## 1. Tenga un presupuesto de remodelación.
 
-## 2. Have a design or style in mind.
+Tener un presupuesto en mente es muy importante, te ayuda a saber cuánto vas a gastar en pintura, gabinetes, pisos y mucho más.Cuando tienes un presupuesto, ahorras dinero y también reduce el estrés de gastar demasiado por lo que cuesta.
 
-It's important when remodeling your home to know what design you want, and also having a 
-style that you'll enjoy, and also stick to one sort of style that will go with everything in the house, to make it look better.
+## 2. Tenga en mente un diseño o estilo.
 
-If you are on a strict budget then go with a design that's more simpler and little by little maybe change things around to make it look better.
+Es importante a la hora de remodelar su hogar saber qué diseño desea y también tener un
+estilo que disfrutará, y también se adherirá a un tipo de estilo que irá con todo en la casa, para que se vea mejor.
 
-Tip: It's also good to ask someone for a second opinion.
+Si tiene un presupuesto estricto, elija un diseño que sea más simple y, poco a poco, tal vez cambie las cosas para que se vea mejor.
 
-## 3. Plan out your daily routine.
+Consejo: también es bueno pedirle a alguien una segunda opinión.
 
-One of the top primary ways in general to reduce stress is to have a good routine in your day to day life, and when you are going to remodel your house, your schedule is probably going to change.
+## 3. Planifique su rutina diaria.
 
-And when you follow your routine it doesn't mean that that the new routine you made will be the only one you're going to follow, if you encounter any setbacks, it's good to modify it if possible.
+En general, una de las principales formas de reducir el estrés es tener una buena rutina en su vida diaria, y cuando vaya a remodelar su casa, su horario probablemente cambiará.
 
-## 4. Give yourself more time if needed.
+Y cuando sigas tu rutina no significa que la nueva rutina que hiciste será la única que vas a seguir, si encuentras algún contratiempo, es bueno modificarla si es posible.
 
-When you are going to start on this project it's going to be an exciting journey, and it may be so exciting that you want to start right away, but to make it go successful, it may mean not starting on it right away and take time to learn about how it processes. 
+## 4. Dese más tiempo si es necesario.
 
+Cuando vaya a comenzar con este proyecto, será un viaje emocionante, y puede ser tan emocionante que desee comenzar de inmediato, pero para que tenga éxito, puede significar no comenzar de inmediato y tomar tiempo. para aprender cómo se procesa.
 
 
 

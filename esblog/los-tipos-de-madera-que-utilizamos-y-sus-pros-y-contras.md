@@ -2,59 +2,58 @@
 title: Los tipos de madera que utilizamos y sus pros y contras.
 path: es/blog/los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras
 date: 2020-10-20
-summary: Wood is one of the oldest and common materials used for building around the world , especially here in Mexico. Out of the three main types that we use, what are the pros and cons.
+summary:
+La madera es uno de los materiales más antiguos y utilizados para la construcción en todo el mundo, especialmente aquí en México. De los tres tipos principales que usamos, cuáles son los pros y los contras.
 etiqueta: ['parota','amapa', 'primavera', 'home renovations', 'pros and cons']
 cover_image: ./images/wood-types.jpg
 ---
 
 ![background](./images/wood-types.jpg)
 
-Wood is one of the oldest and common materials used for building around the world , especially here in Mexico. It is used to make furniture, cabinets, and for custom fine carpentry. In fact what's amazing is that there's approximately 52 different types of wood in Mexico, but we are only going to focus on the 3 main types of wood we use in our fine carpentry and home renovations. They are Parota, Primavera and Amapa (rosewood). Below are the pros and cons of each wood:
+La madera es uno de los materiales más antiguos y utilizados para la construcción en todo el mundo, especialmente aquí en México. Se utiliza para fabricar muebles, armarios y para carpintería fina a medida. De hecho, lo sorprendente es que hay aproximadamente 52 tipos diferentes de madera en México, pero solo nos vamos a enfocar en los 3 tipos principales de madera que usamos en nuestra carpintería fina y renovaciones de viviendas. Son Parota, Primavera y Amapa (palo de rosa). A continuación se muestran los pros y los contras de cada madera:
 
-## Parota  
-Parota wood, also called guanacaste, is primarily found in Mexico and in Central America. Its color is a golden-brown. A beautiful wood to use for furniture designs.
-
-
-### Pros
-
-  * It is affordable.
-  * It contains a natural insect resistance that makes it termite proof.
-  * Rot and water resistant. 
-
-### Cons
-
-  * Parota wood is hard-wood but it's still light weight so it may not be able (depending on how it's made) to withstand significant weight when using a dining table or dresser.
-
-
-
-**Safety** : Parota wood can be toxic, and if it is not handled properly it can cause eye or respiratory infection, so make sure that you let a skilled and experienced carpenter do the work for you.
-
-
-## Amapa (rosewood)
-Amapa wood (rosewood), found in Central America in the Amazon Regions, its comes in different shades from light brown to white, and is used for musical instruments, veneers & for furniture.  
+## Parota
+La madera de parota, también llamada guanacaste, se encuentra principalmente en México y América Central. Su color es marrón dorado. Una hermosa madera para usar en diseños de muebles.
 
 
 ### Pros
 
-  * Amapa wood is easy to work with, sawing, nailing and also glueing.
-  * It's stable in any sort of climate, and resistant to the UV rays of the sun.
-  * Insect and rot resistant.
-  * It's known to last longer than other types of wood.
+  * Es asequible.
+  * Contiene una resistencia natural a los insectos que lo hace a prueba de termitas.
+  * Resistente a la putrefacción y al agua.
 
-### Cons
+### Contras
 
-  * It can be expensive depending on where you purchase it.
-  * It can be very heavy.
+  * La madera de Parota es madera dura, pero sigue siendo liviana, por lo que es posible que no pueda (dependiendo de cómo esté hecha) soportar un peso significativo cuando se usa una mesa de comedor o una cómoda.
+
+
+
+** Seguridad **: la madera de parota puede ser tóxica y, si no se maneja adecuadamente, puede causar una infección ocular o respiratoria, así que asegúrese de dejar que un carpintero capacitado y experimentado haga el trabajo por usted.
+
+##Amapa (palo de rosa)
+La madera de amapa (palo de rosa), que se encuentra en América Central en las regiones amazónicas, viene en diferentes tonos de marrón claro a blanco, y se utiliza para instrumentos musicales, enchapados y muebles.
+
+### Pros
+
+  * La madera de amapa es fácil de trabajar, serrar, clavar y también pegar.
+  * Es estable en cualquier tipo de clima y resistente a los rayos UV del sol.
+  * Resistente a insectos y putrefacción.
+  * Se sabe que dura más que otros tipos de madera.
+
+### Contras
+
+  * Puede ser costoso dependiendo de dónde lo compre.
+  * Puede ser muy pesado.
 
 ## Primavera
-Primavera wood, found in South Mexico it comes in different types of pale colors and is one of the most commonly used in Mexico for carpentry.
+La madera Primavera, que se encuentra en el sur de México, se presenta en diferentes tipos de colores pálidos y es una de las más utilizadas en México para la carpintería.
 
 ### Pros
-  * Primavera wood is a softer wood so it makes it easy to work with.
-  * Decay resistant.
+  * La madera Primavera es una madera más blanda, por lo que facilita el trabajo.
+  * Resistente a la descomposición.
 
-### Cons
-  * It can be susceptible to insect attacks if not treated properly. 
+### Contras
+  * Puede ser susceptible a los ataques de insectos si no se trata adecuadamente.
 
 
 
