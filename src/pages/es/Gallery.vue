@@ -4,125 +4,146 @@
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
           <div class="text-6xl text-white leading-tight">Centro Carpintero Gallery</div>
-          <div class="text-2xl text-white font-light leading-tight">Beautiful Results of Centro Carpintero Fine Carpentry</div>
+          <div class="text-2xl text-white font-light leading-tight">Bellos Resultados de la Carpintería Fina Centro Carpintero</div>
         </div>
       </div> <!-- end hero -->
     </div>
     <div class="container-inner mx-auto py-20">
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-KITCHEN.jpg" alt="Custom kitchen remodeling" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Remodeling</div>
+          <g-image src="../../../static/gallery/RENOVATED-KITCHEN.jpg" alt="Remodelación de cocina personalizada" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Remodelación de cocina personalizada</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/CUSTOM-WOOD-CABINET.jpg" alt="Fine Carpentry Cabinet" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Fine Carpentry Cabinet</div>
-        </div>
-
-        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/CUSTOM-WOOD-BED-FRAME.jpg" alt="Custom Woodworking Bed frame" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Woodworking Bed frame</div>
+          <g-image src="../../../static/gallery/CUSTOM-WOOD-CABINET.jpg" alt="Gabinete de carpintería fina" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Gabinete de carpintería fina</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/KITCHEN-CABINETS.jpg" alt="Beautiful Kitchen Woodworking" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Beautiful Kitchen Woodworking</div>
+          <g-image src="../../../static/gallery/CUSTOM-WOOD-BED-FRAME.jpg" alt="Estructura de cama para carpintería personalizada" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Estructura de cama para carpintería personalizada</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/New-island.jpg" alt="Custom Kitchen Island Drawers" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Island Drawers</div>
+          <g-image src="../../../static/gallery/KITCHEN-CABINETS.jpg" alt="Carpintería de cocina hermosa" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Carpintería de cocina hermosa</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/New-island.jpg" alt="Cajones de isla de cocina personalizados" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Cajones de isla de cocina personalizados</div>
         </div> 
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/New-island2.jpg" alt="Custom Kitchen Island" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Island</div>
+          <g-image src="../../../static/gallery/New-island2.jpg" alt="Isla de cocina personalizada" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Isla de cocina personalizada</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/New-k-pantry.jpg" alt="Custom Pantries" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Pantries</div>
+          <g-image src="../../../static/gallery/New-k-pantry.jpg" alt="Despensas personalizadas" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Despensas personalizadas</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/New-livingroom.jpg" alt="Custom Livingroom Cabinets" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Livingroom Cabinets</div>
+          <g-image src="../../../static/gallery/New-livingroom.jpg" alt="Gabinetes de sala de estar personalizados" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Gabinetes de sala de estar personalizados</div>
+        </div>
+
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/custom-bathroom-designs.jpg" alt="Diseños de baño de moda" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Diseños de baño de moda</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/MAKEUP.jpg" alt="Beautiful Wooden Makeup Desk / Dresser" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Beautiful Wooden Makeup Desk / Dresser</div>
+          <g-image src="../../../static/gallery/custom-high-wood-ceilings.jpg" alt="Techos altos de madera personalizados"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Techos altos de madera personalizados</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/CUSTOM-WOOD-BEDFRAME2.jpg" alt="Parota Wood Headboard" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Parota Wood Headboard</div>
+          <g-image src="../../../static/gallery/wood-ceilings.jpg" alt="Techos de madera"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Techos de madera</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/custom-sinks.jpg" alt="Fregaderos personalizados"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Fregaderos personalizados</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/MAKEUP.jpg" alt="Hermoso escritorio de maquillaje de madera / tocador"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Hermoso escritorio de maquillaje de madera / tocador</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/CUSTOM-WOOD-BEDFRAME2.jpg" alt="Cabecero de madera de Parota" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Cabecero de madera de Parota</div>
         </div>
         
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/BENCH.jpg" alt="Fine Woodworking Bench" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Fine Woodworking Bench</div>
+          <g-image src="../../../static/gallery/BENCH.jpg" alt="Banco de carpintería fina" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Banco de carpintería fina</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-BATHROOM-TILES2.jpg" alt="Bathroom Floor Tiles" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Bathroom Floor Tiles</div>
+          <g-image src="../../../static/gallery/RENOVATED-BATHROOM-TILES2.jpg" alt="Azulejos De Baño" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Azulejos De Baño</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-SINK1.jpg" alt="Updated Bathroom Sink" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Updated Bathroom Sink</div>
+          <g-image src="../../../static/gallery/RENOVATED-SINK1.jpg" alt="Lavabo de baño renovado" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Lavabo de baño renovado</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-KITCHEN-A1.jpg" alt="Modern Kitchen Look" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Modern Kitchen Look</div>
+          <g-image src="../../../static/gallery/RENOVATED-KITCHEN-A1.jpg" alt="Aspecto de cocina moderna" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Aspecto de cocina moderna</div>
         </div>
 
       <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/KITCHEN-CABINETSA2.jpg" alt="Modern Kitchen Pantry" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Modern Kitchen Pantry</div>
+          <g-image src="../../../static/gallery/KITCHEN-CABINETSA2.jpg" alt="Despensa De Cocina Moderna" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Despensa De Cocina Moderna</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/CUSTOM-WOOD-NIGHT-TABLES.jpg" alt="Wood Night Tables" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Wood Night Tables</div>
+          <g-image src="../../../static/gallery/CUSTOM-WOOD-NIGHT-TABLES.jpg" alt="Mesas de noche de madera" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Mesas de noche de madera</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/UPDATED-KITCHEN-SINK.jpg" alt="Luxury Kitchen Look" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Luxury Kitchen Look</div>
-        </div>
-        
-        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-BATHROOM-TILES.jpg" alt="Bathroom Wall Tiles" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Bathroom Wall Tiles</div>
-        </div>
-        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-SINK2.jpg" alt="Updated Bathroom Sink" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Updated Bathroom Sink</div>
-        </div>
-
-        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/SHOWER.jpg" alt="Renovated Bathroom Shower" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Renovated Bathroom Shower</div>
-        </div>
-
-        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-NEW-CABINETS.jpg" alt="Custom Kitchen Cabinets" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Cabinets</div>
-        </div>
-
-        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-NEW-BAR.jpg" alt="Custom Livingroom Bar" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Livingroom Bar</div>
+          <g-image src="../../../static/gallery/UPDATED-KITCHEN-SINK.jpg" alt="Aspecto de cocina de lujo" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Aspecto de cocina de lujo</div>
         </div>
         
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/RENOVATED-UPDATING-KITCHEN.jpg" alt="Installing New Kitchen Island" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Installing New Kitchen Island</div>
+          <g-image src="../../../static/gallery/RENOVATED-BATHROOM-TILES.jpg" alt="Azulejos de baño" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Azulejos de baño</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/RENOVATED-SINK2.jpg" alt="Lavabo de baño renovado" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Lavabo de baño renovado</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/UPDATED-BEDROOM-CLOSETS.jpg" alt="Updated Bedroom closets" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Updated Bedroom closets</div>
+          <g-image src="../../../static/gallery/SHOWER.jpg" alt="Ducha de baño renovada" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Ducha de baño renovada</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/RENOVATED-NEW-CABINETS.jpg" alt="Gabinetes de cocina personalizados" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Gabinetes de cocina personalizados</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/RENOVATED-NEW-BAR.jpg" alt="Barra de salón personalizada" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Barra de salón personalizada</div>
+        </div>
+        
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/RENOVATED-UPDATING-KITCHEN.jpg" alt="Instalación de una nueva isla de cocina" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Instalación de una nueva isla de cocina</div>
+        </div>
+
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/UPDATED-BEDROOM-CLOSETS.jpg" alt="Armarios de dormitorio renovados" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Armarios de dormitorio renovados</div>
         </div>
       </div>
     </div>
