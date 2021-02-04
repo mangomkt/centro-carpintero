@@ -2,7 +2,7 @@
 title: Lo que se debe y no se debe hacer al limpiar sus gabinetes.
 path: es/blog/Lo-que-se-debe-y-no-se-debe-hacer-al-limpiar-sus-gabinetes
 date: 2021-02-03
-summary:Lo que se debe y no se debe hacer cuando limpiaa tus gabinetes.
+summary: Lo que se debe y no se debe hacer cuando limpiaa tus gabinetes.
 etiqueta: ['gabinetes','limpiar']
 cover_image: ./images/home-renovations.jpg
 ---
