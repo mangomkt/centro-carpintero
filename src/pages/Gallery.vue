@@ -62,8 +62,8 @@
           <div class="text-green font-bold leading-tight mt-4 mb-8">Fine Carpentry Cabinet</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../static/gallery/RENOVATED-NEW-BAR.jpg" alt="Custom Livingroom Bar" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Livingroom Bar</div>
+          <g-image src="../../static/gallery/RENOVATED-NEW-BAR.jpg" alt="Custom Bar" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Bar</div>
         </div>
       </div>
       <h2 class="text-4xl text-Black font-light leading-tight" style="text-align:center">Bedrooms and Bathrooms</h2>
@@ -97,7 +97,10 @@
           <g-image src="../../static/gallery/custom-sinks.jpg" alt="Custom Sinks"/>
           <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Sinks</div>
         </div>
-
+<div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/modern-bathroom.jpg" alt="Modern Bathroom Look" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Modern Bathroom Look</div>
+        </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/RENOVATED-SINK1.jpg" alt="Updated Bathroom Sink" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Updated Bathroom Sink</div>
@@ -137,7 +140,10 @@
           <g-image src="../../static/gallery/wood-ceilings.jpg" alt="Wood Ceilings"/>
           <div class="text-green font-bold leading-tight mt-4 mb-8">Wood Ceilings</div>
         </div>
-
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/custom-wood-entertainment-system.jpg" alt="Custom Wood Entertainment System"/>
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Wood Entertainment System</div>
+        </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/desk.jpg" alt="Custom Desk" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Desk</div>
