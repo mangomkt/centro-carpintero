@@ -150,8 +150,8 @@
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../static/gallery/custom-shelfs-and-desk.jpg" alt="Custom Shelfs And Desk" />
-          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Shelfs And Desk</div>
+          <g-image src="../../static/gallery/custom-shelfs-and-desk.jpg" alt="Custom Shelves And Desk" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Shelves And Desk</div>
         </div>
 
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
