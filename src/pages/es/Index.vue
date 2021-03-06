@@ -2,13 +2,33 @@
   <Esp>
     <div class="hero">
       <div class="container-inner mx-auto flex flex-wrap sm:flex-row justify-between py-20">
-        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left sm:text-center lg:text-left lg:pr-4">
-          <div class="text-6xl text-white leading-tight">Centro Carpintero</div>
-          <h1 class="mt-2 text-3xl text-white font-light leading-tight">Mejoras y Remodelaciones de Casas en Puerto Vallarta</h1>
+        <div class="w-full md:w-full font-bold w-full text-center sm:text-center lg:pr-4">
+          <h1 class="mt-2 text-5xl text-white font-light leading-tight">Mejoras y Remodelaciones de Casas en Puerto Vallarta</h1>
           <p class="text-2xl mt-4 text-white font-light leading-tight">Centro Carpintero es una empresa de carpintería artística centrada en el mobiliario funcional y el diseño elegante en madera de alta calidad.</p>
         </div>
-        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left">
-          <div class="bg-background-white p-8 rounded">
+        <div class="flex mt-20 w-full">
+              <div class="w-full text-center md:w-1/2 md:text-right my-4 px-10 border-box">
+                  <g-link to="/es/contact" class="inline-block bg-white hover:bg-accentb text-green hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Contactanos ahora </g-link>
+              </div>
+              <div class="w-full text-center md:w-1/2 md:text-left my-4 px-10 border-box">
+                  <g-link to="/es/gallery" class="inline-block bg-white hover:bg-accentb text-green hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">nuestra galeria</g-link>
+              </div>
+          </div>
+      </div> <!-- end hero -->
+    </div>
+    <div class="container-inner py-20 mx-auto px-2">
+      <div class="font-bold w-full text-center sm:text-center mb-10">
+        <h2 class="text-4xl leading-tight">¿Por qué elegir Centro Carpintero?</h2>
+      </div>
+      <p class="text-lg sm:text-xl">Contamos con los conocimientos y la experiencia para encargarnos de proyectos de remodelación o renovación de viviendas. Desde la planificación inicial, encontrar ese equilibrio entre el presupuesto y la lista de deseos. Centro Carpintero está ahí para ayudarlo en cada paso.</p>
+      <p class="text-lg sm:text-xl">Si está buscando pensar fuera de la caja para aprovechar mejor el espacio de su residencia o si desea completar las renovaciones de la casa de sus sueños, ¡entonces le encantarán nuestras soluciones integradoras hechas a mano en madera!</p>
+      <p class="text-lg sm:text-xl">Infunda su hogar o negocio con nuestra amplia experiencia en elegantes diseños de madera que resisten el paso del tiempo y agregan valor y personalidad a su propiedad. Con pasión por la carpintería y compromiso con la calidad de nuestro trabajo, nos asociaremos contigo para proponer combinaciones de las últimas tendencias en funcionalidad, estilo y belleza para todo tipo de muebles finos y carpintería.</p>
+    </div>
+    <div class="bg-background-secondary flex">
+        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle side-bg">
+        </div>
+        <div class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20">
+            <div class="bg-background-white p-8 rounded">
             <div class="text-3xl text-pink text-center leading-tight font-light mb-6">CONTÁCTANOS PARA UN PRESUPUESTO GRATUITO</div>
             <form name="hpestimate" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
@@ -48,18 +68,11 @@
                     </div>
                 </form>
           </div>
-        </div>
-      </div> <!-- end hero -->
+          </div>
+      
     </div>
-    <div class="container-inner py-20 mx-auto px-2">
-      <div class="font-bold w-full text-center sm:text-center mb-10">
-        <h2 class="text-4xl leading-tight">¿Por qué elegir Centro Carpintero?</h2>
-      </div>
-      <p class="text-lg sm:text-xl">Contamos con los conocimientos y la experiencia para encargarnos de proyectos de remodelación o renovación de viviendas. Desde la planificación inicial, encontrar ese equilibrio entre el presupuesto y la lista de deseos. Centro Carpintero está ahí para ayudarlo en cada paso.</p>
-      <p class="text-lg sm:text-xl">Si está buscando pensar fuera de la caja para aprovechar mejor el espacio de su residencia o si desea completar las renovaciones de la casa de sus sueños, ¡entonces le encantarán nuestras soluciones integradoras hechas a mano en madera!</p>
-      <p class="text-lg sm:text-xl">Infunda su hogar o negocio con nuestra amplia experiencia en elegantes diseños de madera que resisten el paso del tiempo y agregan valor y personalidad a su propiedad. Con pasión por la carpintería y compromiso con la calidad de nuestro trabajo, nos asociaremos contigo para proponer combinaciones de las últimas tendencias en funcionalidad, estilo y belleza para todo tipo de muebles finos y carpintería.</p>
-    </div>
-    <div class="bg-background-secondary">
+    
+    <div>
       
       <div class="container-inner pt-20 pb-20 mx-auto px-2">
         <div class="font-bold w-full text-center sm:text-center mb-10">
@@ -88,7 +101,7 @@
         </div> 
       </div>
     </div>
-    <div class="bg-background-primary">
+    <div class="warehouse">
       <div class="container-inner pt-20 pb-20 mx-auto px-2">
         <div class="text-4xl text-white font-hairline italic">En total, hemos realizado cuatro grandes proyectos en 2019 y 2020 con Centro Carpentry y cada vez, estoy más impresionado con las habilidades de sus artesanos, la integridad de los propietarios y su enfoque en la satisfacción del cliente.</div>
         <div class="text-2xl text-white">- Cliente feliz</div>
