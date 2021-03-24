@@ -34,6 +34,18 @@
           <div class="text-green font-bold leading-tight mt-4 mb-8">Despensa De Cocina Moderna</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/modern-kitchen-look.jpg" alt="Estilo de cocina moderno" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Estilo de cocina moderno</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/modern-kitchen2.jpg" alt="Estilo de cocina moderno" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Estilo de cocina moderno</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../../static/gallery/kitchen-console.jpg" alt="Gabinete de horno a medida" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Gabinete de horno a medida</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../../static/gallery/RENOVATED-NEW-CABINETS.jpg" alt="Gabinetes de cocina personalizados" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Gabinetes de cocina personalizados</div>
         </div>

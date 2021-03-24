@@ -38,6 +38,18 @@
           <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Cabinets</div>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/modern-kitchen-look.jpg" alt="Modern Kitchen Style" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Modern Kitchen Style</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/modern-kitchen2.jpg" alt="Modern Kitchen Style" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Modern Kitchen Style</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
+          <g-image src="../../static/gallery/kitchen-console.jpg" alt="Custom Made Oven Cabinet" />
+          <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Made Oven Cabinet</div>
+        </div>
+        <div class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/New-island2.jpg" alt="Custom Kitchen Island" />
           <div class="text-green font-bold leading-tight mt-4 mb-8">Custom Kitchen Island</div>
         </div>

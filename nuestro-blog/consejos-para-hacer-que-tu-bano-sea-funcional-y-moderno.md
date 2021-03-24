@@ -30,11 +30,3 @@ Por lo tanto, es importante agregar una ventana funcional o un ventilador de tec
 
 Cuando se trata de pisos, hay muchos tipos diferentes de colores, diseños y patrones, pero también agregar pisos de planos simples hace que su baño se vea igual de agradable.
 Además, al elegir el tipo de piso que desea, probablemente sea aconsejable elegir baldosas de cerámica, ya que también es impermeable y es más fácil de limpiar.
-
-
-
-
-
-
-
-
