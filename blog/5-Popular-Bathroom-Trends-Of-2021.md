@@ -9,7 +9,7 @@ cover_image: ./images/trends.jpg
 
 ![background](./images/trends.jpg)
 
-Following the latest trends is the most common thing many people do, and when it comes to the topic of bathrooms there are so many different styles, designs, and features people add to their bathroom to give them that sense of comfort and especially to feel good about themselves, and at Centro Carpintero that is our primary focus, so to make that easy I'm going to mention 5 new popular trends of 2021, that I hope may be helpful. 
+Following the latest trends is the most common thing many people do, and when it comes to bathrooms there are so many different styles, designs, and features out there. We all renovate our bathroom for different reason, but most do it to give them that sense of comfort. At Centro Carpintero that is our primary focus, and to get you started I'm going to mention 5 new popular trends of 2021, that I hope you find helpful. 
 
 ## ADD WOOD ACCENTS.
 

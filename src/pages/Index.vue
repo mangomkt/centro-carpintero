@@ -5,7 +5,7 @@
         <div class="w-full md:w-full font-bold w-full text-center lg:pr-4 align-middle">
           <h1 class="mt-2 text-5xl text-white font-light leading-tight">Home Renovations & Remodeling in Puerto Vallarta</h1>
           <p class="text-2xl mt-4 text-white font-light leading-tight">Focused on functional furnishing & elegant design in high-quality wood.</p>
-          <div class="flex mt-20">
+          <div class="flex flex-wrap mt-20">
               <div class="w-full text-center md:w-1/2 md:text-right my-4 px-10 border-box">
                   <g-link to="/contact" class="inline-block bg-white hover:bg-accentb text-green hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Contact Us</g-link>
               </div>
@@ -25,7 +25,7 @@
       <p class="text-lg sm:text-xl">If you are looking to think outside the box to better use of your residence’s space or looking to get those dream home renovations completed, then you will love our integrative wood-crafted solutions!</p>
       <p class="text-lg sm:text-xl">Infuse your home or business with our extensive experience in classy wood designs that stand the test of time and add value and personality to your estate. With a passion for carpentry and commitment to the quality of our work, we will partner with you to propose combinations of the latest trends in functionality, style, and beauty for all types of fine furniture and woodworking.</p>
     </div>
-    <div class="bg-background-secondary flex">
+    <div class="bg-background-secondary flex flex-wrap">
         <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle side-bg">
         </div>
         <div class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20">
@@ -80,17 +80,17 @@
           <h2 class="text-2xl leading-tight">What we offer to help with your next home renovations or remodel in Puerto Vallarta</h2>
         </div>
         <div class="flex flex-wrap justify-between items-center py-6 ">
-          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0">
             <g-image src="../../static/home1.jpg" alt="browser" class="mx-auto"/>
             <div class="text-2xl leading-tight mt-2">Custom Kitchens</div>
             <div class="leading-tight">Minimalist | Sophisticated | Rustic</div>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0">
             <g-image src="../../static/home2.jpg" alt="mobile" class="mx-auto" />
             <div class="text-2xl leading-tight mt-2">Bedrooms & Bathrooms</div>
             <div class="leading-tight">Cabinets | Remodeling | Lighting</div>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto">
+          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-0 md:mb-0">
             <g-image src="../../static/home3.jpg" alt="mobile" class="mx-auto" />
             <div class="text-2xl leading-tight mt-2">Custom Carpentry</div>
             <div class="leading-tight">Closets | Frames | Decoration</div>
@@ -101,8 +101,8 @@
         </div> 
       </div>
     </div>
-    <div class="warehouse">
-      <div class="container-inner pt-40 pb-40 mx-auto px-2">
+    <div class="warehouse bg-primary">
+      <div class="container-inner py-20 lg:py-40 mx-auto px-2">
         <div class="text-4xl text-white font-hairline italic">All in all, we have done four large projects in 2019 and 2020 with Centro Carpentry and each time, I am more impressed with the skills of their craftsmen, the integrity of the owners and their focus on customer satisfaction.</div>
         <div class="text-2xl text-white">- Happy Customer</div>
       </div>
@@ -137,23 +137,23 @@
         </div>
         <div class="flex flex-wrap">
           <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post mb-12">
-          <div class="shadow-md h-full pb-20 relative">
-            <g-image alt="Cover image" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
-            <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
-            <div class="text-copy-secondary mb-4  px-4">
-              <span>{{ post.node.date }}</span>
-              <span> &middot; </span>
-              <span>{{ post.node.timeToRead }} min read</span>
-            </div>
+            <div class="shadow-md h-full pb-20 relative">
+              <g-image alt="Cover image" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
+              <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
+              <div class="text-copy-secondary mb-4  px-4">
+                <span>{{ post.node.date }}</span>
+                <span> &middot; </span>
+                <span>{{ post.node.timeToRead }} min read</span>
+              </div>
 
-            <div class="text-lg mb-4 px-4">
-              {{ post.node.summary }}
-            </div>
+              <div class="text-lg mb-4 px-4">
+                {{ post.node.summary }}
+              </div>
 
-            <div class="mb-8 px-4 block absolute bottom-0 left">
-              <g-link :to="post.node.path" class="bg-transparent inline-block hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">Read More</g-link>
+              <div class="mb-8 px-4 block absolute bottom-0 left">
+                <g-link :to="post.node.path" class="bg-transparent inline-block hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">Read More</g-link>
+              </div>
             </div>
-          </div>
           </div> <!-- end post -->
         </div>
         <div class="text-center mt-10">
