@@ -25,7 +25,7 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.use(VueGtag, {
     config: { 
-      id: "G-0S825P54SM"
+      id: "G-4HD9NLSE2D"
     }
   });
 
