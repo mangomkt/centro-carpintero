@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="container mx-auto py-0 lg:py-2 bg-background-light flex flex-col lg:flex-row">
-          <div class="sw:w-full md:w-full lg:w-1/2 w-full">
+          <div class="sw:w-full md:w-full lg:w-7/12 w-full">
             <ul class="uppercase tracking-wide font-light w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
               <li class="text-center lg:text-left my-2 lg:my-3">
                 <g-link to="/es" class="text-1xl hover:text-gray-600 mx-4 py-4 lg:py-0 block">Inicio</g-link>
@@ -26,6 +26,14 @@
               <li class="text-center lg:text-left my-2 lg:my-2">
                 <g-link to="/es/gallery" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
               </li>
+              <li class="text-center has-sub-menu lg:text-left my-2 lg:my-2 relative">
+                <g-link to="/es/proyecto/bucerias" class="hover:text-gray-600 mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
+                <ul class="sub-menu absolute">
+                  <li class="text-center lg:text-left my-2 lg:my-2">
+                    <g-link to="/es/proyecto/bucerias" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Bucerias</g-link>
+                  </li>
+                </ul>
+              </li>
               <li class="text-center lg:text-left my-2 lg:my-2">
                 <g-link to="/es/blog" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
               </li>
@@ -34,7 +42,7 @@
               </li>
             </ul>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right hidden lg:block">
+          <div class="sw:w-full md:w-full lg:w-5/12 w-full text-right hidden lg:block">
             <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Llámanos: 322-121-6778</a>
             <g-link to="/" class="ml-2 bg-background-white border-primary  border-2 text-primary hover:text-white hover:bg-background-primary rounded-full py-3 px-6 inline-block ">English</g-link>
           </div>

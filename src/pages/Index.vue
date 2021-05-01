@@ -246,14 +246,14 @@ query Posts ($page: Int) {
 <script>
 export default {
   metaInfo: {
-    title: 'Remodeling and Renovations | Centro Carpintero | Puerto Vallarta ',
+    title: 'Bucerias Project | Custom Woodworking | Puerto Vallarta ',
     titleTemplate: '%s',
     meta: [
       { name: 'description', 
         key: 'description',
-        content:  'Looking for a contractor to help you with your next remodeling or renovation project in Puerto Vallarta? Martha and her team of expert carpenters are ready to make your dreams come true.'
+        content:  'Custom Woodworking project made from solid amapa wood in Bucerias, Nayarit, Mexico.'
       },
-      { property: 'og:title', content: "Remodeling and Renovations | Centro Carpintero | Puerto Vallarta"},
+      { property: 'og:title', content: "Bucerias Project | Custom Woodworking | Puerto Vallarta"},
       { property: 'og:site_name', content: 'Centro Carpintero'},
       {property: 'og:type', content: 'website'},    
       {name: 'robots', content: 'index,follow'} 

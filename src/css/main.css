@@ -24,6 +24,12 @@
 p {
   margin: 0 0 15px;
 }
+.slick-slide img {
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    padding: 0 10px;
+}
 .sm-icon {
   display: block;
   margin: 0 auto 20px;
@@ -95,6 +101,9 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+  }
+  .hero.hero-bucerias-projecto {
+    background: url(../assets/img/bucerias-projecto-hero.jpg);
   }
   .hero:before {
     content: "";
@@ -249,4 +258,27 @@ a:hover {
   transform: rotate(0deg) scale(1);
   transform-origin: 10px 10px; 
   opacity: 1;
+}
+.sub-menu {
+  width: 200px;
+  background: #fff;
+  bottom: 0;
+  transform: translateY(100%);
+  left: 0;
+}
+.has-sub-menu .sub-menu {
+  display: none;
+}
+.has-sub-menu:hover .sub-menu {
+  display: block;
+}
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #1f3101;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

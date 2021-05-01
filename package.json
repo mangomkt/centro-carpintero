@@ -18,7 +18,8 @@
     "gridsome-plugin-rss": "^1.2.0",
     "vue-fuse": "^2.2.1",
     "vue-gtag": "^1.10.0",
-    "vue-scrollto": "^2.18.2"
+    "vue-scrollto": "^2.18.2",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "gridsome-plugin-manifest": "^0.3.5",
