@@ -105,6 +105,9 @@ header {
   .hero.hero-bucerias-projecto {
     background: url(../assets/img/bucerias-projecto-hero.jpg);
   }
+  .hero.hero-beach-house-projecto {
+    background: url(../assets/house-project/beach-house-back.jpg);
+  }
   .hero:before {
     content: "";
     width: 100%;
