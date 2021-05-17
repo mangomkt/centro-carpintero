@@ -32,6 +32,9 @@
                   <li class="text-center lg:text-left my-2 lg:my-2">
                     <g-link to="/es/proyecto/bucerias" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Bucerias</g-link>
                   </li>
+                   <li class="text-center lg:text-left my-2 lg:my-2">
+                    <g-link to="/es/proyecto/beach-house" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Beach House</g-link>
+                  </li>
                 </ul>
               </li>
               <li class="text-center lg:text-left my-2 lg:my-2">

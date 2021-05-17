@@ -16,16 +16,17 @@
             <div><g-image src="@/assets/house-project/beach-house-back.jpg" alt="Beach House Project Image 2" /></div>
             <div><g-image src="@/assets/house-project/beach-house-roof.jpg" alt="Beach House Project Image 3" /></div>
             <div><g-image src="@/assets/house-project/beach-house-outside-entertainment.jpg" alt="Beach House Project Image 4" /></div>
+            <div><g-image src="@/assets/house-project/doors.jpg" alt="Beach House Project Image 5" /></div>
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <div class="text-4xl font-light leading-tight my-4">Beach House Project</div>
-          <p>Custom Woodworking project made from solid amapa wood.</p>
+          <p>Custom Woodworking project made from Parota wood</p>
           <ul class="list-disc ml-6 mb-4">
-          <li>Solid amapa wood (tropical wood from this region), hard wood</li>
-          <li>3 garage cabinets for storage</li>
-          <li>LeMans corner cabinets</li>
-          <li>Custom glass cabinets</li>
+          <li>Parota wood (tropical wood from this region), hard wood</li>
+          <li>BBQ area made out of Kumaru wood</li>
+          <li>Garage doors made from Parota wood with an exterior finish</li>
+          <li>All doors made customly out of Parota wood</li>
           </ul>
 
           <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
