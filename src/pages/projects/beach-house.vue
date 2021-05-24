@@ -3,7 +3,7 @@
     <div class="hero hero-beach-house-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Beach House Renovation Project</h1>
+          <h1 class="text-6xl text-white leading-tight">Punta de Mita Beach House Project</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
         </div>
       </div> <!-- end hero -->
@@ -23,7 +23,7 @@
           <div class="text-4xl font-light leading-tight my-4">Beach House Project</div>
           <p>Custom Woodworking project made from Parota wood</p>
           <ul class="list-disc ml-6 mb-4">
-          <li>Parota wood (tropical wood from this region), hard wood</li>
+          <li>Parota wood (tropical wood from this region), hardwood</li>
           <li>BBQ area made out of Kumaru wood</li>
           <li>Garage doors made from Parota wood with an exterior finish</li>
           <li>All doors made customly out of Parota wood</li>

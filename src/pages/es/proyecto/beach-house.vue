@@ -3,8 +3,8 @@
     <div class="hero hero-beach-house-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Beach House Renovation Project</h1>
-          <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
+          <h1 class="text-6xl text-white leading-tight">Proyecto Casa de Playa Punta de Mita</h1>
+          <div class="text-2xl text-white font-light leading-tight">Proyectos Centro Carpintero</div>
         </div>
       </div> <!-- end hero -->
     </div>
@@ -20,29 +20,29 @@
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <div class="text-4xl font-light leading-tight my-4">Beach House Project</div>
-          <p>Custom Woodworking project made from Parota wood</p>
+          <div class="text-4xl font-light leading-tight my-4">Proyecto Casa de Playa</div>
+          <p>Proyecto de carpintería a medida de madera de Parota.</p>
           <ul class="list-disc ml-6 mb-4">
-          <li>Parota wood (tropical wood from this region), hard wood</li>
-          <li>BBQ area made out of Kumaru wood</li>
-          <li>Garage doors made from Parota wood with an exterior finish</li>
-          <li>All doors made customly out of Parota wood</li>
+          <li>Madera de Parota (madera tropical de esta región), Madera dura.</li>
+          <li>Área de barbacoa de madera Kumaru.</li>
+          <li>Puertas de garaje de madera de Parota con acabado exterior.</li>
+          <li>Todas las puertas hechas a medida con madera de Parota.</li>
           </ul>
 
-          <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
+          <p><g-link to="/es/blog/los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Lea sobre los tipos de madera que usamos</g-link></p>
         </div>
       </div>
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl text-white font-hairline italic">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
-        <div class="text-2xl text-white">- Happy Customer</div>
+        <div class="text-4xl text-white font-hairline italic">Excelente empresa de carpintería y diseño personalizado que hizo un gran trabajo restaurando carpintería existente y creando nuevos gabinetes que combinan.</div>
+        <div class="text-2xl text-white">- Cliente feliz</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl leading-tight md:text-left sm:text-center">Free Quote</div>
+          <div class="text-4xl leading-tight md:text-left sm:text-center">Cotización Gratis</div>
           <div class="text-1xl leading-tight mt-4">
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl leading-tight">Send Us A Message</div>
+          <div class="text-4xl leading-tight">Mandanos un mensaje</div>
           <div class="contact-me pt-4">
             <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
@@ -65,7 +65,7 @@
                     <div class="flex flex-wrap mb-6 -mx-4">
                         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                             <label class="block mb-2 text-copy-primary" for="name">
-                                Name
+                                Nombre
                             </label>
 
                             <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
@@ -73,7 +73,7 @@
 
                         <div class="w-full px-4 md:w-1/2">
                             <label class="block text-copy-primary mb-2" for="email">
-                                Email Address
+                                Dirección de correo electrónico
                             </label>
 
                             <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.email">
@@ -82,14 +82,14 @@
 
                     <div class="w-full mb-12">
                         <label class="block text-copy-primary mb-2" for="message">
-                            Message
+                            Mensaje
                         </label>
 
-                        <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Enter your message here." required v-model="formData.message"></textarea>
+                        <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Introduzca su mensaje aquí." required v-model="formData.message"></textarea>
                     </div>
 
                     <div class="flex justify-end w-full">
-                        <input type="submit" value="Submit" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
+                        <input type="submit" value="enviar" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
                     </div>
                 </form>
            </div> <!-- end contact-me -->
