@@ -17,6 +17,9 @@
             <div><g-image src="@/assets/house-project/beach-house-roof.jpg" alt="Beach House Project Image 3" /></div>
             <div><g-image src="@/assets/house-project/beach-house-outside-entertainment.jpg" alt="Beach House Project Image 4" /></div>
             <div><g-image src="@/assets/house-project/doors.jpg" alt="Beach House Project Image 5" /></div>
+            <div><g-image src="@/assets/house-project/beach-house-closet.jpg" alt="Beach House Project Image 6" /></div>
+             <div><g-image src="@/assets/house-project/beach-house-bathroom.jpg" alt="Beach House Project Image 7" /></div>
+             <div><g-image src="@/assets/house-project/beach-house-skylight.jpg" alt="Beach House Project Image 8" /></div>
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
