@@ -15,6 +15,9 @@
             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-01.jpg" alt="Bucerias Projecto Image 1" /></div>
             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-02.jpg" alt="Bucerias Projecto Image 2" /></div>
             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-03.jpg" alt="Bucerias Projecto Image 3" /></div>
+             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-04.jpg" alt="Bucerias Projecto Image 4" /></div>
+             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-05.jpg" alt="Bucerias Projecto Image 5" /></div>
+             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-06.jpg" alt="Bucerias Projecto Image 6" /></div>
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
