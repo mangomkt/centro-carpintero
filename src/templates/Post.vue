@@ -48,11 +48,11 @@ export default {
         },
         { property: 'og:title', content: this.$page.post.title },
         { property: 'og:site_name', content: 'Centro Carpintero'},
-        {property: 'og:type', content: 'website'},    
+        {property: 'og:type', content: 'article'},    
         {name: 'robots', content: 'index,follow'} 
       ]
     }
-    
+
   }
 }
 </script>
