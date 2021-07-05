@@ -2,7 +2,7 @@
 title: The Pros and Cons of a Jack and Jill Bathroom
 path: /the-pros-and-cons-of-a-jack-and-jill-bathroom
 date: 2021-06-30
-summary: Here are some Pros and Cons of having a Jack and Jill bathroom .
+summary: Here are some Pros and Cons of having a Jack and Jill bathroom.
 tags: ['jack and jill bathroom']
 cover_image: ./images/jack-and-jill.jpg
 ---
