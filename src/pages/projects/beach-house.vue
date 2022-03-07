@@ -3,7 +3,7 @@
     <div class="hero hero-beach-house-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Punta de Mita Beach House Project</h1>
+          <h1 class="text-5xl font-serif font-light text-white leading-tight">Punta de Mita Beach House Project</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
         </div>
       </div> <!-- end hero -->
@@ -23,7 +23,7 @@
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <div class="text-4xl font-light leading-tight my-4">Beach House Project</div>
+          <div class="text-4xl font-serif font-light leading-tight my-4">Beach House Project</div>
           <p>Custom Woodworking project made from Parota wood</p>
           <ul class="list-disc ml-6 mb-4">
           <li>Parota wood (tropical wood from this region), hardwood</li>
@@ -38,14 +38,14 @@
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl text-white font-hairline italic">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
-        <div class="text-2xl text-white">- Happy Customer</div>
+        <div class="text-4xl text-white font-serif font-light">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
+        <div class="text-2xl mt-4 font-light text-white">- Happy Customer</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl leading-tight md:text-left sm:text-center">Free Quote</div>
+          <div class="text-4xl font-serif font-light leading-tight md:text-left sm:text-center">Free Quote</div>
           <div class="text-1xl leading-tight mt-4">
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
@@ -56,7 +56,7 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl leading-tight">Send Us A Message</div>
+          <div class="text-4xl font-serif font-light leading-tight">Get a Quote</div>
           <div class="contact-me pt-4">
             <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />

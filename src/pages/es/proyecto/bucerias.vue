@@ -2,8 +2,8 @@
   <Esp>
     <div class="hero hero-bucerias-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
-        <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Proyecto Carpintería a Medida Bucerias</h1>
+        <div class="w-full text-center sm:text-center">
+          <h1 class="text-5xl font-serif font-light text-white leading-tight">Proyecto Carpintería a Medida Bucerias</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Proyectos</div>
         </div>
       </div> <!-- end hero -->
@@ -21,7 +21,7 @@
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <div class="text-4xl font-light leading-tight my-4">Proyecto Bucerias</div>
+          <div class="text-4xl font-serif font-light leading-tight my-4">Proyecto Bucerias</div>
           <p>Proyecto de carpintería a medida realizado en madera maciza de amapa.</p>
           <ul class="list-disc ml-6 mb-4">
           <li>Madera maciza de amapa (madera tropical de esta región), madera dura</li>
@@ -30,20 +30,20 @@
           <li>Armarios de vidrio personalizados</li>
           </ul>
 
-          <p><g-link to="/es/blog/los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Lea sobre los tipos de madera que usamos</g-link></p>
+          <p><g-link to="/es/blog/los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras/" class="inline-block bg-accenta hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Lea sobre los tipos de madera que usamos</g-link></p>
         </div>
       </div>
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl text-white font-hairline italic">Excelente empresa de carpintería y diseño personalizado que hizo un gran trabajo restaurando carpintería existente y creando nuevos gabinetes que combinan. Les doy mi más alta recomendación !!!</div>
-        <div class="text-2xl text-white">- Cliente feliz</div>
+        <div class="text-4xl text-white font-serif font-light">Excelente empresa de carpintería y diseño personalizado que hizo un gran trabajo restaurando carpintería existente y creando nuevos gabinetes que combinan. Les doy mi más alta recomendación !!!</div>
+        <div class="text-2xl mt-4 font-light text-white">- Cliente feliz</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl leading-tight md:text-left sm:text-center">Contacta con nosotras</div>
+          <div class="text-4xl font-serif font-light leading-tight md:text-left sm:text-center">Contacta con nosotras</div>
           <div class="text-1xl leading-tight mt-4">
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl leading-tight">Cotización Gratis</div>
+          <div class="text-4xl font-serif font-light leading-tight">Cotización Gratis</div>
           <div class="contact-me pt-4">
             <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/es/gracias/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
@@ -69,7 +69,7 @@
                                 Nombre
                             </label>
 
-                            <input type="text" name="name" id="name" placeholder="Jose" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
+                            <input type="text" name="name" id="name" placeholder="Jose Gonzalez" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
                         </div>
 
                         <div class="w-full px-4 md:w-1/2">
