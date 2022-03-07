@@ -5,7 +5,7 @@
         <div class="w-full md:w-5/12 font-bold w-full text-center  align-middle">
           <g-image src="@/assets/img/centro-hero.jpg" alt="Centro Carpintero Renovations"/>
         </div>
-        <div class="w-full md:w-7/12 font-bold w-full text-left lg:pr-10 align-middle">
+        <div class="w-full mt-4 md:mt-0 md:w-7/12 font-bold w-full text-center md:text-left lg:pr-10 align-middle">
           <h1 class="text-4xl md:text-5xl font-serif font-light text-primary leading-tight">Mejoras y Remodelaciones de Casas en Puerto Vallarta</h1>
           <p class="text-2xl mt-4 text-tertiary font-light leading-tight">Centro Carpintero es una empresa de carpintería artística centrada en el mobiliario funcional y el diseño elegante en madera de alta calidad.</p>
           <div class="flex flex-wrap mt-10">
