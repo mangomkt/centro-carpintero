@@ -3,7 +3,7 @@
     <div class="hero hero-bucerias-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Custom Woodworking Project Bucerias</h1>
+          <h1 class="text-6xl text-white leading-tight">Custom Rosewood Kitchen</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
         </div>
       </div> <!-- end hero -->
@@ -11,58 +11,24 @@
     <div class="container-inner mx-auto py-20">
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <VueSlickCarousel v-bind="settings" ref="c1" :asNavFor="c2" :focusOnSelect="true">
-            <div><g-image src="@/assets/rosewood/rosewood-01.jpg" alt="Bucerias Projecto Image 1" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-02.jpg" alt="Bucerias Projecto Image 2" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-03.jpg" alt="Bucerias Projecto Image 3" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-04.jpg" alt="Bucerias Projecto Image 4" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-05.jpg" alt="Bucerias Projecto Image 5" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-06.jpg" alt="Bucerias Projecto Image 6" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-07.jpg" alt="Bucerias Projecto Image 7" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-08.jpg" alt="Bucerias Projecto Image 8" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-09.jpg" alt="Bucerias Projecto Image 9" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-10.jpg" alt="Bucerias Projecto Image 10" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-11.jpg" alt="Bucerias Projecto Image 11" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-12.jpg" alt="Bucerias Projecto Image 12" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-13.jpg" alt="Bucerias Projecto Image 13" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-14.jpg" alt="Bucerias Projecto Image 14" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-15.jpg" alt="Bucerias Projecto Image 15" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-16.jpg" alt="Bucerias Projecto Image 16" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-17.jpg" alt="Bucerias Projecto Image 17" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-18.jpg" alt="Bucerias Projecto Image 18" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-19.jpg" alt="Bucerias Projecto Image 19" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-20.jpg" alt="Bucerias Projecto Image 20" /></div>
-          </VueSlickCarousel>
-          <VueSlickCarousel v-bind="thumbsettings" ref="c2" :asNavFor="c1" :focusOnSelect="true">
-            <div><g-image src="@/assets/rosewood/rosewood-01.jpg" alt="Bucerias Projecto Image 1" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-02.jpg" alt="Bucerias Projecto Image 2" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-03.jpg" alt="Bucerias Projecto Image 3" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-04.jpg" alt="Bucerias Projecto Image 4" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-05.jpg" alt="Bucerias Projecto Image 5" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-06.jpg" alt="Bucerias Projecto Image 6" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-07.jpg" alt="Bucerias Projecto Image 7" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-08.jpg" alt="Bucerias Projecto Image 8" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-09.jpg" alt="Bucerias Projecto Image 9" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-10.jpg" alt="Bucerias Projecto Image 10" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-11.jpg" alt="Bucerias Projecto Image 11" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-12.jpg" alt="Bucerias Projecto Image 12" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-13.jpg" alt="Bucerias Projecto Image 13" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-14.jpg" alt="Bucerias Projecto Image 14" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-15.jpg" alt="Bucerias Projecto Image 15" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-16.jpg" alt="Bucerias Projecto Image 16" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-17.jpg" alt="Bucerias Projecto Image 17" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-18.jpg" alt="Bucerias Projecto Image 18" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-19.jpg" alt="Bucerias Projecto Image 19" /></div>
-            <div><g-image src="@/assets/rosewood/rosewood-20.jpg" alt="Bucerias Projecto Image 20" /></div>
+          <VueSlickCarousel v-bind="settings">
+            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-01.jpg" alt="Bucerias Projecto Image 1" /></div>
+            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-02.jpg" alt="Bucerias Projecto Image 2" /></div>
+            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-03.jpg" alt="Bucerias Projecto Image 3" /></div>
+            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-04.jpg" alt="Bucerias Projecto Image 4" /></div>
+             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-05.jpg" alt="Bucerias Projecto Image 5" /></div>
+             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-06.jpg" alt="Bucerias Projecto Image 6" /></div>
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <div class="text-4xl font-light leading-tight my-4">Bucerias Project</div>
-          <p>The project was completed in a residence in Bucerias.</p>
-          <p>The interior and exterior of the kitchen was made out of Solid Amapa also known as Rosewood, which is made to withstand heavy-duty use. </p>
-          <p>All the hardware like the TV elevator mechanism and the LED warm white lights with dimmers were installed by Blum Motion.</p>
-          <p>We also added special imported decorative glass for the doors in the kitchen and the Entertainment center.</p>
-          <p>All around the kitchen has customized hand made carving details, including the overhanging countertop with carved supports underneath, the drawers, the spice racks, and the kitchen cabinets.</p>
+          <p>Custom Woodworking project made from solid amapa wood.</p>
+          <ul class="list-disc ml-6 mb-4">
+          <li>Solid amapa wood (tropical wood from this region), hard wood</li>
+          <li>3 garage cabinets for storage</li>
+          <li>LeMans corner cabinets</li>
+          <li>Custom glass cabinets</li>
+          </ul>
 
           <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
         </div>
@@ -145,33 +111,19 @@ export default {
   components: { VueSlickCarousel },
   data() {
     return {
-      c1: undefined,
-      c2: undefined,
       settings: {
-        "dots": false,
+        "dots": true,
         "arrows": true,
         "infinite": true,
         "centerMode": false,
         "centerPadding": "0px",
         "slidesToShow": 1,
-        "slidesToScroll": 1
-      },
-      thumbsettings: {
-        "dots": false,
-        "arrows": false,
-        "infinite": true,
-        "centerMode": false,
-        "centerPadding": "0px",
-        "slidesToShow": 5,
-        "slidesToScroll": 1
+        "slidesToScroll": 1,
+        "variableWidth": true
       },
       formData: {}
     }
   },
-  mounted() {
-    this.c1 = this.$refs.c1;
-    this.c2 = this.$refs.c2;
-    },
   methods: {
     encode(data) {
       return Object.keys(data)

@@ -11,24 +11,58 @@
     <div class="container-inner mx-auto py-20">
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <VueSlickCarousel v-bind="settings">
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-01.jpg" alt="Bucerias Projecto Image 1" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-02.jpg" alt="Bucerias Projecto Image 2" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-03.jpg" alt="Bucerias Projecto Image 3" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-04.jpg" alt="Bucerias Projecto Image 4" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-05.jpg" alt="Bucerias Projecto Image 5" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-06.jpg" alt="Bucerias Projecto Image 6" /></div>
+          <VueSlickCarousel v-bind="settings" ref="c1" :asNavFor="c2" :focusOnSelect="true">
+            <div><g-image src="@/assets/rosewood/rosewood-01.jpg" alt="Bucerias Projecto Image 1" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-02.jpg" alt="Bucerias Projecto Image 2" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-03.jpg" alt="Bucerias Projecto Image 3" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-04.jpg" alt="Bucerias Projecto Image 4" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-05.jpg" alt="Bucerias Projecto Image 5" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-06.jpg" alt="Bucerias Projecto Image 6" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-07.jpg" alt="Bucerias Projecto Image 7" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-08.jpg" alt="Bucerias Projecto Image 8" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-09.jpg" alt="Bucerias Projecto Image 9" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-10.jpg" alt="Bucerias Projecto Image 10" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-11.jpg" alt="Bucerias Projecto Image 11" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-12.jpg" alt="Bucerias Projecto Image 12" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-13.jpg" alt="Bucerias Projecto Image 13" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-14.jpg" alt="Bucerias Projecto Image 14" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-15.jpg" alt="Bucerias Projecto Image 15" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-16.jpg" alt="Bucerias Projecto Image 16" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-17.jpg" alt="Bucerias Projecto Image 17" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-18.jpg" alt="Bucerias Projecto Image 18" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-19.jpg" alt="Bucerias Projecto Image 19" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-20.jpg" alt="Bucerias Projecto Image 20" /></div>
+          </VueSlickCarousel>
+          <VueSlickCarousel v-bind="thumbsettings" ref="c2" :asNavFor="c1" :focusOnSelect="true">
+            <div><g-image src="@/assets/rosewood/rosewood-01.jpg" alt="Bucerias Projecto Image 1" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-02.jpg" alt="Bucerias Projecto Image 2" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-03.jpg" alt="Bucerias Projecto Image 3" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-04.jpg" alt="Bucerias Projecto Image 4" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-05.jpg" alt="Bucerias Projecto Image 5" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-06.jpg" alt="Bucerias Projecto Image 6" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-07.jpg" alt="Bucerias Projecto Image 7" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-08.jpg" alt="Bucerias Projecto Image 8" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-09.jpg" alt="Bucerias Projecto Image 9" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-10.jpg" alt="Bucerias Projecto Image 10" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-11.jpg" alt="Bucerias Projecto Image 11" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-12.jpg" alt="Bucerias Projecto Image 12" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-13.jpg" alt="Bucerias Projecto Image 13" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-14.jpg" alt="Bucerias Projecto Image 14" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-15.jpg" alt="Bucerias Projecto Image 15" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-16.jpg" alt="Bucerias Projecto Image 16" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-17.jpg" alt="Bucerias Projecto Image 17" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-18.jpg" alt="Bucerias Projecto Image 18" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-19.jpg" alt="Bucerias Projecto Image 19" /></div>
+            <div><g-image src="@/assets/rosewood/rosewood-20.jpg" alt="Bucerias Projecto Image 20" /></div>
           </VueSlickCarousel>
         </div>
-        <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
+         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <div class="text-4xl font-light leading-tight my-4">Proyecto Bucerias</div>
-          <p>Proyecto de carpintería a medida realizado en madera maciza de amapa.</p>
-          <ul class="list-disc ml-6 mb-4">
-          <li>Madera maciza de amapa (madera tropical de esta región), madera dura</li>
-          <li>3 gabinetes de garaje para almacenamiento</li>
-          <li>Armarios de esquina LeMans</li>
-          <li>Armarios de vidrio personalizados</li>
-          </ul>
+          <p>El proyecto se completó en una residencia en Bucerias.</p>
+          <p>El interior y el exterior de la cocina fueron hechos de Amapá Sólido, también conocido como Palisandro, que está hecho para soportar un uso intensivo.</p>
+          <p>Blum Motion instaló todo el hardware, como el mecanismo del elevador del televisor y las luces LED de color blanco cálido con atenuadores.</p>
+          <p>También agregamos vidrios decorativos importados especiales para las puertas de la cocina y el Centro de Entretenimiento.</p>
+          <p>Alrededor de la cocina se han personalizado detalles tallados a mano, incluida la encimera que sobresale con soportes tallados debajo, los cajones, los estantes para especias y los gabinetes de cocina.</p>
 
           <p><g-link to="/es/blog/los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Lea sobre los tipos de madera que usamos</g-link></p>
         </div>
@@ -111,18 +145,32 @@ export default {
   components: { VueSlickCarousel },
   data() {
     return {
+      c1: undefined,
+      c2: undefined,
       settings: {
-        "dots": true,
+        "dots": false,
         "arrows": true,
         "infinite": true,
         "centerMode": false,
         "centerPadding": "0px",
         "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "variableWidth": true
+        "slidesToScroll": 1
+      },
+      thumbsettings: {
+        "dots": false,
+        "arrows": false,
+        "infinite": true,
+        "centerMode": false,
+        "centerPadding": "0px",
+        "slidesToShow": 5,
+        "slidesToScroll": 1
       },
       formData: {}
     }
+  },
+  mounted() {
+    this.c1 = this.$refs.c1;
+    this.c2 = this.$refs.c2;
   },
   methods: {
     encode(data) {
