@@ -1,11 +1,12 @@
 <template>
-  <div class="content-wrapper bg-background-white font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
+  <div class="content-wrapper font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header>
-      <nav class="bg-background-light z-40 relative">
-        <div class="top-nav bg-background-white">
+      <g-link to="/es/noticia" class="text-white text-xl block text-center bg-tertiary hover:text-white hover:bg-accentb mx-0 py-2 uppercase">Noticia importante</g-link>
+      <nav class="z-40 relative bg-background-white">
+        <div class="top-nav">
           <div class="flex flex-wrap justify-between items-center py-2 container mx-auto">
-            <g-link to="/"><g-image src="../../static/logodark.png" class="nav-logo mx-auto lg:mx-4" alt="logo" /></g-link>
-            <search-input class="hidden lg:block" />
+            <g-link to="/es"><g-image src="../../static/logogold.png" class="nav-logo mx-auto lg:mx-4" alt="logo" /></g-link>
+            <search-input-es class="hidden lg:block" />
             <div class="block lg:hidden">
               <button @click="toggle" :class=" isOpen ?'open':''" class="m-toggle flex close-btn items-center px-3 py-2 border rounded border-gray-500" data-cypress="hamburger">
                 <svg class="current-color burger" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="primary" /></svg>
@@ -14,40 +15,45 @@
             </div>
           </div>
         </div>
-        <div class="container mx-auto py-0 lg:py-2 bg-background-light flex flex-col lg:flex-row">
-          <div class="sw:w-full md:w-full lg:w-7/12 w-full">
+        <div class="container mx-auto py-0 lg:py-2  flex flex-col lg:flex-row">
+          <div class="sw:w-full md:w-full lg:w-8/12 w-full">
             <ul class="uppercase tracking-wide font-light w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
-              <li class="text-center lg:text-left my-2 lg:my-3">
-                <g-link to="/es" class="text-1xl hover:text-gray-600 mx-4 py-4 lg:py-0 block">Inicio</g-link>
+              <li class="text-left lg:text-left my-2 lg:my-3">
+                <g-link to="/es" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 block">Inicio</g-link>
               </li>
-              <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/es/about" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Sobre nosotros</g-link>
-              </li>
-              <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/es/gallery" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
-              </li>
-              <li class="text-center has-sub-menu lg:text-left my-2 lg:my-2 relative">
-                <g-link to="/es/proyecto/bucerias" class="hover:text-gray-600 mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
-                <ul class="sub-menu absolute">
-                  <li class="text-center lg:text-left my-2 lg:my-2">
-                    <g-link to="/es/proyecto/bucerias" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Bucerias</g-link>
-                  </li>
-                   <li class="text-center lg:text-left my-2 lg:my-2">
-                    <g-link to="/es/proyecto/beach-house" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Beach House</g-link>
+              <li class="text-left has-sub-menu relative lg:text-left my-2 lg:my-2">
+                <g-link to="/es/about" class="hover:text-accenta text-primary mx-4 py-4 lg:py-4 inline-block">Sobre nosotros</g-link>
+                <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
+                  <li class="text-left lg:text-left my-2 lg:my-2">
+                    <g-link to="/es/noticia" class="text-primary block hover:text-accenta mx-4 py-4 lg:py-0">Noticia importante</g-link>
                   </li>
                 </ul>
               </li>
-              <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/es/blog" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
+              <li class="text-left lg:text-left my-2 lg:my-2">
+                <g-link to="/es/gallery" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
               </li>
-              <li class="text-center lg:text-left my-2 lg:my-2">
-                <g-link to="/es/contact" class="hover:text-gray-600 mx-4 py-4 lg:py-0 inline-block">Contacto</g-link>
+              <li class="text-left has-sub-menu lg:text-left my-2 lg:my-2 relative">
+                <g-link to="/es/proyecto/bucerias" class="hover:text-accenta text-primary mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
+                <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
+                  <li class="text-left lg:text-left my-2 lg:my-2">
+                    <g-link to="/es/proyecto/bucerias" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Bucerias</g-link>
+                  </li>
+                   <li class="text-left lg:text-left my-2 lg:my-2">
+                    <g-link to="/es/proyecto/beach-house" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Proyecto Casa de Playa</g-link>
+                  </li>
+                </ul>
+              </li>
+              <li class="text-left lg:text-left my-2 lg:my-2">
+                <g-link to="/es/blog" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
+              </li>
+              <li class="text-left lg:text-left my-2 lg:my-2">
+                <g-link to="/es/contact" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Contacto</g-link>
               </li>
             </ul>
           </div>
-          <div class="sw:w-full md:w-full lg:w-5/12 w-full text-right hidden lg:block">
-            <a href="tel:322-121-6778" class="bg-background-primary text-white hover:text-primary hover:bg-background-white rounded-full py-3 px-6 inline-block">Llámanos: 322-121-6778</a>
-            <g-link to="/" class="ml-2 bg-background-white border-primary  border-2 text-primary hover:text-white hover:bg-background-primary rounded-full py-3 px-6 inline-block ">English</g-link>
+          <div class="sw:w-full md:w-full lg:w-4/12 w-full text-right hidden lg:block">
+            <a href="tel:322-121-6778" class="bg-background-accenta text-white hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block">Llámanos: 322-121-6778</a>
+            <g-link to="/" class="ml-2 bg-background-white border-accenta  border-2 text-accenta hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block ">English</g-link>
           </div>
         </div>
       </nav>
@@ -87,7 +93,7 @@
       <div class="container mx-auto ">
       </div>
     </footer>
-    <div class="fixed bg-black bottom-0 left-0 flex flex-row w-full md:hidden mfooter">
+    <div class="fixed bg-accenta bottom-0 left-0 flex flex-row w-full md:hidden mfooter">
       <a href="tel:322-121-6778" class="text-white w-1/3 py-2 px-2 text-center">
         <svg version="1.1" id="phone-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.076 512.076" style="width: 24px;height: 24px; enable-background:new 0 0 512.076 512.076;" class="block mx-auto my-1" xml:space="preserve">
           <path fill="#fff" d="M499.639,396.039l-103.646-69.12c-13.153-8.701-30.784-5.838-40.508,6.579l-30.191,38.818 c-3.88,5.116-10.933,6.6-16.546,3.482l-5.743-3.166c-19.038-10.377-42.726-23.296-90.453-71.04s-60.672-71.45-71.049-90.453 l-3.149-5.743c-3.161-5.612-1.705-12.695,3.413-16.606l38.792-30.182c12.412-9.725,15.279-27.351,6.588-40.508l-69.12-103.646 C109.12,1.056,91.25-2.966,77.461,5.323L34.12,31.358C20.502,39.364,10.511,52.33,6.242,67.539 c-15.607,56.866-3.866,155.008,140.706,299.597c115.004,114.995,200.619,145.92,259.465,145.92 c13.543,0.058,27.033-1.704,40.107-5.239c15.212-4.264,28.18-14.256,36.181-27.878l26.061-43.315 C517.063,422.832,513.043,404.951,499.639,396.039z M494.058,427.868l-26.001,43.341c-5.745,9.832-15.072,17.061-26.027,20.173 c-52.497,14.413-144.213,2.475-283.008-136.32S8.29,124.559,22.703,72.054c3.116-10.968,10.354-20.307,20.198-26.061 l43.341-26.001c5.983-3.6,13.739-1.855,17.604,3.959l37.547,56.371l31.514,47.266c3.774,5.707,2.534,13.356-2.85,17.579 l-38.801,30.182c-11.808,9.029-15.18,25.366-7.91,38.332l3.081,5.598c10.906,20.002,24.465,44.885,73.967,94.379 c49.502,49.493,74.377,63.053,94.37,73.958l5.606,3.089c12.965,7.269,29.303,3.898,38.332-7.91l30.182-38.801 c4.224-5.381,11.87-6.62,17.579-2.85l103.637,69.12C495.918,414.126,497.663,421.886,494.058,427.868z"/>
@@ -132,16 +138,20 @@ query {
 </static-query>
 
 <script>
-import SearchInput from '../components/SearchInput'
+import SearchInputEs from '../components/SearchInputEs'
 import ThemeSwitcher from '../components/ThemeSwitcher'
 
 export default {
   components: {
-    SearchInput,
+    SearchInputEs,
     ThemeSwitcher
   },
   mounted() {
     this.theme = localStorage.getItem('theme') || 'theme-light'
+  },
+  created() {
+    const html = document.documentElement
+    html.setAttribute('lang', 'es')
   },
   data() {
     const jsonld = {
@@ -179,41 +189,3 @@ export default {
 </script>
 
 <style src="../css/main.css" />
-<style>
-/* latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Karla Italic'), local('Karla-Italic'), url(../fonts/karla-italic.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Karla Bold Italic'), local('Karla-BoldItalic'), url(../fonts/karla-italic-bold.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Karla'), local('Karla-Regular'), url(../fonts/karla.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'Karla';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Karla Bold'), local('Karla-Bold'), url(../fonts/karla-bold.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-</style>

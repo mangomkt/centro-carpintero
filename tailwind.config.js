@@ -92,16 +92,19 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: [
-        'Karla',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
+      body: [
+        'Open Sans',
         'Arial',
         'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
+      ],
+      sans: [
+        'Open Sans',
+        'Arial',
+        'sans-serif',
+      ],
+      serif: [
+        'Merriweather',
+        'serif',
       ]
     },
   },

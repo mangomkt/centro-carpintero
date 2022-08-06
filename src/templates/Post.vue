@@ -26,6 +26,7 @@ query Post ($path: String!) {
     title
     date (format: "MMMM D, Y")
     content
+    summary
     tags {
       title
       path
@@ -38,8 +39,20 @@ query Post ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title ,
+      titleTemplate: '%s',
+      meta: [
+        { name: 'description', 
+          key: 'description',
+          content:  this.$page.post.summary
+        },
+        { property: 'og:title', content: this.$page.post.title },
+        { property: 'og:site_name', content: 'Centro Carpintero'},
+        {property: 'og:type', content: 'article'},    
+        {name: 'robots', content: 'index,follow'} 
+      ]
     }
+
   }
 }
 </script>

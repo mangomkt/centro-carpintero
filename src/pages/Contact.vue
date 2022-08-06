@@ -3,15 +3,15 @@
     <div class="hero">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <div class="text-6xl text-white leading-tight">Contact Centro Carpintero</div>
+          <div class="text-4xl md:text-5xl font-serif font-light text-white leading-tight">Contact Centro Carpintero</div>
         </div>
       </div> <!-- end hero -->
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 px-8 mx-auto">
-          <div class="text-4xl leading-tight">Contact Us</div>
-          <div class="text-2xl leading-tight mt-4">
+          <div class="text-4xl font-serif font-light leading-tight">Contact Us</div>
+          <div class="text-xl leading-tight mt-4">
             Centro Cerpintero PV<br>
             Carretera a las Palmas #2523<br>
             Puerto Vallarta, Jalisco 48280<br>
@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 px-8 mx-auto">
-          <div class="text-4xl leading-tight">Send Us A Message</div>
+          <div class="text-4xl font-serif font-light leading-tight">Send Us A Message</div>
           <div class="contact-me pt-4">
              <div class="mx-auto text-xl pb-4 relative">
                 <div class="text-lg sm:text-lg">

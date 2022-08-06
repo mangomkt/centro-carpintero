@@ -2,8 +2,8 @@
   <Esp>
     <div class="hero">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
-        <div class="font-bold w-full text-center sm:text-center">
-          <div class="text-6xl text-white leading-tight">Nuestro Blog</div>
+        <div class="w-full text-center sm:text-center">
+          <div class="text-4xl md:text-5xl font-light font-serif text-white leading-tight">Nuestro Blog</div>
         </div>
       </div> <!-- end hero -->
     </div>
@@ -12,7 +12,7 @@
           <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post mb-12">
           <div class="shadow-md h-full pb-20 relative">
             <g-image alt="Cover image" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
-            <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
+            <h3 class="text-2xl font-regular leading-snug mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
             <div class="text-copy-secondary mb-4  px-4">
               <span>{{ post.node.date }}</span>
               <span> &middot; </span>

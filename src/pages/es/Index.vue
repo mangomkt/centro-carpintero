@@ -1,28 +1,39 @@
 <template>
   <Esp>
-    <div class="hero">
-      <div class="container-inner mx-auto flex flex-wrap sm:flex-row justify-between py-20">
-        <div class="w-full md:w-full font-bold w-full text-center sm:text-center lg:pr-4">
-          <h1 class="mt-2 text-5xl text-white font-light leading-tight">Mejoras y Remodelaciones de Casas en Puerto Vallarta</h1>
-          <p class="text-2xl mt-4 text-white font-light leading-tight">Centro Carpintero es una empresa de carpintería artística centrada en el mobiliario funcional y el diseño elegante en madera de alta calidad.</p>
+    <div class="bg-white">
+      <div class="container-inner mx-auto flex py-24 md:items-center  md:flex-row-reverse flex-wrap">
+        <div class="w-full md:w-5/12 font-bold w-full text-center  align-middle">
+          <g-image src="@/assets/img/centro-hero.jpg" alt="Centro Carpintero Renovations"/>
         </div>
-        <div class="flex flex-wrap mt-20 w-full">
-              <div class="w-full text-center md:w-1/2 md:text-right my-4 px-10 border-box">
-                  <g-link to="/es/contact" class="inline-block bg-white hover:bg-accentb text-green hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Contactanos ahora </g-link>
+        <div class="w-full mt-4 md:mt-0 md:w-7/12 font-bold w-full text-center md:text-left lg:pr-10 align-middle">
+          <h1 class="text-4xl md:text-5xl font-serif font-light text-primary leading-tight">Mejoras y Remodelaciones de Casas en Puerto Vallarta</h1>
+          <p class="text-2xl mt-4 text-tertiary font-light leading-tight">Centro Carpintero es una empresa de carpintería artística centrada en el mobiliario funcional y el diseño elegante en madera de alta calidad.</p>
+          <div class="flex flex-wrap mt-10">
+              <div class="w-full md:w-1/2 text-center md:text-left my-4 px-0 border-box">
+                  <g-link to="/es/contact" class="inline-block bg-accenta hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Contactanos Martha</g-link>
               </div>
-              <div class="w-full text-center md:w-1/2 md:text-left my-4 px-10 border-box">
-                  <g-link to="/es/gallery" class="inline-block bg-white hover:bg-accentb text-green hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">nuestra galeria</g-link>
+              <div class="w-full md:w-1/2 text-center md:text-left my-4 px-0 border-box">
+                  <g-link to="/es/gallery" class="inline-block bg-primary hover:bg-tertiary md:ml-4 text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Nuestra galeria</g-link>
               </div>
           </div>
+        </div>
+        
       </div> <!-- end hero -->
     </div>
     <div class="container-inner py-20 mx-auto px-2">
-      <div class="font-bold w-full text-center sm:text-center mb-10">
-        <h2 class="text-4xl leading-tight">¿Por qué elegir Centro Carpintero?</h2>
+      <div class="font-bold w-full mb-10 text-center">
+        <h2 class="text-4xl md:text-5xl font-serif font-light leading-tight">¿Por qué elegir Centro Carpintero?</h2>
       </div>
-      <p class="text-lg sm:text-xl">Contamos con los conocimientos y la experiencia para encargarnos de proyectos de remodelación o renovación de viviendas. Desde la planificación inicial, encontrar ese equilibrio entre el presupuesto y la lista de deseos. Centro Carpintero está ahí para ayudarlo en cada paso.</p>
-      <p class="text-lg sm:text-xl">Si está buscando pensar fuera de la caja para aprovechar mejor el espacio de su residencia o si desea completar las renovaciones de la casa de sus sueños, ¡entonces le encantarán nuestras soluciones integradoras hechas a mano en madera!</p>
-      <p class="text-lg sm:text-xl">Infunda su hogar o negocio con nuestra amplia experiencia en elegantes diseños de madera que resisten el paso del tiempo y agregan valor y personalidad a su propiedad. Con pasión por la carpintería y compromiso con la calidad de nuestro trabajo, nos asociaremos contigo para proponer combinaciones de las últimas tendencias en funcionalidad, estilo y belleza para todo tipo de muebles finos y carpintería.</p>
+      <div class="container-inner mx-auto flex pb-24 md:items-center flex-wrap">
+        <div class="w-full md:w-5/12 font-bold w-full text-left  align-middle md:pr-8">
+          <g-image src="@/assets/img/centro-custom-cabinetry.jpg" alt="Centro Carpintero Renovations"/>
+        </div>
+        <div class="w-full md:w-7/12 w-full text-left  align-middle">
+          <p class="text-lg sm:text-xl">Contamos con los conocimientos y la experiencia para encargarnos de proyectos de remodelación o renovación de viviendas. Desde la planificación inicial, encontrar ese equilibrio entre el presupuesto y la lista de deseos. Centro Carpintero está ahí para ayudarlo en cada paso.</p>
+          <p class="text-lg sm:text-xl">Si está buscando pensar fuera de la caja para aprovechar mejor el espacio de su residencia o si desea completar las renovaciones de la casa de sus sueños, ¡entonces le encantarán nuestras soluciones integradoras hechas a mano en madera!</p>
+          <p class="text-lg sm:text-xl">Infunda su hogar o negocio con nuestra amplia experiencia en elegantes diseños de madera que resisten el paso del tiempo y agregan valor y personalidad a su propiedad. Con pasión por la carpintería y compromiso con la calidad de nuestro trabajo, nos asociaremos contigo para proponer combinaciones de las últimas tendencias en funcionalidad, estilo y belleza para todo tipo de muebles finos y carpintería.</p>
+        </div>
+      </div>
     </div>
     <div class="bg-background-secondary flex flex-wrap">
         <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle side-bg">
@@ -43,9 +54,8 @@
                                 Nombre
                             </label>
 
-                            <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-2" required v-model="formData.name">
+                            <input type="text" name="name" id="name" placeholder="Jose Gonzalez" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-2" required v-model="formData.name">
                         </div>
-
                         <div class="w-full px-4 md:w-1/2">
                             <label class="block text-copy-primary mb-2" for="email">
                                 Dirección de correo electrónico
@@ -60,7 +70,7 @@
                             Mensaje
                         </label>
 
-                        <textarea id="message" rows="3" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-2 py-2" placeholder="Enter your message here." required v-model="formData.message"></textarea>
+                        <textarea id="message" rows="3" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-2 py-2" placeholder="Introduzca su mensaje aquí." required v-model="formData.message"></textarea>
                     </div>
 
                     <div class="flex justify-end w-full">
@@ -76,8 +86,8 @@
       
       <div class="container-inner pt-20 pb-20 mx-auto px-2">
         <div class="font-bold w-full text-center sm:text-center mb-10">
-          <div class="text-4xl leading-tight">Nuestros servicios</div>
-          <h2 class="text-2xl leading-tight">Reformas y remodelaciones de viviendas en Puerto Vallarta</h2>
+          <div class="text-4xl font-serif font-light leading-tight">Nuestros servicios</div>
+          <h2 class="text-2xl font-light leading-tight">Reformas y remodelaciones de viviendas en Puerto Vallarta</h2>
         </div>
         <div class="flex flex-wrap justify-between items-center py-6 ">
           <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0">
@@ -103,27 +113,27 @@
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl text-white font-hairline italic">En total, hemos realizado cuatro grandes proyectos en 2019 y 2020 con Centro Carpentry y cada vez, estoy más impresionado con las habilidades de sus artesanos, la integridad de los propietarios y su enfoque en la satisfacción del cliente.</div>
-        <div class="text-2xl text-white">- Cliente feliz</div>
+        <div class="text-4xl text-white  font-serif font-light">En total, hemos realizado cuatro grandes proyectos en 2019 y 2020 con Centro Carpentry y cada vez, estoy más impresionado con las habilidades de sus artesanos, la integridad de los propietarios y su enfoque en la satisfacción del cliente.</div>
+        <div class="text-2xl mt-4 font-light text-white">- Cliente feliz</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="font-bold w-full text-center sm:text-center mb-10">
-        <h2 class="text-4xl leading-tight">Renovaciones y remodelaciones de viviendas</h2>
-        <h3 class="text-2xl leading-tight">Carpintería fina y ebanistería a medida en Puerto Vallarta</h3>
+        <h2 class="text-4xl font-serif font-light leading-tight">Renovaciones y remodelaciones de viviendas</h2>
+        <h3 class="text-2xl font-light leading-tight">Carpintería fina y ebanistería a medida en Puerto Vallarta</h3>
       </div>
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full lg:w-1/3 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/new.jpg" alt="Custom Wooden Side Table" />
-          <div class="text-green font-bold leading-tight mt-4">Custom Wooden Side Table</div>
+          <g-image src="../../../static/gallery/new.jpg" alt="Mesa auxiliar de madera personalizada" />
+          <div class="text-green font-bold leading-tight mt-4">Mesa auxiliar de madera personalizada</div>
         </div>
         <div class="w-full lg:w-1/3 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/new2.jpg" alt="Fine Carpentry Wooden Bench" />
-          <div class="text-green font-bold leading-tight mt-4">Fine Carpentry Wooden Bench</div>
+          <g-image src="../../../static/gallery/new2.jpg" alt="Banco de madera de carpintería fina" />
+          <div class="text-green font-bold leading-tight mt-4">Banco de madera de carpintería fina</div>
         </div>
         <div class="w-full lg:w-1/3 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../../static/gallery/new6.jpg" alt="browser" />
-          <div class="text-green font-bold leading-tight mt-4">Custom Wooden Headboard</div>
+          <g-image src="../../../static/gallery/new6.jpg" alt="Cabecero de madera personalizado" />
+          <div class="text-green font-bold leading-tight mt-4">Cabecero de madera personalizado</div>
         </div>
       </div>
       <div class="text-center mt-10">
@@ -133,13 +143,13 @@
     <div class="bg-background-secondary">
       <div class="container-inner mx-auto py-20">
         <div class="font-bold w-full text-center sm:text-center mb-10">
-          <div class="text-4xl leading-tight">Nuestro Blog</div>
+          <div class="text-4xl font-serif font-light leading-tight">Nuestro Blog</div>
         </div>
         <div class="flex flex-wrap">
           <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post mb-12">
             <div class="shadow-md h-full pb-20 relative">
               <g-image alt="Cover image" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
-              <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
+              <h3 class="text-2xl font-regular leading-snug mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
               <div class="text-copy-secondary mb-4  px-4">
                 <span>{{ post.node.date }}</span>
                 <span> &middot; </span>
@@ -157,14 +167,14 @@
           </div> <!-- end post -->
         </div>
         <div class="text-center mt-10">
-          <g-link to="/blog" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Visit Our Blog</g-link>
+          <g-link to="/es/blog" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Visita Nuestro Blog</g-link>
         </div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl leading-tight md:text-left sm:text-center">Contact Us</div>
+          <div class="text-4xl leading-tight md:text-left sm:text-center">Contactar a Marta</div>
           <div class="text-1xl leading-tight mt-4">
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
@@ -175,9 +185,9 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl leading-tight">Send Us A Message</div>
+          <div class="text-4xl leading-tight">Obtenga una cuota gratis</div>
           <div class="contact-me pt-4">
-            <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/es/gracias/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
                     <p hidden>
                       <label>
@@ -190,7 +200,7 @@
                                 Nombre
                             </label>
 
-                            <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
+                            <input type="text" name="name" id="name" placeholder="Jose Gonzalez" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
                         </div>
 
                         <div class="w-full px-4 md:w-1/2">

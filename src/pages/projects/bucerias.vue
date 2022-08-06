@@ -3,7 +3,7 @@
     <div class="hero hero-bucerias-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Custom Woodworking Project Bucerias</h1>
+          <h1 class="text-5xl font-serif font-light text-white leading-tight">Custom Woodworking Project Bucerias</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
         </div>
       </div> <!-- end hero -->
@@ -63,21 +63,20 @@
           <p>All the hardware like the TV elevator mechanism and the LED warm white lights with dimmers were installed by Blum Motion.</p>
           <p>We also added special imported decorative glass for the doors in the kitchen and the Entertainment center.</p>
           <p>All around the kitchen has customized hand made carving details, including the overhanging countertop with carved supports underneath, the drawers, the spice racks, and the kitchen cabinets.</p>
-
           <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
         </div>
       </div>
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl text-white font-hairline italic">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
-        <div class="text-2xl text-white">- Happy Customer</div>
+        <div class="text-4xl text-white font-serif font-light">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
+        <div class="text-2xl mt-4 font-light text-white">- Happy Customer</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl leading-tight md:text-left sm:text-center">Free Quote</div>
+          <div class="text-4xl font-serif font-light leading-tight md:text-left sm:text-center">Free Quote</div>
           <div class="text-1xl leading-tight mt-4">
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
@@ -88,7 +87,7 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl leading-tight">Send Us A Message</div>
+          <div class="text-4xl font-serif font-light leading-tight">Get a Quote</div>
           <div class="contact-me pt-4">
             <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
