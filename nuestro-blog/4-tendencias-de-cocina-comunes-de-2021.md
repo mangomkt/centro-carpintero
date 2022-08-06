@@ -3,7 +3,7 @@ title: 4 tendencias de cocina comunes de 2021
 path: es/blog/4-tendencias-de-cocina-comunes-de-2021
 date: 2021-02-03
 summary: 4 tendencias populares de la cocina del año 2021
-etiqueta: ['2021','cocina']
+etiqueta: ['cocina','2021']
 cover_image: ./images/home-renovations.jpg
 ---
 

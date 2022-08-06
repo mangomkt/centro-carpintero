@@ -26,10 +26,6 @@ query esPost ($path: String!) {
     title
     date (format: "MMMM D, Y")
     content
-    etiqueta {
-      title
-      path
-    }
   }
 }
 </page-query>

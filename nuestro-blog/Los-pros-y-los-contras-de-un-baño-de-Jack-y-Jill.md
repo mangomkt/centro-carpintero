@@ -2,7 +2,8 @@
 title: Los pros y los contras de un baño de Jack y Jill.
 path: /los-pros-y-los-contras-de-un-baño-de-jack-y-jill
 date: 2021-06-30
-summary: Explicando los pros y los contras de un baño de Jack y Jill. 
+summary: Explicando los pros y los contras de un baño de Jack y Jill.
+etiqueta: ['bano']
 cover_image: ./images/jack-and-jill.jpg
 ---
 

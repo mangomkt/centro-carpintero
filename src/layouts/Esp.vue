@@ -150,8 +150,7 @@ export default {
     this.theme = localStorage.getItem('theme') || 'theme-light'
   },
   created() {
-    const html = document.documentElement
-    html.setAttribute('lang', 'es')
+   
   },
   data() {
     const jsonld = {

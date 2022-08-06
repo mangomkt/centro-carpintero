@@ -3,7 +3,7 @@ title: Los tipos de madera que utilizamos y sus pros y contras.
 path: /los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras
 date: 2020-10-20
 summary: La madera es uno de los materiales más antiguos y utilizados para la construcción en todo el mundo, especialmente aquí en México. De los tres tipos principales que usamos, cuáles son los pros y los contras.
-etiqueta: ['parota','amapa', 'primavera', 'renovaciones de viviendas', 'pros y contras']
+etiqueta: ['parota','amapa','primavera']
 cover_image: ./images/wood-types.jpg
 ---
 

@@ -3,7 +3,7 @@ title: 5 tendencias de baño populares de 2021.
 path: /5-tendencias-de-baño-populares-de-2021
 date: 2021-03-24
 summary: Aquí hay solo 5 tendencias populares de 2021 que puede seguir.
-etiqueta: ['tendencias de bano','moderno']
+etiqueta: ['centro carpintero','carpintería a medida','renovaciones de viviendas']
 cover_image: ./images/trends.jpg
 ---
 
