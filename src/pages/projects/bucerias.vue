@@ -81,7 +81,7 @@
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
             Puerto Vallarta, Jalisco 48280<br>
-            <a href="tel:+52-322-190-1508">[+52] 322-190-1508</a><br>
+             
             Cel. <a href="tel:322-121-6778">322-121-6778</a><br>
             <a href="mailto:centrocarpinteropv@gmail.com">centrocarpinteropv@gmail.com</a>
           </div>
