@@ -41,6 +41,9 @@
                    <li class="text-left lg:text-left my-2 lg:my-2">
                     <g-link to="/es/proyecto/beach-house" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Proyecto Casa de Playa</g-link>
                   </li>
+                  <li class="text-left lg:text-left my-2 lg:my-2">
+                    <g-link to="/es/proyecto/nima-bay" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Proyecto Nima Bay</g-link>
+                  </li>
                 </ul>
               </li>
               <li class="text-left lg:text-left my-2 lg:my-2">

@@ -104,6 +104,11 @@ header {
   .hero.hero-bucerias-projecto {
     background: url(../assets/img/bucerias-projecto-hero.jpg);
   }
+  .hero.hero-nima-bay-projecto {
+    background: url(../assets/nima-bay/nima2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
   .hero.hero-beach-house-projecto {
     background: url(../assets/house-project/beach-house-back.jpg);
   }

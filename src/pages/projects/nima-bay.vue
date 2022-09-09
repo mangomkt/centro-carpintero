@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="hero hero-bucerias-projecto">
+    <div class="hero hero-nima-bay-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Custom Rosewood Kitchen</h1>
+          <h1 class="text-6xl text-white leading-tight">Nima Bay Project</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
         </div>
       </div> <!-- end hero -->
@@ -12,25 +12,23 @@
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0 text-center">
           <VueSlickCarousel v-bind="settings">
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-01.jpg" alt="Bucerias Projecto Image 1" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-02.jpg" alt="Bucerias Projecto Image 2" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-03.jpg" alt="Bucerias Projecto Image 3" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-04.jpg" alt="Bucerias Projecto Image 4" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-05.jpg" alt="Bucerias Projecto Image 5" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-06.jpg" alt="Bucerias Projecto Image 6" /></div>
+            <div><g-image src="@/assets/nima-bay/nima1.jpg" alt="Nima Bay Image 1" /></div>
+            <div><g-image src="@/assets/nima-bay/nima2.jpg" alt="Nima Bay Image 2" /></div>
+            <div><g-image src="@/assets/nima-bay/nima3.jpg" alt="Nima Bay Image 3" /></div>
+            <div><g-image src="@/assets/nima-bay/nima4.jpg" alt="Nima Bay Image 4" /></div>
+            <div><g-image src="@/assets/nima-bay/nima5.jpg" alt="Nima Bay Image 5" /></div>
+            <div><g-image src="@/assets/nima-bay/nima6.jpg" alt="Nima Bay Image 6" /></div>
+            <div><g-image src="@/assets/nima-bay/nima7.jpg" alt="Nima Bay Image 7" /></div>
+            <div><g-image src="@/assets/nima-bay/nima8.jpg" alt="Nima Bay Image 8" /></div>
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <div class="text-4xl font-light leading-tight my-4">Bucerias Project</div>
-          <p>Custom Woodworking project made from solid amapa wood.</p>
+          <div class="text-4xl font-light leading-tight my-4">Nima Bay Project</div>
           <ul class="list-disc ml-6 mb-4">
-          <li>Solid amapa wood (tropical wood from this region), hard wood</li>
-          <li>3 garage cabinets for storage</li>
-          <li>LeMans corner cabinets</li>
-          <li>Custom glass cabinets</li>
+          <li>The structure and all the doors are  made out of natural Parota wood with a thickness of 16mm</li>
+          <li>Countertops are Mont Blanc Natural Quartz that comes from Brazil</li>
+          <li>All the hardware is hidden, full extension, and with a self-closing mechanism</li>
           </ul>
-
-          <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
         </div>
       </div>
     </div>
@@ -119,7 +117,7 @@ export default {
         "centerPadding": "0px",
         "slidesToShow": 1,
         "slidesToScroll": 1,
-        "variableWidth": true
+        "variableWidth": false
       },
       formData: {}
     }
