@@ -44,6 +44,9 @@
                   <li class="text-left lg:text-left my-2 lg:my-2">
                     <g-link to="/projects/nima-bay" class="text-primary hover:text-accenta mx-4 py-4 lg:py-0 block">Nima Bay</g-link>
                   </li>
+                  <li class="text-left lg:text-left my-2 lg:my-2">
+                    <g-link to="/projects/casa-cedar" class="text-primary hover:text-accenta mx-4 py-4 lg:py-0 block">Casa Cedar</g-link>
+                  </li>
                 </ul>
               </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
