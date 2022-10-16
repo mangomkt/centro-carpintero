@@ -1,6 +1,6 @@
 <template>
   <Esp>
-    <div class="hero hero-bucerias-projecto">
+    <div class="hero hero-casa-cedar">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="w-full text-center sm:text-center">
           <h1 class="text-5xl font-serif font-light text-white leading-tight">Proyecto Casa Cedar</h1>
@@ -16,6 +16,7 @@
             <div><g-image src="@/assets/casa-cedar/cedar7.jpg" alt="Casa Cedar Projecto Image 7" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar9.jpg" alt="Casa Cedar Projecto Image 9" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar23.jpg" alt="Casa Cedar Projecto Image 23" /></div>
+             <div><g-image src="@/assets/casa-cedar/cedar28.jpg" alt="Casa Cedar Projecto Image 28" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar26.jpg" alt="Casa Cedar Projecto Image 26" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar34.jpg" alt="Casa Cedar Projecto Image 34" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar37.jpg" alt="Casa Cedar Projecto Image 37" /></div>
@@ -29,6 +30,7 @@
             <div><g-image src="@/assets/casa-cedar/cedar7.jpg" alt="Casa Cedar Projecto Image 7" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar9.jpg" alt="Casa Cedar Projecto Image 9" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar23.jpg" alt="Casa Cedar Projecto Image 23" /></div>
+             <div><g-image src="@/assets/casa-cedar/cedar28.jpg" alt="Casa Cedar Projecto Image 28" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar26.jpg" alt="Casa Cedar Projecto Image 26" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar34.jpg" alt="Casa Cedar Projecto Image 34" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar37.jpg" alt="Casa Cedar Projecto Image 37" /></div>
@@ -40,12 +42,10 @@
         </div>
          <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <div class="text-4xl font-light leading-tight my-4">Puertas y Ventanas Personalizadas</div>
-          <p>El proyecto se completó en una residencia en Bucerias.</p>
-          <p>El interior y el exterior de la cocina fueron hechos de Amapá Sólido, también conocido como Palisandro, que está hecho para soportar un uso intensivo.</p>
-          <p>Blum Motion instaló todo el hardware, como el mecanismo del elevador del televisor y las luces LED de color blanco cálido con atenuadores.</p>
-          <p>También agregamos vidrios decorativos importados especiales para las puertas de la cocina y el Centro de Entretenimiento.</p>
-          <p>Alrededor de la cocina se han personalizado detalles tallados a mano, incluida la encimera que sobresale con soportes tallados debajo, los cajones, los estantes para especias y los gabinetes de cocina.</p>
-          <p><g-link to="/es/blog/los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras/" class="inline-block bg-accenta hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Lea sobre los tipos de madera que usamos</g-link></p>
+          <p>En toda la casa se utilizó madera de cedro para todas las puertas y ventanas.</p>
+          <p>Las ventanas de cedro son excelentes para climas húmedos porque pueden resistir las condiciones de humedad.</p>
+          <p>En el pasillo, agregamos vidrieras personalizadas a las ventanas, para que la casa fuera brillante y colorida.</p>
+          <p>It was important to the owner that every door in the house be customized, hand carved, according to what he desired.</p>
         </div>
       </div>
     </div>
@@ -62,7 +62,6 @@
             <div><g-image src="@/assets/casa-cedar/cedar15.jpg" alt="Casa Cedar Projecto Image 15" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar18.jpg" alt="Casa Cedar Projecto Image 18" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar19.jpg" alt="Casa Cedar Projecto Image 19" /></div>
-            <div><g-image src="@/assets/casa-cedar/cedar28.jpg" alt="Casa Cedar Projecto Image 28" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar29.jpg" alt="Casa Cedar Projecto Image 29" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar41.jpg" alt="Casa Cedar Projecto Image 41" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar43.jpg" alt="Casa Cedar Projecto Image 43" /></div>
@@ -76,20 +75,16 @@
             <div><g-image src="@/assets/casa-cedar/cedar15.jpg" alt="Casa Cedar Projecto Image 15" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar18.jpg" alt="Casa Cedar Projecto Image 18" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar19.jpg" alt="Casa Cedar Projecto Image 19" /></div>
-            <div><g-image src="@/assets/casa-cedar/cedar28.jpg" alt="Casa Cedar Projecto Image 28" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar29.jpg" alt="Casa Cedar Projecto Image 29" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar41.jpg" alt="Casa Cedar Projecto Image 41" /></div>
             <div><g-image src="@/assets/casa-cedar/cedar43.jpg" alt="Casa Cedar Projecto Image 43" /></div>
             </VueSlickCarousel>
           </div>
-           <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
+          <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
             <div class="text-4xl font-light leading-tight my-4">Carpintería Interior</div>
-            <p>The project was completed in a residence in Casa Cedar.</p>
-            <p>The interior and exterior of the kitchen was made out of Solid Amapa also known as Rosewood, which is made to withstand heavy-duty use. </p>
-            <p>All the hardware like the TV elevator mechanism and the LED warm white lights with dimmers were installed by Blum Motion.</p>
-            <p>We also added special imported decorative glass for the doors in the kitchen and the Entertainment center.</p>
-            <p>All around the kitchen has customized hand made carving details, including the overhanging countertop with carved supports underneath, the drawers, the spice racks, and the kitchen cabinets.</p>
-            <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
+            <p>Casi todas las partes de la casa estaban hechas de madera de cedro, desde los gabinetes hasta el piso.</p>
+            <p>Las piezas de arte hechas a mano se exhiben en toda la casa.</p>
+            <p>Nuestro equipo y maestros artesanos ayudaron a crear una casa estilo mexicano para el propietario.</p>
           </div>
         </div>
       </div>
@@ -138,12 +133,9 @@
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <div class="text-4xl font-light leading-tight my-4">Muebles personalizados</div>
-          <p>The project was completed in a residence in Casa Cedar.</p>
-          <p>The interior and exterior of the kitchen was made out of Solid Amapa also known as Rosewood, which is made to withstand heavy-duty use. </p>
-          <p>All the hardware like the TV elevator mechanism and the LED warm white lights with dimmers were installed by Blum Motion.</p>
-          <p>We also added special imported decorative glass for the doors in the kitchen and the Entertainment center.</p>
-          <p>All around the kitchen has customized hand made carving details, including the overhanging countertop with carved supports underneath, the drawers, the spice racks, and the kitchen cabinets.</p>
-          <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
+          <p>Se agregaron coloridas cuentas de estilo mexicano a las mesitas de noche, los marcos de las camas y los armarios.</p>
+          <p>Los marcos de cama tallados a mano en las habitaciones se personalizaron a gusto de los propietarios.</p>
+          <p>La durabilidad de las mesas de madera de cedro las hace ideales para el uso diario, especialmente para familias con niños.</p>
         </div>
       </div>
     </div>
