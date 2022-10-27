@@ -116,6 +116,11 @@ header {
     background-position: center;
     background-size: cover;
   }
+  .hero.hero-peninsula-projecto {
+    background: url(../assets/peninsula/peninsula1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
   .hero.hero-beach-house-projecto {
     background: url(../assets/house-project/beach-house-back.jpg);
   }
