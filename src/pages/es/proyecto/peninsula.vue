@@ -15,47 +15,47 @@
             <div><g-image src="@/assets/peninsula/peninsula1.jpg" alt="Peninsula Projecto Image 1" /></div>
            <div><g-image src="@/assets/peninsula/peninsula2.jpg" alt="Peninsula Projecto Image 2" /></div>
            <div><g-image src="@/assets/peninsula/peninsula3.jpg" alt="Peninsula Projecto Image 3" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula9.jpg" alt="Peninsula Projecto Image 4" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula19.jpg" alt="Peninsula Projecto Image 5" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula21.jpg" alt="Peninsula Projecto Image 6" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula5.jpg" alt="Peninsula Projecto Image 7" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula18.jpg" alt="Peninsula Projecto Image 8" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula20.jpg" alt="Peninsula Projecto Image 9" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula6.jpg" alt="Peninsula Projecto Image 10" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula7.jpg" alt="Peninsula Projecto Image 11" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula8.jpg" alt="Peninsula Projecto Image 12" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula12.jpg" alt="Peninsula Projecto Image 13" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula13.jpg" alt="Peninsula Projecto Image 14" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula15.jpg" alt="Peninsula Projecto Image 16" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula16.jpg" alt="Peninsula Projecto Image 17" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula10.jpg" alt="Peninsula Projecto Image 18" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula22.jpg" alt="Peninsula Projecto Image 19" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula11.jpg" alt="Peninsula Projecto Image 20" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula14.jpg" alt="Peninsula Projecto Image 21" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula17.jpg" alt="Peninsula Projecto Image 22" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula9.jpg" alt="Peninsula Projecto Image 9" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula19.jpg" alt="Peninsula Projecto Image 19" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula21.jpg" alt="Peninsula Projecto Image 21" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula5.jpg" alt="Peninsula Projecto Image 5" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula18.jpg" alt="Peninsula Projecto Image 18" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula20.jpg" alt="Peninsula Projecto Image 20" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula6.jpg" alt="Peninsula Projecto Image 6" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula7.jpg" alt="Peninsula Projecto Image 7" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula8.jpg" alt="Peninsula Projecto Image 8" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula12.jpg" alt="Peninsula Projecto Image 12" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula13.jpg" alt="Peninsula Projecto Image 13" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula15.jpg" alt="Peninsula Projecto Image 15" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula16.jpg" alt="Peninsula Projecto Image 16" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula10.jpg" alt="Peninsula Projecto Image 10" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula22.jpg" alt="Peninsula Projecto Image 22" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula11.jpg" alt="Peninsula Projecto Image 11" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula14.jpg" alt="Peninsula Projecto Image 14" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula17.jpg" alt="Peninsula Projecto Image 17" /></div>
           </VueSlickCarousel>
           <VueSlickCarousel v-bind="thumbsettings" ref="c2" :asNavFor="c1" :focusOnSelect="true">
-            <div><g-image src="@/assets/peninsula/peninsula1.jpg" alt="Peninsula Projecto Image 1" /></div>
+          <div><g-image src="@/assets/peninsula/peninsula1.jpg" alt="Peninsula Projecto Image 1" /></div>
            <div><g-image src="@/assets/peninsula/peninsula2.jpg" alt="Peninsula Projecto Image 2" /></div>
            <div><g-image src="@/assets/peninsula/peninsula3.jpg" alt="Peninsula Projecto Image 3" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula9.jpg" alt="Peninsula Projecto Image 4" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula19.jpg" alt="Peninsula Projecto Image 5" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula21.jpg" alt="Peninsula Projecto Image 6" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula5.jpg" alt="Peninsula Projecto Image 7" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula18.jpg" alt="Peninsula Projecto Image 8" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula20.jpg" alt="Peninsula Projecto Image 9" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula6.jpg" alt="Peninsula Projecto Image 10" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula7.jpg" alt="Peninsula Projecto Image 11" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula8.jpg" alt="Peninsula Projecto Image 12" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula12.jpg" alt="Peninsula Projecto Image 13" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula13.jpg" alt="Peninsula Projecto Image 14" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula15.jpg" alt="Peninsula Projecto Image 16" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula16.jpg" alt="Peninsula Projecto Image 17" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula10.jpg" alt="Peninsula Projecto Image 18" /></div>
-            <div><g-image src="@/assets/peninsula/peninsula22.jpg" alt="Peninsula Projecto Image 19" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula11.jpg" alt="Peninsula Projecto Image 20" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula14.jpg" alt="Peninsula Projecto Image 21" /></div>
-           <div><g-image src="@/assets/peninsula/peninsula17.jpg" alt="Peninsula Projecto Image 22" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula9.jpg" alt="Peninsula Projecto Image 9" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula19.jpg" alt="Peninsula Projecto Image 19" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula21.jpg" alt="Peninsula Projecto Image 21" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula5.jpg" alt="Peninsula Projecto Image 5" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula18.jpg" alt="Peninsula Projecto Image 18" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula20.jpg" alt="Peninsula Projecto Image 20" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula6.jpg" alt="Peninsula Projecto Image 6" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula7.jpg" alt="Peninsula Projecto Image 7" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula8.jpg" alt="Peninsula Projecto Image 8" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula12.jpg" alt="Peninsula Projecto Image 12" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula13.jpg" alt="Peninsula Projecto Image 13" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula15.jpg" alt="Peninsula Projecto Image 15" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula16.jpg" alt="Peninsula Projecto Image 16" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula10.jpg" alt="Peninsula Projecto Image 10" /></div>
+            <div><g-image src="@/assets/peninsula/peninsula22.jpg" alt="Peninsula Projecto Image 22" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula11.jpg" alt="Peninsula Projecto Image 11" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula14.jpg" alt="Peninsula Projecto Image 14" /></div>
+           <div><g-image src="@/assets/peninsula/peninsula17.jpg" alt="Peninsula Projecto Image 17" /></div>
           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
