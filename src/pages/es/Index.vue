@@ -35,11 +35,11 @@
           </div>
           <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle p-12">
             <VueSlickCarousel v-bind="settings">
-            <div><g-image src="@/assets/award/arqflores-1.jpg" alt="Arqflores Award Winning Project" /></div>
-            <div><g-image src="@/assets/award/arqflores-2.jpg" alt="Arqflores Award Winning Project" /></div>
-            <div><g-image src="@/assets/award/arqflores-3.jpg" alt="Arqflores Award Winning Project" /></div>
-            <div><g-image src="@/assets/award/arqflores-4.jpg" alt="Arqflores Award Winning Project" /></div>
-            <div><g-image src="@/assets/award/arqflores-5.jpg" alt="Arqflores Award Winning Project" /></div>
+            <div><g-image src="@/assets/award/arqflores-1.jpg" alt="Arqflores Award Winning Project"  immediate="true"/></div>
+            <div><g-image src="@/assets/award/arqflores-2.jpg" alt="Arqflores Award Winning Project"  immediate="true"/></div>
+            <div><g-image src="@/assets/award/arqflores-3.jpg" alt="Arqflores Award Winning Project"  immediate="true"/></div>
+            <div><g-image src="@/assets/award/arqflores-4.jpg" alt="Arqflores Award Winning Project"  immediate="true"/></div>
+            <div><g-image src="@/assets/award/arqflores-5.jpg" alt="Arqflores Award Winning Project"  immediate="true"/></div>
           </VueSlickCarousel>
         </div>
     </div>
@@ -296,6 +296,16 @@ export default {
   },
   data() {
     return {
+      settings: {
+        "dots": true,
+        "arrows": true,
+        "infinite": true,
+        "centerMode": false,
+        "centerPadding": "0px",
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        "variableWidth": false
+      },
       formData: {},
     }
   },

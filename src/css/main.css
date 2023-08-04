@@ -354,8 +354,8 @@ a:hover {
   .award-wrapper:after {
     content: "";
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     z-index: 1;
     right: -30px;
