@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "gridsome-plugin-manifest": "^0.3.5",
-    "gridsome-plugin-tailwindcss": "^3.0.1"
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "postcss": "^8.4.27"
   }
 }
