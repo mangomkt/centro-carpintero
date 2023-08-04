@@ -197,3 +197,4 @@ export default {
 </script>
 
 <style src="../css/main.css" />
+<style src="../css/tailwind.css" />

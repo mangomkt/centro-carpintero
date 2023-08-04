@@ -23,9 +23,6 @@ module.exports = {
       },
     },
     {
-      use: 'gridsome-plugin-tailwindcss',
-    },
-    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'blog/**/*.md',
