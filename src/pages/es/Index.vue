@@ -20,6 +20,29 @@
         
       </div> <!-- end hero -->
     </div>
+    <div class="bg-background-secondary flex flex-wrap items-center content-center overflow-hidden">
+        
+        <div class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20">
+            <div class="w-full relative mx-auto award-wrapper" style="max-width:480px;" >
+              <div class="bg-white relative z-10 py-8 px-4 award">
+              <g-image src="@/assets/award/arqflores-horizontal-logo.png" alt="Arqflores logo" class="block mx-auto max-w-sm w-11/12 mb-6" />
+              <div class="text-xl w-full max-w-sm mx-auto text-center leading-tight font-light mb-6 font-medium text-green">“Me gusta pensar que soy una especie de conductor de energía que transmite la belleza de la vida para que se manifieste en la arquitectura.”</div>
+              <div class="text-md text-center leading-tight font-light mb-2">Mejor arquitecto residencial y comercial 2023</div>
+              <div class="text-md text-center leading-tight font-light mb-6">Proyecto de diseño residencial más ambicioso de 2023</div>
+              </div>
+              <div class="mt-4"><a href="https://www.build-review.com/issues/architecture-awards-2023/31/" target="_blank">Lee el artículo</a> | <a href="https://www.arqflores.com/casa-arriba" target="_blank">visitar arqfloress</a></div>
+            </div>
+          </div>
+          <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle p-12">
+            <VueSlickCarousel v-bind="settings">
+            <div><g-image src="@/assets/award/arqflores-1.jpg" alt="Arqflores Award Winning Project" /></div>
+            <div><g-image src="@/assets/award/arqflores-2.jpg" alt="Arqflores Award Winning Project" /></div>
+            <div><g-image src="@/assets/award/arqflores-3.jpg" alt="Arqflores Award Winning Project" /></div>
+            <div><g-image src="@/assets/award/arqflores-4.jpg" alt="Arqflores Award Winning Project" /></div>
+            <div><g-image src="@/assets/award/arqflores-5.jpg" alt="Arqflores Award Winning Project" /></div>
+          </VueSlickCarousel>
+        </div>
+    </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="font-bold w-full mb-10 text-center">
         <h2 class="text-4xl md:text-5xl font-serif font-light leading-tight">¿Por qué elegir Centro Carpintero?</h2>
@@ -254,7 +277,12 @@ query Posts ($page: Int) {
 }
 </page-query>
 <script>
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
+  components: { VueSlickCarousel },
   metaInfo: {
     title: 'Reformas y Remodelaciones de Casas | Puerto Vallarta | Centro Carpintero ',
     titleTemplate: '%s',

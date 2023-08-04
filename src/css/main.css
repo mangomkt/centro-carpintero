@@ -305,3 +305,62 @@ a:hover {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.award-wrapper, .award {
+  border-radius: 100px 0 100px 0;
+}
+.award {
+  box-shadow: 0 0 0 8px rgba(0,0,0,.1);
+}
+.award-wrapper:before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  left: -50px;
+  top: -50px;
+  background: #38785d;
+  border-radius: 50%;
+}
+.award-wrapper:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+  right: -50px;
+  bottom: -50px;
+  background: #ae8d4a;
+  border-radius: 50%;
+}
+.award {
+  z-index: 10;
+}
+.award:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  top: 120px;
+  background: #ae8d4a;
+  border-radius: 50%;
+}
+@media(max-width:767px) {
+  .award-wrapper:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    right: -30px;
+    bottom: -30px;
+    background: #ae8d4a;
+    border-radius: 50%;
+  } 
+}
