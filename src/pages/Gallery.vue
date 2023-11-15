@@ -12,24 +12,29 @@
     <div class="container-inner mx-auto">
       <div class="flex flex-wrap justify-between items-center pb-6 pt-4">
         <div v-for="post in $page.posts.edges" v-if="post.node.category == 'kitchen'" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
+          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image"  @click="openModal(post.node.cover_image.src)" />
           <div class="text-green font-regular leading-tight mt-4 mb-8">{{ post.node.eng }}</div>
         </div>
       </div>
       <h2 class="text-4xl text-black font-serif font-light leading-tight" style="text-align:center">Bedrooms and Bathrooms</h2>
       <div class="flex flex-wrap justify-between items-center pb-6 pt-4">
         <div v-for="post in $page.posts.edges" v-if="post.node.category == 'bed-bath'" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
+          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" @click="openModal(post.node.cover_image.src)"/>
           <div class="text-green font-regular leading-tight mt-4 mb-8">{{ post.node.eng }}</div>
         </div>
       </div>
       <h2 class="text-4xl text-black font-serif font-light leading-tight" style="text-align:center">Custom Wood</h2>
       <div class="flex flex-wrap justify-between items-center pb-6 pt-4">
         <div v-for="post in $page.posts.edges" v-if="post.node.category == 'custom'" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
+          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" @click="openModal(post.node.cover_image.src)"/>
           <div class="text-green font-regular leading-tight mt-4 mb-8">{{ post.node.eng }}</div>
         </div>
       </div>
+    </div>
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+      <span class="close" @click="closeModal">&times;</span>
+        <img :src="modalImage" alt="Modal Image" class="modal-content">
     </div>
   </Layout>
 </template>
@@ -55,6 +60,35 @@ query Gallery  {
 </page-query>
 <script>
 export default {
+  data() {
+    return {
+      modalImage: '',
+    }
+  },
+  methods: {
+    openModal(imageUrl) {
+      this.modalImage = imageUrl;
+      document.getElementById('imageModal').style.display = 'flex';
+      console.log(imageUrl)
+    },
+    closeModal() {
+      document.getElementById('imageModal').style.display = 'none';
+    },
+    handleModalClick(event) {
+      // Close the modal if clicked outside the image
+      if (event.target.id === 'imageModal') {
+        this.closeModal();
+      }
+    },
+  },
+  mounted() {
+    // Attach the click event listener to the modal overlay
+    document.getElementById('imageModal').addEventListener('click', this.handleModalClick);
+  },
+  beforeDestroy() {
+    // Remove the click event listener when the component is destroyed
+    document.getElementById('imageModal').removeEventListener('click', this.handleModalClick);
+  },
   metaInfo: {
     title: 'Gallery | Home Renovations Custom Carpentry | Puerto Vallarta',
     titleTemplate: '%s',
