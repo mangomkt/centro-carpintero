@@ -369,7 +369,7 @@ a:hover {
 }
 /* Modal styles */
 .modal {
-  display: none;
+  display: flex;
   position: fixed;
   z-index: 11111;
   padding: 50px;
@@ -394,13 +394,58 @@ a:hover {
     height: 100%;
 }
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  font-size: 30px;
-  color: #fff;
-  cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    line-height: 43px;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.close:hover {
+  background: var(--bg-background-accenta);
+  border-color: var(--bg-background-accenta);
 }
 .post-card__image {
   cursor: pointer;
+}
+button.modal-nav.next {
+    right: 15px;
+}
+
+button.modal-nav.prev {
+    left: 15px;
+}
+button.modal-nav {
+    position: absolute;
+    top: 50%;
+    z-index: 111;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+@media(min-width: 981px) {
+  button.modal-nav:hover {
+    background: var(--bg-background-accenta);
+    border-color: var(--bg-background-accenta);
+  }
+}
+@media(max-width:767px) {
+  button.modal-nav {
+    top: initial;
+    bottom: 15px;
+  }
+
 }

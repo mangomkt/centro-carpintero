@@ -11,30 +11,32 @@
     <div class="text-4xl pt-20 pb-4 text-black font-serif font-light leading-tight" style="text-align:center">Cocinas</div>
     <div class="container-inner mx-auto">
       <div class="flex flex-wrap justify-between items-center pb-6 pt-4">
-        <div v-for="post in $page.posts.edges" v-if="post.node.category == 'kitchen'" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" @click="openModal(post.node.cover_image.src)"/>
-          <div class="text-green font-light leading-tight mt-4 mb-8">{{ post.node.esp }}</div>
+        <div v-for="post in $page.posts.edges" v-if="post.node.category == 'kitchen'" :key="post.id" class="w-1/2 lg:w-1/4 md:w-1/2 px-2 md:px-8 md:py-8 sm:py-0 text-center">
+          <img :alt="post.node.esp" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image.src" @click="openModal(post.node.cover_image.src, $page.posts.edges.indexOf(post))" />
+          <div class="text-green font-regular leading-tight mt-4 mb-8">{{ post.node.esp }}</div>
         </div>
       </div>
       <h2 class="text-4xl text-black font-serif font-light leading-tight" style="text-align:center">Dormitorios y Baños</h2>
       <div class="flex flex-wrap justify-between items-center pb-6 pt-4">
-        <div v-for="post in $page.posts.edges" v-if="post.node.category == 'bed-bath'" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" @click="openModal(post.node.cover_image.src)"/>
-          <div class="text-green font-light leading-tight mt-4 mb-8">{{ post.node.esp }}</div>
+        <div v-for="post in $page.posts.edges" v-if="post.node.category == 'bed-bath'" :key="post.id" class="w-1/2 lg:w-1/4 md:w-1/2 px-2 md:px-8 md:py-8 sm:py-0 text-center">
+          <img :alt="post.node.esp" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image.src" @click="openModal(post.node.cover_image.src, $page.posts.edges.indexOf(post))" />
+          <div class="text-green font-regular leading-tight mt-4 mb-8">{{ post.node.esp }}</div>
         </div>
       </div>
       <h2 class="text-4xl text-black font-serif font-light leading-tight" style="text-align:center">Madera personalizada</h2>
       <div class="flex flex-wrap justify-between items-center pb-6 pt-4">
-        <div v-for="post in $page.posts.edges" v-if="post.node.category == 'custom'" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image :alt="post.node.eng" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" @click="openModal(post.node.cover_image.src)"/>
-          <div class="text-green font-light leading-tight mt-4 mb-8">{{ post.node.esp }}</div>
+        <div v-for="post in $page.posts.edges" v-if="post.node.category == 'custom'" :key="post.id" class="w-1/2 lg:w-1/4 md:w-1/2 px-2 md:px-8 md:py-8 sm:py-0 text-center">
+          <img :alt="post.node.esp" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image.src" @click="openModal(post.node.cover_image.src, $page.posts.edges.indexOf(post))" />
+          <div class="text-green font-regular leading-tight mt-4 mb-8">{{ post.node.esp }}</div>
         </div>
       </div>
     </div>
     <!-- Image Modal -->
-    <div id="imageModal" class="modal">
+    <div id="imageModal" class="modal" v-if="modalVisible">
       <span class="close" @click="closeModal">&times;</span>
-        <img :src="modalImage" alt="Modal Image" class="modal-content">
+      <img :src="modalImage" alt="Modal Image" class="modal-content">
+      <button class="modal-nav prev esp" @click="prevImage" v-if="currentIndex > 0">Ant.</button>
+      <button class="modal-nav next" @click="nextImage" v-if="currentIndex < $page.posts.edges.length - 1">Sig.</button>
     </div>
   </Esp>
 </template>
@@ -62,32 +64,33 @@ query Gallery  {
 export default {
   data() {
     return {
+      modalVisible: false,
       modalImage: '',
+      currentIndex: 0,
     }
   },
   methods: {
-    openModal(imageUrl) {
-      this.modalImage = imageUrl;
-      document.getElementById('imageModal').style.display = 'flex';
-      console.log(imageUrl)
+    openModal(src, index) {
+      this.modalVisible = true;
+      this.modalImage = src;
+      this.currentIndex = index;
+      console.log('test');
     },
     closeModal() {
-      document.getElementById('imageModal').style.display = 'none';
+      this.modalVisible = false;
     },
-    handleModalClick(event) {
-      // Close the modal if clicked outside the image
-      if (event.target.id === 'imageModal') {
-        this.closeModal();
+    prevImage() {
+      if (this.currentIndex > 0) {
+        this.currentIndex--;
+        this.modalImage = this.$page.posts.edges[this.currentIndex].node.cover_image.src;
       }
     },
-  },
-  mounted() {
-    // Attach the click event listener to the modal overlay
-    document.getElementById('imageModal').addEventListener('click', this.handleModalClick);
-  },
-  beforeDestroy() {
-    // Remove the click event listener when the component is destroyed
-    document.getElementById('imageModal').removeEventListener('click', this.handleModalClick);
+    nextImage() {
+      if (this.currentIndex < this.$page.posts.edges.length - 1) {
+        this.currentIndex++;
+        this.modalImage = this.$page.posts.edges[this.currentIndex].node.cover_image.src;
+      }
+    },
   },
   metaInfo: {
     title: 'Carpintería | Carpintería a medida | Puerto Vallarta ',
