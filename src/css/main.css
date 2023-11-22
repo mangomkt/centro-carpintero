@@ -393,7 +393,7 @@ a:hover {
     display: flex;
     height: 100%;
 }
-.close {
+.modal .close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -407,7 +407,7 @@ a:hover {
     border: 3px solid #fff;
     border-radius: 50%;
 }
-.close:hover {
+.modal .close:hover {
   background: var(--bg-background-accenta);
   border-color: var(--bg-background-accenta);
 }
