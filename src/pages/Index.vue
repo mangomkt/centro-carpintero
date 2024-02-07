@@ -1,178 +1,556 @@
 <template>
   <Layout>
     <div class="bg-white">
-      <div class="container-inner mx-auto flex py-24 md:items-center  md:flex-row-reverse flex-wrap">
-        <div class="w-full md:w-5/12 font-bold w-full text-center  align-middle">
-          <g-image src="@/assets/img/centro-hero.jpg" alt="Centro Carpintero Renovations"/>
+      <div
+        class="container-inner mx-auto flex py-24 md:items-center  md:flex-row-reverse flex-wrap"
+      >
+        <div
+          class="w-full md:w-5/12 font-bold w-full text-center  align-middle"
+        >
+          <g-image
+            src="@/assets/img/centro-hero.jpg"
+            alt="Centro Carpintero Renovations"
+          />
         </div>
-        <div class="w-full mt-4 md:mt-0 md:w-7/12 font-bold w-full text-center md:text-left lg:pr-10 align-middle">
-          <h1 class="text-4xl md:text-5xl font-serif font-light text-primary leading-tight">Home Renovations & Remodeling in Puerto Vallarta</h1>
-          <p class="text-2xl mt-4 text-tertiary font-light leading-tight">Focused on functional furnishing & elegant design in high-quality wood.</p>
+        <div
+          class="w-full mt-4 md:mt-0 md:w-7/12 font-bold w-full text-center md:text-left lg:pr-10 align-middle"
+        >
+          <h1
+            class="text-4xl md:text-5xl font-serif font-light text-primary leading-tight"
+          >
+            Home Renovations & Remodeling in Puerto Vallarta
+          </h1>
+          <p class="text-2xl mt-4 text-tertiary font-light leading-tight">
+            Focused on functional furnishing & elegant design in high-quality
+            wood.
+          </p>
           <div class="flex flex-wrap mt-10">
-              <div class="w-full md:w-1/2 text-center md:text-left my-4 px-0 border-box">
-                  <g-link to="/contact" class="inline-block bg-accenta hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Contact Martha</g-link>
-              </div>
-              <div class="w-full md:w-1/2 text-center md:text-left my-4 px-0 border-box">
-                  <g-link to="/gallery" class="inline-block bg-primary hover:bg-tertiary md:ml-4 text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">View Our Gallery</g-link>
-              </div>
-          </div>
-        </div>
-        
-      </div> <!-- end hero -->
-    </div>
-    <div class="bg-background-secondary flex flex-wrap items-center content-center overflow-hidden">
-        
-        <div class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20">
-            <div class="w-full relative mx-auto award-wrapper" style="max-width:480px;" >
-              <div class="bg-white relative z-10 py-8 px-4 award">
-              <g-image src="@/assets/award/arqflores-horizontal-logo.png" alt="Arqflores logo" class="block mx-auto max-w-sm w-11/12 mb-6" />
-              <div class="text-xl w-full max-w-sm mx-auto text-center leading-tight font-light mb-6 font-medium text-green">“I like to think I am some sort of power conductor, transmitting the beauty of life to be manifested in architecture.”</div>
-              <div class="text-md text-center leading-tight font-light mb-2">Best Residential & Commercial Architect 2023</div>
-              <div class="text-md text-center leading-tight font-light mb-6">Most Ambitious Residential Design Project 2023</div>
-              </div>
-              <div class="mt-4"><a href="https://www.build-review.com/issues/architecture-awards-2023/31/" target="_blank">read article</a> | <a href="https://www.arqflores.com/casa-arriba" target="_blank">visit arqflores</a></div>
+            <div
+              class="w-full md:w-1/2 text-center md:text-left my-4 px-0 border-box"
+            >
+              <g-link
+                to="/contact"
+                class="inline-block bg-accenta hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+                >Contact Martha</g-link
+              >
+            </div>
+            <div
+              class="w-full md:w-1/2 text-center md:text-left my-4 px-0 border-box"
+            >
+              <g-link
+                to="/gallery"
+                class="inline-block bg-primary hover:bg-tertiary md:ml-4 text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+                >View Our Gallery</g-link
+              >
             </div>
           </div>
-          <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle p-12">
-            <VueSlickCarousel v-bind="settings">
-            <div><g-image src="@/assets/award/arqflores-1.jpg" alt="Arqflores Award Winning Project" immediate="true"/></div>
-            <div><g-image src="@/assets/award/arqflores-2.jpg" alt="Arqflores Award Winning Project" immediate="true" /></div>
-            <div><g-image src="@/assets/award/arqflores-3.jpg" alt="Arqflores Award Winning Project" immediate="true" /></div>
-            <div><g-image src="@/assets/award/arqflores-4.jpg" alt="Arqflores Award Winning Project" immediate="true" /></div>
-            <div><g-image src="@/assets/award/arqflores-5.jpg" alt="Arqflores Award Winning Project" immediate="true" /></div>
+        </div>
+      </div>
+      <!-- end hero -->
+    </div>
+    <div
+      class="bg-background-secondary flex flex-wrap items-center content-center overflow-hidden"
+    >
+      <div
+        class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20"
+      >
+        <div
+          class="w-full relative mx-auto award-wrapper"
+          style="max-width:480px;"
+        >
+          <div class="bg-white relative z-10 py-8 px-4 award">
+            <g-image
+              src="@/assets/award/arqflores-horizontal-logo.png"
+              alt="Arqflores logo"
+              class="block mx-auto max-w-sm w-11/12 mb-6"
+            />
+            <div
+              class="text-xl w-full max-w-sm mx-auto text-center leading-tight font-light mb-6 font-medium text-green"
+            >
+              “I like to think I am some sort of power conductor, transmitting
+              the beauty of life to be manifested in architecture.”
+            </div>
+            <div class="text-md text-center leading-tight font-light mb-2">
+              Best Residential & Commercial Architect 2023
+            </div>
+            <div class="text-md text-center leading-tight font-light mb-6">
+              Most Ambitious Residential Design Project 2023
+            </div>
+          </div>
+          <div class="mt-4">
+            <a
+              href="https://www.build-review.com/issues/architecture-awards-2023/31/"
+              target="_blank"
+              >read article</a
+            >
+            |
+            <a href="https://www.arqflores.com/casa-arriba" target="_blank"
+              >visit arqflores</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle p-12"
+      >
+        <VueSlickCarousel v-bind="settings">
+          <div>
+            <g-image
+              src="@/assets/award/arqflores-1.jpg"
+              alt="Arqflores Award Winning Project"
+              immediate="true"
+            />
+          </div>
+          <div>
+            <g-image
+              src="@/assets/award/arqflores-2.jpg"
+              alt="Arqflores Award Winning Project"
+              immediate="true"
+            />
+          </div>
+          <div>
+            <g-image
+              src="@/assets/award/arqflores-3.jpg"
+              alt="Arqflores Award Winning Project"
+              immediate="true"
+            />
+          </div>
+          <div>
+            <g-image
+              src="@/assets/award/arqflores-4.jpg"
+              alt="Arqflores Award Winning Project"
+              immediate="true"
+            />
+          </div>
+          <div>
+            <g-image
+              src="@/assets/award/arqflores-5.jpg"
+              alt="Arqflores Award Winning Project"
+              immediate="true"
+            />
+          </div>
+        </VueSlickCarousel>
+      </div>
+    </div>
+    <div class="content-center overflow-hidden">
+      <div
+        class="mx-auto flex items-center flex-wrap py-20 md:flex-row-reverse px-4 md:px-10 lg:px-20"
+      >
+        <div class=" mx-auto px-2 w-full md:w-5/12  md:px-10">
+          <div class="text-left mt-10">
+            <h2
+              class="text-3xl md:text-4xl font-serif font-light leading-tight mb-4"
+            >
+              Modern and Timeless Aesthetic
+            </h2>
+            <p class="mb-4">
+              At Centro Carpintero, we believe in pushing the boundaries of
+              conventional kitchen design, embracing the latest trends and
+              technologies to deliver a modern and timeless aesthetic.
+            </p>
+            <p class="mb-4">
+              Elevate your culinary space with [Your Company Name] and redefine
+              the heart of your home.
+            </p>
+            <a
+              href="/gallery"
+              class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+              >View the gallery</a
+            >
+          </div>
+        </div>
+        <div class="w-full md:w-7/12 md:px-10">
+          <VueSlickCarousel v-bind="settings">
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-kitchen-design.jpg"
+                alt="Modern Kitchen Design"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-kitchen-design-2.jpg"
+                alt="Custom Modern Kitchen"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-kitchen-design-3.jpg"
+                alt="Beautiful Modern Kitchen"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-bedroom-design.jpg"
+                alt="Custom Bedroom Headboard"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-bedroom-design-2.jpg"
+                alt="Custom Modern Headboard"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-bathroom-design.jpg"
+                alt="Modern Bathroom Design"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/modern-kitchen/modern-bathroom-design-2.jpg"
+                alt="Elegant Modern Bathroom"
+                immediate="true"
+              />
+            </div>
           </VueSlickCarousel>
         </div>
+      </div>
+    </div>
+    <div class="bg-background-secondary  content-center overflow-hidden">
+      <div
+        class="mx-auto flex items-center flex-wrap py-20 md:flex-row px-4 md:px-10 lg:px-20"
+      >
+        <div class=" mx-auto px-2 w-full md:w-5/12">
+          <div class="text-left mt-10">
+            <h2
+              class="text-2xl md:text-3xl font-serif font-light leading-tight mb-4"
+            >
+              A Hint Tradition
+            </h2>
+            <p class="mb-4">
+              We celebrate the artistry and heritage of Mexico by intricately
+              weaving classic elements into some custom kitchens we create.
+            </p>
+
+            <p class="mb-4">
+              Our talented artisans and designers draw inspiration from the
+              vibrant colors, intricate patterns, and rustic textures of
+              traditional Mexican aesthetics, ensuring a beautiful kitchen.
+            </p>
+            <a
+              href="/gallery"
+              class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+              >View the gallery</a
+            >
+          </div>
+        </div>
+        <div class="w-full md:w-7/12  md:px-10">
+          <VueSlickCarousel v-bind="settings">
+            <div>
+              <g-image
+                src="@/assets/traditional/traditional-01.jpg"
+                alt="Traditional Custom Kitchen"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/traditional/traditional-02.jpg"
+                alt="Custom Traditional Kitchen"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/traditional/traditional-03.jpg"
+                alt="Wooden tradtional designed drawers"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/traditional/traditional-04.jpg"
+                alt="tradtional style vanity"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/traditional/traditional-05.jpg"
+                alt="tradtional style vanity open"
+                immediate="true"
+              />
+            </div>
+            <div>
+              <g-image
+                src="@/assets/traditional/traditional-06.jpg"
+                alt="custom wooden closet tradtional design"
+                immediate="true"
+              />
+            </div>
+          </VueSlickCarousel>
+        </div>
+      </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="font-bold w-full mb-10 text-center">
-        <h2 class="text-4xl md:text-5xl font-serif font-light leading-tight">Why Choose Centro Carpintero?</h2>
+        <h2 class="text-4xl md:text-5xl font-serif font-light leading-tight">
+          Why Choose Centro Carpintero?
+        </h2>
       </div>
       <div class="container-inner mx-auto flex pb-24 md:items-center flex-wrap">
-        <div class="w-full md:w-5/12 font-bold w-full text-left  align-middle md:pr-8">
-          <g-image src="@/assets/img/centro-custom-cabinetry.jpg" alt="Centro Carpintero Renovations"/>
+        <div
+          class="w-full md:w-5/12 font-bold w-full text-left  align-middle md:pr-8"
+        >
+          <g-image
+            src="@/assets/img/centro-custom-cabinetry.jpg"
+            alt="Centro Carpintero Renovations"
+          />
         </div>
         <div class="w-full md:w-7/12 w-full text-left  align-middle">
-          <p class="text-lg sm:text-xl">We have the expertise and experience to take care of home renovation or remodeling project. From initial planning, finding that balance between budget and wish list. Centro Carpintero is there to help you through each step.</p>
-          <p class="text-lg sm:text-xl">If you are looking to think outside the box to better use of your residence’s space or looking to get those dream home renovations completed, then you will love our integrative wood-crafted solutions!</p>
-          <p class="text-lg sm:text-xl">Infuse your home or business with our extensive experience in classy wood designs that stand the test of time and add value and personality to your estate. With a passion for carpentry and commitment to the quality of our work, we will partner with you to propose combinations of the latest trends in functionality, style, and beauty for all types of fine furniture and woodworking.</p>
+          <p class="text-lg sm:text-xl">
+            We have the expertise and experience to take care of home renovation
+            or remodeling project. From initial planning, finding that balance
+            between budget and wish list. Centro Carpintero is there to help you
+            through each step.
+          </p>
+          <p class="text-lg sm:text-xl">
+            If you are looking to think outside the box to better use of your
+            residence’s space or looking to get those dream home renovations
+            completed, then you will love our integrative wood-crafted
+            solutions!
+          </p>
+          <p class="text-lg sm:text-xl">
+            Infuse your home or business with our extensive experience in classy
+            wood designs that stand the test of time and add value and
+            personality to your estate. With a passion for carpentry and
+            commitment to the quality of our work, we will partner with you to
+            propose combinations of the latest trends in functionality, style,
+            and beauty for all types of fine furniture and woodworking.
+          </p>
         </div>
       </div>
     </div>
     <div class="bg-background-secondary flex flex-wrap">
-        <div class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle side-bg">
-        </div>
-        <div class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20">
-            <div class="bg-background-white p-8 rounded">
-              <div class="text-3xl text-pink text-center leading-tight font-light mb-6">CONTACT MARTHA FOR A FREE ESTIMATE</div>
-              <form name="hpestimate" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
-                      <input type="hidden" name="form-name" value="contact" />
-                      <p hidden>
-                        <label>
-                          Don’t fill this out: <input name="bot-field" />
-                        </label>
-                      </p>
-                      <div class="flex flex-wrap mb-6 -mx-4">
-                          <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                              <label class="block mb-2 text-copy-primary" for="name">
-                                  Name
-                              </label>
-
-                              <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-2" required v-model="formData.name">
-                          </div>
-
-                          <div class="w-full px-4 md:w-1/2">
-                              <label class="block text-copy-primary mb-2" for="email">
-                                  Email Address
-                              </label>
-
-                              <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-2" required v-model="formData.email">
-                          </div>
-                      </div>
-
-                      <div class="w-full mb-12">
-                          <label class="block text-copy-primary mb-2" for="message">
-                              Message
-                          </label>
-
-                          <textarea id="message" rows="3" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-2 py-2" placeholder="Enter your message here." required v-model="formData.message"></textarea>
-                      </div>
-
-                      <div class="flex justify-end w-full">
-                          <input type="submit" value="Submit" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
-                      </div>
-                  </form>
-            </div>
+      <div
+        class="w-full md:w-full lg:w-1/2 font-bold w-full text-left align-middle side-bg"
+      ></div>
+      <div
+        class="w-full md:w-full py-20 lg:w-1/2 font-bold w-full text-left align-middle px-4 md:px-10 lg:px-20"
+      >
+        <div class="bg-background-white p-8 rounded">
+          <div
+            class="text-3xl text-pink text-center leading-tight font-light mb-6"
+          >
+            CONTACT MARTHA FOR A FREE ESTIMATE
           </div>
-      
+          <form
+            name="hpestimate"
+            method="post"
+            v-on:submit.prevent="handleSubmit"
+            action="/thankyou/"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label> Don’t fill this out: <input name="bot-field" /> </label>
+            </p>
+            <div class="flex flex-wrap mb-6 -mx-4">
+              <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
+                <label class="block mb-2 text-copy-primary" for="name">
+                  Name
+                </label>
+
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Jon Snow"
+                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-2"
+                  required
+                  v-model="formData.name"
+                />
+              </div>
+
+              <div class="w-full px-4 md:w-1/2">
+                <label class="block text-copy-primary mb-2" for="email">
+                  Email Address
+                </label>
+
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@example.com"
+                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-2"
+                  required
+                  v-model="formData.email"
+                />
+              </div>
+            </div>
+
+            <div class="w-full mb-12">
+              <label class="block text-copy-primary mb-2" for="message">
+                Message
+              </label>
+
+              <textarea
+                id="message"
+                rows="3"
+                name="message"
+                class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-2 py-2"
+                placeholder="Enter your message here."
+                required
+                v-model="formData.message"
+              ></textarea>
+            </div>
+
+            <div class="flex justify-end w-full">
+              <input
+                type="submit"
+                value="Submit"
+                class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <div>
-      
       <div class="container-inner pt-20 pb-20 mx-auto px-2">
         <div class="font-bold w-full text-center sm:text-center mb-10">
-          <div class="text-4xl md:text-5xl font-serif font-light">Our Services</div>
-          <h2 class="text-2xl leading-tight font-light">What we offer to help with your next home renovations or remodel in Puerto Vallarta</h2>
+          <div class="text-4xl md:text-5xl font-serif font-light">
+            Our Services
+          </div>
+          <h2 class="text-2xl leading-tight font-light">
+            What we offer to help with your next home renovations or remodel in
+            Puerto Vallarta
+          </h2>
         </div>
         <div class="flex flex-wrap justify-between items-center py-6 ">
-          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0">
-            <g-image src="../../static/home1.jpg" alt="browser" class="mx-auto"/>
+          <div
+            class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0"
+          >
+            <g-image
+              src="../../static/home1.jpg"
+              alt="browser"
+              class="mx-auto"
+            />
             <div class="text-2xl leading-tight mt-2">Custom Kitchens</div>
             <div class="leading-tight">Minimalist | Sophisticated | Rustic</div>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0">
-            <g-image src="../../static/home2.jpg" alt="mobile" class="mx-auto" />
+          <div
+            class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-8 md:mb-0"
+          >
+            <g-image
+              src="../../static/home2.jpg"
+              alt="mobile"
+              class="mx-auto"
+            />
             <div class="text-2xl leading-tight mt-2">Bedrooms & Bathrooms</div>
             <div class="leading-tight">Cabinets | Remodeling | Lighting</div>
           </div>
-          <div class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-0 md:mb-0">
-            <g-image src="../../static/home3.jpg" alt="mobile" class="mx-auto" />
+          <div
+            class="sw:w-full md:w-full lg:w-1/3 sm:text-center px-8 mx-auto mb-0 md:mb-0"
+          >
+            <g-image
+              src="../../static/home3.jpg"
+              alt="mobile"
+              class="mx-auto"
+            />
             <div class="text-2xl leading-tight mt-2">Custom Carpentry</div>
             <div class="leading-tight">Closets | Frames | Decoration</div>
           </div>
         </div>
         <div class="text-center mt-10">
-          <g-link to="/about" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Meet The Team</g-link>
-        </div> 
+          <g-link
+            to="/about"
+            class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+            >Meet The Team</g-link
+          >
+        </div>
       </div>
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl font-serif text-white font-hairline italic">All in all, we have done four large projects in 2019 and 2020 with Centro Carpentry and each time, I am more impressed with the skills of their craftsmen, the integrity of the owners and their focus on customer satisfaction.</div>
+        <div class="text-4xl font-serif text-white font-hairline italic">
+          All in all, we have done four large projects in 2019 and 2020 with
+          Centro Carpentry and each time, I am more impressed with the skills of
+          their craftsmen, the integrity of the owners and their focus on
+          customer satisfaction.
+        </div>
         <div class="text-2xl mt-4 font-light text-white">- Happy Customer</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="font-bold w-full text-center sm:text-center mb-10">
-        <h2 class="text-4xl font-serif font-light">Home Renovations and Remodeling</h2>
-        <h3 class="text-2xl font-light leading-tight">Custom fine carpentry and woodworking</h3>
+        <h2 class="text-4xl font-serif font-light">
+          Home Renovations and Remodeling
+        </h2>
+        <h3 class="text-2xl font-light leading-tight">
+          Custom fine carpentry and woodworking
+        </h3>
       </div>
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full lg:w-1/3 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../static/gallery/new.jpg" alt="Custom Wooden Side Table" />
-          <div class="text-green font-bold leading-tight mt-4">Custom Wooden Side Table</div>
+          <g-image
+            src="../../static/gallery/new.jpg"
+            alt="Custom Wooden Side Table"
+          />
+          <div class="text-green font-bold leading-tight mt-4">
+            Custom Wooden Side Table
+          </div>
         </div>
         <div class="w-full lg:w-1/3 md:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <g-image src="../../static/gallery/new2.jpg" alt="Fine Carpentry Wooden Bench" />
-          <div class="text-green font-bold leading-tight mt-4">Fine Carpentry Wooden Bench</div>
+          <g-image
+            src="../../static/gallery/new2.jpg"
+            alt="Fine Carpentry Wooden Bench"
+          />
+          <div class="text-green font-bold leading-tight mt-4">
+            Fine Carpentry Wooden Bench
+          </div>
         </div>
         <div class="w-full lg:w-1/3 md:w-1/2 px-8 py-8 sm:py-0 text-center">
           <g-image src="../../static/gallery/new6.jpg" alt="browser" />
-          <div class="text-green font-bold leading-tight mt-4">Custom Wooden Headboard</div>
+          <div class="text-green font-bold leading-tight mt-4">
+            Custom Wooden Headboard
+          </div>
         </div>
       </div>
       <div class="text-center mt-10">
-        <g-link to="/gallery" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Visit Our Gallery</g-link>
+        <g-link
+          to="/gallery"
+          class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+          >Visit Our Gallery</g-link
+        >
       </div>
     </div>
     <div class="bg-background-secondary">
       <div class="container-inner mx-auto py-20">
         <div class="font-bold w-full text-center sm:text-center mb-10">
-          <div class="text-4xl font-serif font-light leading-tight">Our Blog</div>
+          <div class="text-4xl font-serif font-light leading-tight">
+            Our Blog
+          </div>
         </div>
         <div class="flex flex-wrap">
-          <div v-for="post in $page.posts.edges" :key="post.id" class="md:w-full w-full lg:w-1/3 px-8 post mb-12">
+          <div
+            v-for="post in $page.posts.edges"
+            :key="post.id"
+            class="md:w-full w-full lg:w-1/3 px-8 post mb-12"
+          >
             <div class="shadow-md h-full pb-20 relative">
-              <g-image alt="Cover image" v-if="post.node.cover_image" class="post-card__image" :src="post.node.cover_image" />
-              <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4"><g-link :to="post.node.path" class="text-copy-primary font-medium leading-snug">{{ post.node.title }}</g-link></h3>
+              <g-image
+                alt="Cover image"
+                v-if="post.node.cover_image"
+                class="post-card__image"
+                :src="post.node.cover_image"
+              />
+              <h3 class="text-2xl font-bold leading-none mb-4 mt-4 px-4">
+                <g-link
+                  :to="post.node.path"
+                  class="text-copy-primary font-medium leading-snug"
+                  >{{ post.node.title }}</g-link
+                >
+              </h3>
               <div class="text-copy-secondary mb-4  px-4">
                 <span>{{ post.node.date }}</span>
                 <span> &middot; </span>
@@ -184,74 +562,124 @@
               </div>
 
               <div class="mb-8 px-4 block absolute bottom-0 left">
-                <g-link :to="post.node.path" class="bg-transparent inline-block hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">Read More</g-link>
+                <g-link
+                  :to="post.node.path"
+                  class="bg-transparent inline-block hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
+                  >Read More</g-link
+                >
               </div>
             </div>
-          </div> <!-- end post -->
+          </div>
+          <!-- end post -->
         </div>
         <div class="text-center mt-10">
-          <g-link to="/blog" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Visit Our Blog</g-link>
+          <g-link
+            to="/blog"
+            class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+            >Visit Our Blog</g-link
+          >
         </div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl  font-serif font-light leading-tight md:text-left sm:text-center">Contact Martha</div>
+          <div
+            class="text-4xl  font-serif font-light leading-tight md:text-left sm:text-center"
+          >
+            Contact Martha
+          </div>
           <div class="text-1xl leading-tight mt-4">
-            <strong>Centro Cerpintero PV</strong><br>
-            Carretera a las Palmas #2523<br>
-            Puerto Vallarta, Jalisco 48280<br>
-             
-            Cel. <a href="tel:322-121-6778">322-121-6778</a><br>
-            <a href="mailto:centrocarpinteropv@gmail.com">centrocarpinteropv@gmail.com</a>
+            <strong>Centro Cerpintero PV</strong><br />
+            Carretera a las Palmas #2523<br />
+            Puerto Vallarta, Jalisco 48280<br />
+
+            Cel. <a href="tel:322-121-6778">322-121-6778</a><br />
+            <a href="mailto:centrocarpinteropv@gmail.com"
+              >centrocarpinteropv@gmail.com</a
+            >
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl font-serif font-light leading-tight">Get a Quote</div>
+          <div class="text-4xl font-serif font-light leading-tight">
+            Get a Quote
+          </div>
           <div class="contact-me pt-4">
-            <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
-                    <input type="hidden" name="form-name" value="contact" />
-                    <p hidden>
-                      <label>
-                        Don’t fill this out: <input name="bot-field" />
-                      </label>
-                    </p>
-                    <div class="flex flex-wrap mb-6 -mx-4">
-                        <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                            <label class="block mb-2 text-copy-primary" for="name">
-                                Name
-                            </label>
+            <form
+              name="hpcontact"
+              method="post"
+              v-on:submit.prevent="handleSubmit"
+              action="/thankyou/"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <p hidden>
+                <label> Don’t fill this out: <input name="bot-field" /> </label>
+              </p>
+              <div class="flex flex-wrap mb-6 -mx-4">
+                <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
+                  <label class="block mb-2 text-copy-primary" for="name">
+                    Name
+                  </label>
 
-                            <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.name">
-                        </div>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Jon Snow"
+                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                    required
+                    v-model="formData.name"
+                  />
+                </div>
 
-                        <div class="w-full px-4 md:w-1/2">
-                            <label class="block text-copy-primary mb-2" for="email">
-                                Email Address
-                            </label>
+                <div class="w-full px-4 md:w-1/2">
+                  <label class="block text-copy-primary mb-2" for="email">
+                    Email Address
+                  </label>
 
-                            <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required v-model="formData.email">
-                        </div>
-                    </div>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="email@example.com"
+                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                    required
+                    v-model="formData.email"
+                  />
+                </div>
+              </div>
 
-                    <div class="w-full mb-12">
-                        <label class="block text-copy-primary mb-2" for="message">
-                            Message
-                        </label>
+              <div class="w-full mb-12">
+                <label class="block text-copy-primary mb-2" for="message">
+                  Message
+                </label>
 
-                        <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Enter your message here." required v-model="formData.message"></textarea>
-                    </div>
+                <textarea
+                  id="message"
+                  rows="5"
+                  name="message"
+                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4"
+                  placeholder="Enter your message here."
+                  required
+                  v-model="formData.message"
+                ></textarea>
+              </div>
 
-                    <div class="flex justify-end w-full">
-                        <input type="submit" value="Submit" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
-                    </div>
-                </form>
-           </div> <!-- end contact-me -->
-         </div>
+              <div class="flex justify-end w-full">
+                <input
+                  type="submit"
+                  value="Submit"
+                  class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
+                />
+              </div>
+            </form>
+          </div>
+          <!-- end contact-me -->
+        </div>
       </div>
     </div>
-    
   </Layout>
 </template>
 <page-query>
@@ -277,60 +705,66 @@ query Posts ($page: Int) {
 }
 </page-query>
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
   components: { VueSlickCarousel },
   metaInfo: {
-    title: 'Bucerias Project | Custom Woodworking | Puerto Vallarta ',
-    titleTemplate: '%s',
+    title: "Bucerias Project | Custom Woodworking | Puerto Vallarta ",
+    titleTemplate: "%s",
     meta: [
-      { name: 'description', 
-        key: 'description',
-        content:  'Custom Woodworking project made from solid amapa wood in Bucerias, Nayarit, Mexico.'
+      {
+        name: "description",
+        key: "description",
+        content:
+          "Custom Woodworking project made from solid amapa wood in Bucerias, Nayarit, Mexico.",
       },
-      { property: 'og:title', content: "Bucerias Project | Custom Woodworking | Puerto Vallarta"},
-      { property: 'og:site_name', content: 'Centro Carpintero'},
-      {property: 'og:type', content: 'website'},    
-      {name: 'robots', content: 'index,follow'} 
-    ]
+      {
+        property: "og:title",
+        content: "Bucerias Project | Custom Woodworking | Puerto Vallarta",
+      },
+      { property: "og:site_name", content: "Centro Carpintero" },
+      { property: "og:type", content: "website" },
+      { name: "robots", content: "index,follow" },
+    ],
   },
   data() {
     return {
       settings: {
-        "dots": true,
-        "arrows": true,
-        "infinite": true,
-        "centerMode": false,
-        "centerPadding": "0px",
-        "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "variableWidth": false
+        dots: true,
+        arrows: true,
+        infinite: true,
+        centerMode: false,
+        centerPadding: "0px",
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: false,
       },
       formData: {},
-    }
+    };
   },
   methods: {
     encode(data) {
       return Object.keys(data)
-        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-        .join('&')
+        .map(
+          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
     },
     handleSubmit(e) {
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: this.encode({
-          'form-name': e.target.getAttribute('name'),
+          "form-name": e.target.getAttribute("name"),
           ...this.formData,
         }),
       })
-      .then(() => this.$router.push('/thankyou'))
-      .catch(error => alert(error))
-    }
-  }
-}
+        .then(() => this.$router.push("/thankyou"))
+        .catch((error) => alert(error));
+    },
+  },
+};
 </script>
-
