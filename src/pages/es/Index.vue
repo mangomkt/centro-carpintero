@@ -156,7 +156,7 @@
             </p>
             <a
               href="/gallery"
-              class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+              class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3 mb-4"
               >Ver galería</a
             >
           </div>
@@ -240,7 +240,7 @@
             </p>
             <a
               href="/gallery"
-              class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
+              class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3 mb-4"
               >Ver galería</a
             >
           </div>
