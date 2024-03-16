@@ -1,7 +1,7 @@
 ---
 category: bed-bath
-eng: Custom Woodworking Bathroom
-esp: Baño de carpintería personalizado
+eng: Modern Marble Bathroom Counter
+esp: Encimera de baño de mármol moderno
 cover_image: ./images/centro-carpintero-bathroom3.jpg
 ---
  

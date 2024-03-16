@@ -1,7 +1,7 @@
 ---
 category: bed-bath
-eng: Custom Woodworking Bathroom
-esp: Baño de carpintería personalizado
+eng: Marble Bathroom with Custom Cabinetry
+esp: Baño de mármol con gabinetes personalizados
 cover_image: ./images/centro-carpintero-bathroom4.jpg
 ---
  

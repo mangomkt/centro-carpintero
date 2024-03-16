@@ -42,7 +42,7 @@
 </template>
 <page-query>
 query Gallery  {
-  posts: allGallery (sortBy: "path", order: ASC )  {
+  posts: allGallery (sortBy: "path", order: DESC )  {
     totalCount
     pageInfo {
       totalPages

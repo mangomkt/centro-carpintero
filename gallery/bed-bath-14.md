@@ -1,7 +1,7 @@
 ---
 category: bed-bath
-eng: Custom Woodworking Bathroom
-esp: Baño de carpintería personalizado
+eng: Spacious Custom Double Sink
+esp: Amplio lavabo doble personalizado
 cover_image: ./images/centro-carpintero-bathroom-1.jpg
 ---
  
