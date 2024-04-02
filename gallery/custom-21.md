@@ -1,7 +1,6 @@
 ---
 category: custom
-eng: Entertainment Unit with Ample Storage
-esp: Unidad de entretenimiento con amplio almacenamiento
+eng: Full wall entertainment unit
+esp: Unidad de entretenimiento de pared completa
 cover_image: ./images/Livingroom-04-01--05.jpg
 ---
-

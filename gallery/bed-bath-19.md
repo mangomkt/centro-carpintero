@@ -1,7 +1,6 @@
 ---
 category: bed-bath
-eng: Marble Bathroom with Custom Cabinetry
-esp: Baño de mármol con gabinetes personalizados
+eng: Headboard and wooden side tables
+esp: Cabecero y mesas auxiliares de madera.
 cover_image: ./images/bedroom-04-01--06.jpg
 ---
- 
