@@ -15,7 +15,7 @@
       <!-- end hero -->
     </div>
     <div class=" bg-background-secondary">
-        <div class="container mx-auto pt-20 pb-20">
+        <div class="container mx-auto pt-20 pb-20 w-full lg:w-1/2">
             <p class="mb-4">Are you searching for unique, high-quality furniture and decor to enhance your home? Look no further! Our collection features a diverse range of pieces that blend functionality with artistic design, including handcrafted items and carefully selected manufactured products.</p>
             <p class="mb-4">If you're interested in exploring our beautiful collection or have any questions, please don't hesitate to contact Martha. She is dedicated to providing exceptional customer service and can assist you with any inquiries, offer detailed product information, and help you find the perfect pieces for your home.</p>
             <p class="mb-4"><strong>Contact Martha Today!</strong><br/>
@@ -46,7 +46,7 @@
           <g-image
             :alt="post.node.eng"
             v-if="post.node.cover_image"
-            class="post-card__image"
+            class="product__image"
             :src="post.node.cover_image"
             @click="
               openModal(
@@ -79,7 +79,7 @@
           <g-image
             :alt="post.node.eng"
             v-if="post.node.cover_image"
-            class="post-card__image"
+            class="product__image"
             :src="post.node.cover_image"
             @click="
               openModal(
@@ -115,7 +115,7 @@
 </template>
 <page-query>
 query Products  {
-  posts: allProducts (sortBy: "path", order: DESC )  {
+  posts: allProducts (sortBy: "path", order: ASC )  {
     totalCount
     pageInfo {
       totalPages
@@ -195,5 +195,12 @@ export default {
 <style>
 .modal.product-modal img {
     max-width: 800px;
+    max-height: 80vh;
+    object-fit: contain;
+}
+.product__image {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
 }
 </style>
