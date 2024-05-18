@@ -39,7 +39,7 @@
       <div class="flex flex-wrap items-start pb-6 pt-4">
         <div
           v-for="post in $page.posts.edges"
-          v-if="post.node.category == 'Furniture'"
+          v-if="post.node.category == 'furniture'"
           :key="post.id"
           class="w-1/2 lg:w-1/4 md:w-1/2 px-2 md:px-8 md:py-8 sm:py-0 text-center"
         >
