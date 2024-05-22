@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: amber glass vases
+esp: jarrones de vidrio ámbar
 cover_image: ./images/decor/decor-12.jpg
 price: 00.00
 ---

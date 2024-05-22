@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: golden glass bowls
+esp: tazones de vidrio dorado
 cover_image: ./images/decor/decor-01.jpg
 price: 00.00
 ---

@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: wooden wall art
+esp: arte de la pared de madera
 cover_image: ./images/decor/decor-20.jpg
 price: 00.00
 ---

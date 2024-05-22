@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: wooden circle mirror
+esp: espejo circular de madera
 cover_image: ./images/decor/decor-21.jpg
 price: 00.00
 ---

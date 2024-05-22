@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: White wooden lamp
+esp: Lámpara de madera blanca
 cover_image: ./images/decor/decor-32.jpg
 price: 00.00
 ---

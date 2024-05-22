@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: orange glass bowl
+esp: recipiente de vidrio naranja
 cover_image: ./images/decor/decor-04.jpg
 price: 00.00
 ---

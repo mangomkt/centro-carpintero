@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: long glass vase
+esp: jarrón de cristal largo
 cover_image: ./images/decor/decor-14.jpg
 price: 00.00
 ---

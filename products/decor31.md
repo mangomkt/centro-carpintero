@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: black wooden lamp
+esp: lámpara de madera negra
 cover_image: ./images/decor/decor-31.jpg
 price: 00.00
 ---

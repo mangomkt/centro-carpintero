@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: red glass vase
+esp: florero de cristal rojo
 cover_image: ./images/decor/decor-26.jpg
 price: 00.00
 ---

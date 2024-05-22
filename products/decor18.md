@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: metallic amber glass vase
+esp: jarrón de vidrio ámbar metalizado
 cover_image: ./images/decor/decor-18.jpg
 price: 00.00
 ---
