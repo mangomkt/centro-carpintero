@@ -1,7 +1,7 @@
 ---
 category: furniture
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: Console table
+esp: Vesa de consola
 cover_image: ./images/furniture/furniture-7.jpg
 price: 00.00
 ---

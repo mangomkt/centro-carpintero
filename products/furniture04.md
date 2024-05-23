@@ -1,7 +1,7 @@
 ---
 category: furniture
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: Coffee table
+esp: Mesa de café
 cover_image: ./images/furniture/furniture-4.jpg
 price: 00.00
 ---

@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: Custom wooden whale art
+esp: Arte de ballena de madera personalizado
 cover_image: ./images/decor/decor-33.jpg
 price: 00.00
 ---

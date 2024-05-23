@@ -1,7 +1,7 @@
 ---
 category: furniture
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: Cabinet
+esp: Gabinete
 cover_image: ./images/furniture/furniture-18.jpg
 price: 00.00
 ---

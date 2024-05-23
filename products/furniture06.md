@@ -1,7 +1,7 @@
 ---
 category: furniture
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: Bar stool
+esp: Taburete de bar
 cover_image: ./images/furniture/furniture-6.jpg
 price: 00.00
 ---

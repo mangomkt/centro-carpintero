@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: White linen lamp
+esp: Lámpara de lino blanco
 cover_image: ./images/decor/decor-46.jpg
 price: 00.00
 ---

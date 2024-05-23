@@ -1,7 +1,7 @@
 ---
 category: decor
-eng: black wooden lamp
-esp: lámpara de madera negra
+eng: Black wooden lamp
+esp: Lámpara de madera negra
 cover_image: ./images/decor/decor-31.jpg
 price: 00.00
 ---

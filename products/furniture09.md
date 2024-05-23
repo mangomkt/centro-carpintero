@@ -1,7 +1,7 @@
 ---
 category: furniture
-eng: Custom Woodworking Bed Frame
-esp: Marco de cama para carpintería personalizado
+eng: Night tables
+esp: Mesitas de noche
 cover_image: ./images/furniture/furniture-9.jpg
 price: 00.00
 ---
