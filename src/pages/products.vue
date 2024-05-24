@@ -58,9 +58,6 @@
           <div class="text-green font-regular leading-tight mt-4 mb-8">
             {{ post.node.eng }}
           </div>
-          <div class="text-center">
-            <a href="/gallery" class="inline-block bg-primary hover:bg-tertiary md:ml-4 text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Request Product</a>
-          </div>
         </div>
       </div>
       <h2
