@@ -29,6 +29,10 @@
                   </li>
                 </ul>
               </li>
+              
+              <li class="text-left lg:text-left my-2 lg:my-2">
+                <g-link to="/es/servicios" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Nuestros Servicios</g-link>
+              </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
                 <g-link to="/es/gallery" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
               </li>

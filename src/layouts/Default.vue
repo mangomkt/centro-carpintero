@@ -29,6 +29,9 @@
                   </li>
                 </ul>
               </li>
+              <li class="text-left lg:text-left my-2 lg:my-0">
+                <g-link to="/services" class="text-1xl text-primary hover:text-accenta mx-4 py-4 lg:py-4 block">Our Services</g-link>
+              </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
                 <g-link to="/gallery" class="text-primary hover:text-accenta mx-4 py-4 lg:py-4 inline-block">Our Gallery</g-link>
               </li>

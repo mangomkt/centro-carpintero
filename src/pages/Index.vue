@@ -463,9 +463,9 @@
         </div>
         <div class="text-center mt-10">
           <g-link
-            to="/about"
+            to="/services"
             class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3"
-            >Meet The Team</g-link
+            >Our Services</g-link
           >
         </div>
       </div>
