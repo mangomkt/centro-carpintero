@@ -2,8 +2,8 @@
   <div class="content-wrapper font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header>
       <g-link to="/es/noticia" class="text-white text-xl block text-center bg-tertiary hover:text-white hover:bg-accentb mx-0 py-2 uppercase">Noticia importante</g-link>
-      <nav class="z-40 relative bg-background-white">
-        <div class="top-nav">
+      <nav class="bg-background-white z-40 relative border-b-2 border-gray-300">
+        <div class="top-nav bg-background-white">
           <div class="flex flex-wrap justify-between items-center py-2 container mx-auto">
             <g-link to="/es"><g-image src="../../static/logogold.png" class="nav-logo mx-auto lg:mx-4" alt="logo" /></g-link>
             <search-input-es class="hidden lg:block" />
@@ -15,59 +15,59 @@
             </div>
           </div>
         </div>
-        <div class="container mx-auto py-0 lg:py-2  flex flex-col lg:flex-row">
-          <div class="sw:w-full md:w-full lg:w-8/12 w-full">
-            <ul class="uppercase tracking-wide font-light w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
-              <li class="text-left lg:text-left my-2 lg:my-3">
-                <g-link to="/es" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 block">Inicio</g-link>
+        <div class="container mx-auto py-0 lg:py-2 bg-white flex flex-col lg:flex-row relative">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full relative">
+            <ul class="pb-20 lg:pb-0 uppercase w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0 mobile-menu" :class="isOpen ? 'mobile-menu-open': 'hidden'">
+              <li class="text-left lg:text-left my-0 lg:my-0">
+                <g-link to="/es" class="text-1xl text-primary hover:text-accenta mx-4 py-2 lg:py-4 block">Inicio</g-link>
               </li>
-              <li class="text-left has-sub-menu relative lg:text-left my-2 lg:my-2">
-                <g-link to="/es/about" class="hover:text-accenta text-primary mx-4 py-4 lg:py-4 inline-block">Sobre nosotros</g-link>
+              <li class="text-left has-sub-menu lg:text-left my-2 lg:my-2 relative">
+                <g-link to="/es/about" class="text-primary hover:text-accenta mx-4 py-2 lg:py-4 inline-block">Sobre nosotros</g-link>
                 <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/es/noticia" class="text-primary block hover:text-accenta mx-4 py-4 lg:py-0">Noticia importante</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/es/noticia" class="text-primary block hover:text-accenta mx-4 py-2 lg:py-0">Noticia importante</g-link>
                   </li>
                 </ul>
               </li>
               
-              <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/servicios" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Nuestros Servicios</g-link>
+              <li class="text-left lg:text-left my-0 lg:my-0">
+                <g-link to="/es/servicios" class="text-1xl text-primary hover:text-accenta mx-4 py-2 lg:py-4 block">Nuestros Servicios</g-link>
               </li>
-              <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/gallery" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
+              <li class="text-left lg:text-left my-0 lg:my-2">
+                <g-link to="/es/gallery" class="text-primary hover:text-accenta mx-4 py-2 lg:py-4 inline-block">Nuestra galeria</g-link>
               </li>
-              <li class="text-left has-sub-menu lg:text-left my-2 lg:my-2 relative">
-                <g-link to="/proyectos/bucerias" class="hover:text-accenta text-primary mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
+              <li class="text-left has-sub-menu lg:text-left my-0 lg:my-2 relative">
+                <g-link to="/proyectos/bucerias" class="text-primary hover:text-accenta mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
                 <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/proyectos/bucerias" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Bucerias</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/bucerias" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Bucerias</g-link>
                   </li>
-                   <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/proyectos/beach-house" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Proyecto Casa de Playa</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/beach-house" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Proyecto Casa de Playa</g-link>
                   </li>
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/proyectos/nima-bay" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Proyecto Nima Bay</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/nima-bay" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Proyecto Nima Bay</g-link>
                   </li>
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/proyectos/casa-cedar" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Casa Cedar</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/casa-cedar" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Casa Cedar</g-link>
                   </li>
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/proyectos/peninsula" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Peninsula</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/peninsula" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Peninsula</g-link>
                   </li>
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/proyectos/peninsula-2" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Peninsula 2</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/peninsula-2" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Peninsula 2</g-link>
                   </li>
                 </ul>
               </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/blog" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
+                <g-link to="/es/blog" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 inline-block">Blog</g-link>
               </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/contact" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Contacto</g-link>
+                <g-link to="/es/contact" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 inline-block">Contacto</g-link>
               </li>
             </ul>
           </div>
-          <div class="sw:w-full md:w-full lg:w-4/12 w-full text-right hidden lg:block">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right hidden lg:block">
             <a href="tel:322-121-6778" class="bg-background-accenta text-white hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block">Llámanos: 322-121-6778</a>
             <g-link :to="englishUrl" class="ml-2 bg-background-white border-accenta  border-2 text-accenta hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block ">English</g-link>
           </div>

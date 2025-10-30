@@ -98,35 +98,35 @@
             <g-image
               src="@/assets/award/arqflores-1.jpg"
               alt="Arqflores Award Winning Project"
-              immediate="true"
+              :immediate="true"
             />
           </div>
           <div>
             <g-image
               src="@/assets/award/arqflores-2.jpg"
               alt="Arqflores Award Winning Project"
-              immediate="true"
+              :immediate="true"
             />
           </div>
           <div>
             <g-image
               src="@/assets/award/arqflores-3.jpg"
               alt="Arqflores Award Winning Project"
-              immediate="true"
+              :immediate="true"
             />
           </div>
           <div>
             <g-image
               src="@/assets/award/arqflores-4.jpg"
               alt="Arqflores Award Winning Project"
-              immediate="true"
+              :immediate="true"
             />
           </div>
           <div>
             <g-image
               src="@/assets/award/arqflores-5.jpg"
               alt="Arqflores Award Winning Project"
-              immediate="true"
+              :immediate="true"
             />
           </div>
         </VueSlickCarousel>
@@ -165,49 +165,49 @@
               <g-image
                 src="@/assets/modern-kitchen/modern-kitchen-design.jpg"
                 alt="Modern Kitchen Design"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-kitchen-design-2.jpg"
                 alt="Custom Modern Kitchen"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-kitchen-design-3.jpg"
                 alt="Beautiful Modern Kitchen"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bedroom-design.jpg"
                 alt="Custom Bedroom Headboard"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bedroom-design-2.jpg"
                 alt="Custom Modern Headboard"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bathroom-design.jpg"
                 alt="Modern Bathroom Design"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bathroom-design-2.jpg"
                 alt="Elegant Modern Bathroom"
-                immediate="true"
+                :immediate="true"
               />
             </div>
           </VueSlickCarousel>
@@ -248,42 +248,42 @@
               <g-image
                 src="@/assets/traditional/traditional-01.jpg"
                 alt="Traditional Custom Kitchen"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/traditional/traditional-02.jpg"
                 alt="Custom Traditional Kitchen"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/traditional/traditional-03.jpg"
                 alt="Wooden tradtional designed drawers"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/traditional/traditional-04.jpg"
                 alt="tradtional style vanity"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/traditional/traditional-05.jpg"
                 alt="tradtional style vanity open"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/traditional/traditional-06.jpg"
                 alt="custom wooden closet tradtional design"
-                immediate="true"
+                :immediate="true"
               />
             </div>
           </VueSlickCarousel>
@@ -712,22 +712,38 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
   components: { VueSlickCarousel },
   metaInfo: {
-    title: "Bucerias Project | Custom Woodworking | Puerto Vallarta ",
+    title: "Centro Carpintero | Custom Woodworking & Home Renovations Puerto Vallarta",
     titleTemplate: "%s",
     meta: [
       {
         name: "description",
         key: "description",
-        content:
-          "Custom Woodworking project made from solid amapa wood in Bucerias, Nayarit, Mexico.",
+        content: "Premier custom woodworking and home renovations in Puerto Vallarta. Expert carpentry using tropical hardwoods like Parota and Kumaru. Kitchen remodeling, bathroom renovations, and custom furniture. 15+ years serving Puerto Vallarta.",
+      },
+      {
+        name: "keywords",
+        content: "Puerto Vallarta woodworking, custom carpentry Puerto Vallarta, home renovations Puerto Vallarta, kitchen remodeling, bathroom renovations, Parota wood furniture, tropical hardwood, custom cabinets Puerto Vallarta, Centro Carpintero",
       },
       {
         property: "og:title",
-        content: "Bucerias Project | Custom Woodworking | Puerto Vallarta",
+        content: "Centro Carpintero | Custom Woodworking & Home Renovations Puerto Vallarta",
+      },
+      {
+        property: "og:description",
+        content: "Premier custom woodworking and home renovations in Puerto Vallarta. Expert carpentry using tropical hardwoods. Kitchen remodeling, bathroom renovations, and custom furniture.",
+      },
+      {
+        property: "og:image",
+        content: "https://centrocarpinteropv.com/centro-hero.jpg",
       },
       { property: "og:site_name", content: "Centro Carpintero" },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://centrocarpinteropv.com/" },
       { name: "robots", content: "index,follow" },
+      { name: "geo.region", content: "MX-JAL" },
+      { name: "geo.placename", content: "Puerto Vallarta" },
+      { name: "geo.position", content: "20.653407;-105.225021" },
+      { name: "ICBM", content: "20.653407, -105.225021" },
     ],
   },
   data() {

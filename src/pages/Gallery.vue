@@ -183,22 +183,29 @@ export default {
     },
   },
   metaInfo: {
-    title: "Gallery | Home Renovations Custom Carpentry | Puerto Vallarta",
+    title: "Gallery | Custom Woodworking Projects | Centro Carpintero Puerto Vallarta",
     titleTemplate: "%s",
     meta: [
       {
         name: "description",
         key: "description",
-        content:
-          "Come take a look at are gallery of recent home renovations and some costume wood working projects.",
+        content: "Browse our gallery of custom woodworking projects in Puerto Vallarta. See kitchen renovations, bathroom remodeling, custom furniture, and tropical hardwood carpentry using Parota and Kumaru wood. 15+ years of expert craftsmanship.",
+      },
+      {
+        name: "keywords",
+        content: "Puerto Vallarta gallery, custom woodworking gallery, kitchen renovation photos, bathroom remodeling gallery, Parota wood projects, tropical hardwood furniture, custom carpentry Puerto Vallarta, Centro Carpintero projects",
       },
       {
         property: "og:title",
-        content:
-          "Gallery | Home Renovations Custom Carpentry | Puerto Vallarta",
+        content: "Gallery | Custom Woodworking Projects | Centro Carpintero Puerto Vallarta",
+      },
+      {
+        property: "og:description",
+        content: "Browse our gallery of custom woodworking projects in Puerto Vallarta. See kitchen renovations, bathroom remodeling, custom furniture, and tropical hardwood carpentry.",
       },
       { property: "og:site_name", content: "Centro Carpintero" },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://centrocarpinteropv.com/gallery" },
       { name: "robots", content: "index,follow" },
     ],
   },

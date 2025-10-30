@@ -74,49 +74,49 @@
               <g-image
                 src="@/assets/modern-kitchen/modern-kitchen-design.jpg"
                 alt="Modern Kitchen Design"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-kitchen-design-2.jpg"
                 alt="Custom Modern Kitchen"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-kitchen-design-3.jpg"
                 alt="Beautiful Modern Kitchen"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bedroom-design.jpg"
                 alt="Custom Bedroom Headboard"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bedroom-design-2.jpg"
                 alt="Custom Modern Headboard"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bathroom-design.jpg"
                 alt="Modern Bathroom Design"
-                immediate="true"
+                :immediate="true"
               />
             </div>
             <div>
               <g-image
                 src="@/assets/modern-kitchen/modern-bathroom-design-2.jpg"
                 alt="Elegant Modern Bathroom"
-                immediate="true"
+                :immediate="true"
               />
             </div>
           </VueSlickCarousel>
@@ -228,17 +228,23 @@
   export default {
     components: { VueSlickCarousel },
     metaInfo: {
-      title: 'Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta',
+      title: 'Services | Custom Woodworking & Home Renovations | Centro Carpintero Puerto Vallarta',
       titleTemplate: '%s',
       meta: [
         { name: 'description', 
           key: 'description',
-          content:  "Learn and get to know a bit better of who is working behind the scenes in making your dreams come true."
+          content: "Complete woodworking and renovation services in Puerto Vallarta: custom kitchens, bathroom remodeling, bedroom furniture, closets, outdoor spaces. Expert craftsmanship using Parota, Kumaru and tropical hardwoods. Free estimates available."
         },
-        { property: 'og:title', content: "Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta"},
+        {
+          name: "keywords",
+          content: "Puerto Vallarta services, custom kitchen Puerto Vallarta, bathroom renovation Puerto Vallarta, bedroom furniture, custom closets, outdoor furniture, Parota wood services, tropical hardwood carpentry, home remodeling Puerto Vallarta",
+        },
+        { property: 'og:title', content: "Services | Custom Woodworking & Home Renovations | Centro Carpintero Puerto Vallarta"},
+        { property: 'og:description', content: "Complete woodworking and renovation services in Puerto Vallarta: custom kitchens, bathroom remodeling, bedroom furniture, closets, outdoor spaces. Expert craftsmanship using tropical hardwoods."},
         { property: 'og:site_name', content: 'Centro Carpintero'},
-        {property: 'og:type', content: 'website'},    
-        {name: 'robots', content: 'index,follow'} 
+        { property: 'og:type', content: 'website'},
+        { property: 'og:url', content: 'https://centrocarpinteropv.com/services'},
+        { name: 'robots', content: 'index,follow'} 
       ]
     },
     data() {
@@ -247,17 +253,22 @@
         };
     },
     methods: {
+        encode(data) {
+            return Object.keys(data)
+                .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+                .join('&')
+        },
         handleSubmit(e) {
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: this.encode({
-            "form-name": e.target.getAttribute("name"),
-            ...this.formData,
-            }),
-        })
-            .then(() => this.$router.push("/thankyou"))
-            .catch((error) => alert(error));
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: this.encode({
+                "form-name": e.target.getAttribute("name"),
+                ...this.formData,
+                }),
+            })
+                .then(() => this.$router.push("/thankyou"))
+                .catch((error) => alert(error));
         },
     },
   }

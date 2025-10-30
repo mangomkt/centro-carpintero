@@ -1594,6 +1594,9 @@ video {
   .lg\:mt-0 {
     margin-top: 0px;
   }
+  .lg\:pb-0 {
+    padding-bottom: 0px;
+  }
 
   .lg\:block {
     display: block;

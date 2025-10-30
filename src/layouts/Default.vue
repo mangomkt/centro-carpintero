@@ -15,9 +15,9 @@
             </div>
           </div>
         </div>
-        <div class="container mx-auto py-0 lg:py-2 bg-white flex flex-col lg:flex-row">
-          <div class="sw:w-full md:w-full lg:w-1/2 w-full">
-            <ul class="uppercase w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
+        <div class="container mx-auto py-0 lg:py-2 bg-white flex flex-col lg:flex-row relative">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full relative">
+            <ul class="pb-20 lg:pb-0 uppercase w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0 mobile-menu" :class="isOpen ? 'mobile-menu-open': 'hidden'">
               <li class="text-left lg:text-left my-0 lg:my-0">
                 <g-link to="/" class="text-1xl text-primary hover:text-accenta mx-4 py-2 lg:py-4 block">Home</g-link>
               </li>
