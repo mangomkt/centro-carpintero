@@ -158,6 +158,12 @@ import SearchInputEs from '../components/SearchInputEs'
 import ThemeSwitcher from '../components/ThemeSwitcher'
 
 export default {
+  props: {
+    correspondingPost: {
+      type: String,
+      default: null
+    }
+  },
   components: {
     SearchInputEs,
     ThemeSwitcher
@@ -195,6 +201,14 @@ export default {
   computed: {
     englishUrl() {
       const currentPath = this.$route.path
+      
+      // Check if we have corresponding post data from props (for blog posts)
+      if (this.correspondingPost) {
+        // English blog posts are under /blog/, so prepend /blog to the English post path
+        return `/blog${this.correspondingPost}`
+      }
+      
+      // Page mappings for non-blog pages
       const pathMappings = {
         '/es': '/',
         '/es/about': '/about',
@@ -210,7 +224,14 @@ export default {
         '/proyectos/peninsula': '/projects/peninsula',
         '/proyectos/peninsula-2': '/projects/peninsula-2'
       }
-      return pathMappings[currentPath] || '/'
+      
+      // Check if it's a regular page
+      if (pathMappings[currentPath]) {
+        return pathMappings[currentPath]
+      }
+      
+      // Default fallback
+      return '/'
     }
   },
   methods: {

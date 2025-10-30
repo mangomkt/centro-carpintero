@@ -1,9 +1,9 @@
 <template>
-  <Esp>
+  <Esp :corresponding-post="$page.post.corresponding_post">
     <div class="container-inner single mx-auto my-16">
       <h1 class="text-4xl font-bold leading-tight">{{ $page.post.title }}</h1>
       <div class="text-xl text-gray-600 mb-4">{{ $page.post.date }}</div>
-      <div class="flex mb-8 text-sm">
+      <div class="flex mb-8 text-sm flex-wrap gap-2">
         <g-link
           :to="etiqueta.path"
           v-for="etiqueta in $page.post.etiqueta"
@@ -26,6 +26,12 @@ query esPost ($path: String!) {
     title
     date (format: "MMMM D, Y")
     content
+    summary
+    corresponding_post
+    etiqueta {
+      title
+      path
+    }
   }
 }
 </page-query>

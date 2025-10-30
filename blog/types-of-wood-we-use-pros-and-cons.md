@@ -5,6 +5,7 @@ date: 2020-10-20
 summary: Wood is one of the oldest and common materials used for building around the world , especially here in Mexico. Out of the three main types that we use, what are the pros and cons.
 tags: ['parota','amapa', 'primavera', 'home renovations', 'pros and cons']
 cover_image: ./images/wood-types.jpg
+corresponding_post: /los-tipos-de-madera-que-utilizamos-y-sus-pros-y-contras
 ---
 
 ![background](./images/wood-types.jpg)

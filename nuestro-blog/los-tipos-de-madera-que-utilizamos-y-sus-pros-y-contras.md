@@ -5,6 +5,7 @@ date: 2020-10-20
 summary: La madera es uno de los materiales más antiguos y utilizados para la construcción en todo el mundo, especialmente aquí en México. De los tres tipos principales que usamos, cuáles son los pros y los contras.
 etiqueta: ['parota','amapa','primavera']
 cover_image: ./images/wood-types.jpg
+corresponding_post: /types-of-wood-we-use-pros-and-cons
 ---
 
 ![background](./images/wood-types.jpg)

@@ -5,6 +5,7 @@ date: 2025-10-30
 summary: Descubre cómo Centro Carpintero combina la artesanía tradicional mexicana con prácticas sostenibles para crear hermosas renovaciones ecológicas usando maderas tropicales de origen local.
 tags: ['carpintería sostenible', 'renovaciones ecológicas', 'maderas tropicales', 'Puerto Vallarta', 'construcción verde', 'madera parota', 'responsabilidad ambiental']
 cover_image: ./images/wood-types.jpg
+corresponding_post: /sustainable-woodworking-eco-friendly-renovations
 ---
 
 ![Carpintería Sostenible](./images/wood-types.jpg)

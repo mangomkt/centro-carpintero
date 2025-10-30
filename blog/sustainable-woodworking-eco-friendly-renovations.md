@@ -5,6 +5,7 @@ date: 2025-10-30
 summary: Discover how Centro Carpintero combines traditional Mexican craftsmanship with sustainable practices to create beautiful, eco-friendly home renovations using locally sourced tropical hardwoods.
 tags: ['sustainable woodworking', 'eco-friendly renovations', 'tropical hardwoods', 'Puerto Vallarta', 'green building', 'parota wood', 'environmental responsibility']
 cover_image: ./images/wood-types.jpg
+corresponding_post: /carpinteria-sostenible-renovaciones-ecologicas
 ---
 
 ![Sustainable Woodworking](./images/wood-types.jpg)
