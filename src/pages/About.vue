@@ -25,17 +25,23 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta',
+    title: 'About Martha | Centro Carpintero Puerto Vallarta | Custom Woodworking Expert',
     titleTemplate: '%s',
     meta: [
       { name: 'description', 
         key: 'description',
-        content:  "Learn and get to know a bit better of who is working behind the scenes in making your dreams come true."
+        content: "Meet Martha Beatriz Navarro Barajas, founder of Centro Carpintero Puerto Vallarta. Expert in custom woodworking and home renovations with 15+ years experience in tropical hardwood carpentry and fine furniture crafting."
       },
-      { property: 'og:title', content: "Fine Woodworking | Carpentry | Centro Carpintero Puert Vallarta"},
+      {
+        name: "keywords",
+        content: "Martha Navarro Centro Carpintero, Puerto Vallarta carpenter, custom woodworking expert, home renovation specialist, tropical hardwood expert, Parota wood specialist, Puerto Vallarta contractor",
+      },
+      { property: 'og:title', content: "About Martha | Centro Carpintero Puerto Vallarta | Custom Woodworking Expert"},
+      { property: 'og:description', content: "Meet Martha Beatriz Navarro Barajas, founder of Centro Carpintero Puerto Vallarta. Expert in custom woodworking and home renovations with 15+ years experience."},
       { property: 'og:site_name', content: 'Centro Carpintero'},
-      {property: 'og:type', content: 'website'},    
-      {name: 'robots', content: 'index,follow'} 
+      { property: 'og:type', content: 'website'},
+      { property: 'og:url', content: 'https://centrocarpinteropv.com/about'},
+      { name: 'robots', content: 'index,follow'} 
     ]
   },
 }

@@ -2,8 +2,8 @@
   <div class="content-wrapper font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header>
       <g-link to="/es/noticia" class="text-white text-xl block text-center bg-tertiary hover:text-white hover:bg-accentb mx-0 py-2 uppercase">Noticia importante</g-link>
-      <nav class="z-40 relative bg-background-white">
-        <div class="top-nav">
+      <nav class="bg-background-white z-40 relative border-b-2 border-gray-300">
+        <div class="top-nav bg-background-white">
           <div class="flex flex-wrap justify-between items-center py-2 container mx-auto">
             <g-link to="/es"><g-image src="../../static/logogold.png" class="nav-logo mx-auto lg:mx-4" alt="logo" /></g-link>
             <search-input-es class="hidden lg:block" />
@@ -15,45 +15,61 @@
             </div>
           </div>
         </div>
-        <div class="container mx-auto py-0 lg:py-2  flex flex-col lg:flex-row">
-          <div class="sw:w-full md:w-full lg:w-8/12 w-full">
-            <ul class="uppercase tracking-wide font-light w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0" :class="isOpen ? 'block': 'hidden'">
-              <li class="text-left lg:text-left my-2 lg:my-3">
-                <g-link to="/es" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 block">Inicio</g-link>
-              </li>
-              <li class="text-left has-sub-menu relative lg:text-left my-2 lg:my-2">
-                <g-link to="/es/about" class="hover:text-accenta text-primary mx-4 py-4 lg:py-4 inline-block">Sobre nosotros</g-link>
-                <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/es/noticia" class="text-primary block hover:text-accenta mx-4 py-4 lg:py-0">Noticia importante</g-link>
-                  </li>
-                </ul>
-              </li>
-              <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/gallery" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Nuestra galeria</g-link>
+        <div class="container mx-auto py-0 lg:py-2 bg-white flex flex-col lg:flex-row relative">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full relative">
+            <ul class="pb-20 lg:pb-0 uppercase w-full flex-grow lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center lg:mt-0 mobile-menu" :class="isOpen ? 'mobile-menu-open': 'hidden'">
+              <li class="text-left lg:text-left my-0 lg:my-0">
+                <g-link to="/es" class="text-1xl text-primary hover:text-accenta mx-4 py-2 lg:py-4 block">Inicio</g-link>
               </li>
               <li class="text-left has-sub-menu lg:text-left my-2 lg:my-2 relative">
-                <g-link to="/es/proyecto/bucerias" class="hover:text-accenta text-primary mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
+                <g-link to="/es/about" class="text-primary hover:text-accenta mx-4 py-2 lg:py-4 inline-block">Sobre nosotros</g-link>
                 <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
-                  <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/es/proyecto/bucerias" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Bucerias</g-link>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/es/noticia" class="text-primary block hover:text-accenta mx-4 py-2 lg:py-0">Noticia importante</g-link>
                   </li>
-                   <li class="text-left lg:text-left my-2 lg:my-2">
-                    <g-link to="/es/proyecto/beach-house" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Proyecto Casa de Playa</g-link>
+                </ul>
+              </li>
+              
+              <li class="text-left lg:text-left my-0 lg:my-0">
+                <g-link to="/es/servicios" class="text-1xl text-primary hover:text-accenta mx-4 py-2 lg:py-4 block">Nuestros Servicios</g-link>
+              </li>
+              <li class="text-left lg:text-left my-0 lg:my-2">
+                <g-link to="/es/gallery" class="text-primary hover:text-accenta mx-4 py-2 lg:py-4 inline-block">Nuestra galeria</g-link>
+              </li>
+              <li class="text-left has-sub-menu lg:text-left my-0 lg:my-2 relative">
+                <g-link to="/proyectos/bucerias" class="text-primary hover:text-accenta mx-4 py-4 lg:py-4 inline-block">Proyecto</g-link>
+                <ul class="ml-4 md:ml-0 sub-menu relative md:absolute md:bg-background-light">
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/bucerias" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Bucerias</g-link>
+                  </li>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/beach-house" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Proyecto Casa de Playa</g-link>
+                  </li>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/nima-bay" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Proyecto Nima Bay</g-link>
+                  </li>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/casa-cedar" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Casa Cedar</g-link>
+                  </li>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/peninsula" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Peninsula</g-link>
+                  </li>
+                  <li class="text-left lg:text-left my-0 lg:my-2">
+                    <g-link to="/proyectos/peninsula-2" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 block">Peninsula 2</g-link>
                   </li>
                 </ul>
               </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/blog" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Blog</g-link>
+                <g-link to="/es/blog" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 inline-block">Blog</g-link>
               </li>
               <li class="text-left lg:text-left my-2 lg:my-2">
-                <g-link to="/es/contact" class="hover:text-accenta text-primary mx-4 py-4 lg:py-0 inline-block">Contacto</g-link>
+                <g-link to="/es/contact" class="text-primary hover:text-accenta mx-4 py-2 lg:py-0 inline-block">Contacto</g-link>
               </li>
             </ul>
           </div>
-          <div class="sw:w-full md:w-full lg:w-4/12 w-full text-right hidden lg:block">
+          <div class="sw:w-full md:w-full lg:w-1/2 w-full text-right hidden lg:block">
             <a href="tel:322-121-6778" class="bg-background-accenta text-white hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block">Llámanos: 322-121-6778</a>
-            <g-link to="/" class="ml-2 bg-background-white border-accenta  border-2 text-accenta hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block ">English</g-link>
+            <g-link :to="englishUrl" class="ml-2 bg-background-white border-accenta  border-2 text-accenta hover:text-white hover:bg-background-accentb rounded-full py-3 px-6 inline-block ">English</g-link>
           </div>
         </div>
       </nav>
@@ -109,7 +125,7 @@
         </svg>
         <span class="block text-sm">Blog</span>
       </g-link>
-       <g-link to="/" class="text-white w-1/3 py-2 px-2 text-center">
+       <g-link :to="englishUrl" class="text-white w-1/3 py-2 px-2 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 24px; height: 24px;" class="block mx-auto my-1">
           <path fill="#fff" d="M370.931,102.051a8,8,0,0,0-2.895-5.788,174.894,174.894,0,0,0-94.463-39.394c-5.751-.572-11.6-.858-17.445-.863-.043,0-.085-.006-.128-.006s-.084.006-.127.006c-5.848,0-11.695.291-17.442.863a175.225,175.225,0,0,0-129.523,78.464l-.061.089h0a176.044,176.044,0,0,0,11.417,208.614,8,8,0,0,0,5.787,2.9c.127.006.253.008.38.008a8,8,0,0,0,5.656-2.342L368.6,108.087A8,8,0,0,0,370.931,102.051ZM230.056,224H180.944a235.387,235.387,0,0,1,9.92-60.224A507.977,507.977,0,0,0,248,167.928v38.128ZM96.222,224A159.08,159.08,0,0,1,119.1,149.149a505.249,505.249,0,0,0,55.761,12.307A251.43,251.43,0,0,0,164.938,224ZM243.007,72.531c1.659-.134,3.323-.251,4.993-.333v79.73a492.129,492.129,0,0,1-51.872-3.608A233.2,233.2,0,0,1,243.007,72.531ZM214.057,240l-30.149,30.148A237.173,237.173,0,0,1,180.95,240ZM264,167.929q11.5-.183,23.021-.893L264,190.056Zm40.476-18.349c-13.389,1.336-26.957,2.124-40.476,2.346V72.2c1.672.082,3.338.2,5,.333a234.1,234.1,0,0,1,43.993,68.532ZM218.7,76.37a248.394,248.394,0,0,0-38.813,69.673,489.955,489.955,0,0,1-51.261-10.866A159.106,159.106,0,0,1,218.7,76.37ZM127.167,326.89A160.316,160.316,0,0,1,96.209,240h68.729a252.685,252.685,0,0,0,5.261,43.858Zm197.995-198a249.34,249.34,0,0,0-31.87-52.527,158.8,158.8,0,0,1,57.6,26.8Z"/>
           <path fill="#fff" d="M403.157,135.429a176.512,176.512,0,0,0-11.42-15.463,8,8,0,0,0-11.824-.563L143.4,355.913a8,8,0,0,0,.561,11.824,174.894,174.894,0,0,0,94.463,39.394A179.213,179.213,0,0,0,272,407.28V448a8,8,0,0,0,13.878,5.426L357.625,375.7a176.04,176.04,0,0,0,45.532-240.272ZM347.729,363.1a8.048,8.048,0,0,0-1.286,1.125L288,427.539v-29.25a8,8,0,0,0-9.132-7.92c-2.422.347-4.672.621-6.881.84a162.556,162.556,0,0,1-31.978,0,158.85,158.85,0,0,1-78.9-30.372L384.834,137.11q2.584,3.5,4.953,7.108A160.04,160.04,0,0,1,347.729,363.1Z"/>
@@ -142,6 +158,12 @@ import SearchInputEs from '../components/SearchInputEs'
 import ThemeSwitcher from '../components/ThemeSwitcher'
 
 export default {
+  props: {
+    correspondingPost: {
+      type: String,
+      default: null
+    }
+  },
   components: {
     SearchInputEs,
     ThemeSwitcher
@@ -176,6 +198,42 @@ export default {
       jsonld
     }
   },
+  computed: {
+    englishUrl() {
+      const currentPath = this.$route.path
+      
+      // Check if we have corresponding post data from props (for blog posts)
+      if (this.correspondingPost) {
+        // English blog posts are under /blog/, so prepend /blog to the English post path
+        return `/blog${this.correspondingPost}`
+      }
+      
+      // Page mappings for non-blog pages
+      const pathMappings = {
+        '/es': '/',
+        '/es/about': '/about',
+        '/es/servicios': '/services',
+        '/es/gallery': '/gallery',
+        '/es/blog': '/blog',
+        '/es/contact': '/contact',
+        '/es/noticia': '/notice',
+        '/proyectos/bucerias': '/projects/bucerias',
+        '/proyectos/beach-house': '/projects/beach-house',
+        '/proyectos/nima-bay': '/projects/nima-bay',
+        '/proyectos/casa-cedar': '/projects/casa-cedar',
+        '/proyectos/peninsula': '/projects/peninsula',
+        '/proyectos/peninsula-2': '/projects/peninsula-2'
+      }
+      
+      // Check if it's a regular page
+      if (pathMappings[currentPath]) {
+        return pathMappings[currentPath]
+      }
+      
+      // Default fallback
+      return '/'
+    }
+  },
   methods: {
     toggle() {
       this.isOpen = !this.isOpen
@@ -188,3 +246,4 @@ export default {
 </script>
 
 <style src="../css/main.css" />
+<style src="../css/tailwind.css" />

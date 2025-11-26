@@ -1,1 +1,10 @@
+# Redirect old Spanish project URLs to new structure
+/es/proyecto/bucerias /proyectos/bucerias 301
+/es/proyecto/beach-house /proyectos/beach-house 301
+/es/proyecto/nima-bay /proyectos/nima-bay 301
+/es/proyecto/casa-cedar /proyectos/casa-cedar 301
+/es/proyecto/peninsula /proyectos/peninsula 301
+/es/proyecto/peninsula-2 /proyectos/peninsula-2 301
+
+# Fallback for SPA
 /* /index.html 200

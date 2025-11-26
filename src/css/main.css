@@ -104,6 +104,23 @@ header {
   .hero.hero-bucerias-projecto {
     background: url(../assets/img/bucerias-projecto-hero.jpg);
   }
+  .hero.hero-casa-cedar {
+    background: url(../assets/casa-cedar/cedar37.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .hero.hero-nima-bay-projecto {
+    background: url(../assets/nima-bay/nima2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .hero.hero-peninsula-projecto {
+    background: url(../assets/peninsula/peninsula1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
   .hero.hero-beach-house-projecto {
     background: url(../assets/house-project/beach-house-back.jpg);
   }
@@ -287,4 +304,173 @@ a:hover {
   color: #1f3101;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.award-wrapper, .award {
+  border-radius: 100px 0 100px 0;
+}
+.award {
+  box-shadow: 0 0 0 8px rgba(0,0,0,.1);
+}
+.award-wrapper:before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  left: -50px;
+  top: -50px;
+  background: #38785d;
+  border-radius: 50%;
+}
+.award-wrapper:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+  right: -50px;
+  bottom: -50px;
+  background: #ae8d4a;
+  border-radius: 50%;
+}
+.award {
+  z-index: 10;
+}
+.award:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  top: 120px;
+  background: #ae8d4a;
+  border-radius: 50%;
+}
+@media(max-width:767px) {
+  .award-wrapper:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    right: -20px;
+    bottom: 10px;
+    background: #ae8d4a;
+    border-radius: 50%;
+  } 
+}
+.mfooter {
+  z-index: 1000;
+}
+
+/* Mobile menu styles */
+@media (max-width: 1023px) {
+  .mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+  }
+  
+  .mobile-menu-open {
+    display: block !important;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .mobile-menu.hidden {
+    display: none;
+  }
+}
+/* Modal styles */
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 11111;
+  padding: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal img {
+  max-width: 600px;
+}
+.modal-content {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
+.modal-inner {
+    display: flex;
+    height: 100%;
+}
+.modal .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    line-height: 43px;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.modal .close:hover {
+  background: var(--bg-background-accenta);
+  border-color: var(--bg-background-accenta);
+}
+.post-card__image {
+  cursor: pointer;
+}
+button.modal-nav.next {
+    right: 15px;
+}
+
+button.modal-nav.prev {
+    left: 15px;
+}
+button.modal-nav {
+    position: absolute;
+    top: 50%;
+    z-index: 111;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    padding: 8px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+@media(min-width: 981px) {
+  button.modal-nav:hover {
+    background: var(--bg-background-accenta);
+    border-color: var(--bg-background-accenta);
+  }
+}
+@media(max-width:767px) {
+  button.modal-nav {
+    top: initial;
+    bottom: 15px;
+  }
+
 }

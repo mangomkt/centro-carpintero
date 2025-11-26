@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="hero hero-bucerias-projecto">
+    <div class="hero hero-peninsula-projecto">
       <div class="container-inner mx-auto flex flex-col sm:flex-row justify-between py-20">
         <div class="font-bold w-full text-center sm:text-center">
-          <h1 class="text-6xl text-white leading-tight">Custom Rosewood Kitchen</h1>
+          <h1 class="text-5xl font-serif font-light text-white leading-tight">Peninsula 2</h1>
           <div class="text-2xl text-white font-light leading-tight">Centro Carpintero Projects</div>
         </div>
       </div> <!-- end hero -->
@@ -11,39 +11,52 @@
     <div class="container-inner mx-auto py-20">
       <div class="flex flex-wrap justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0 text-center">
-          <VueSlickCarousel v-bind="settings">
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-01.jpg" alt="Bucerias Projecto Image 1" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-02.jpg" alt="Bucerias Projecto Image 2" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-03.jpg" alt="Bucerias Projecto Image 3" /></div>
-            <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-04.jpg" alt="Bucerias Projecto Image 4" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-05.jpg" alt="Bucerias Projecto Image 5" /></div>
-             <div><g-image src="@/assets/bucerias-projecto/bucerias-projecto-06.jpg" alt="Bucerias Projecto Image 6" /></div>
+          <VueSlickCarousel v-bind="settings" ref="c1" :asNavFor="c2" :focusOnSelect="true">
+          <div><g-image src="@/assets/peninsula-2/pennisula-2-01.jpg" alt="Peninsula 2 Project Image 1" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-02.jpg" alt="Peninsula 2 Project Image 2" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-03.jpg" alt="Peninsula 2 Project Image 3" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-04.jpg" alt="Peninsula 2 Project Image 4" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-05.jpg" alt="Peninsula 2 Project Image 5" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-06.jpg" alt="Peninsula 2 Project Image 6" /></div>
+            <div><g-image src="@/assets/peninsula-2/pennisula-2-07.jpg" alt="Peninsula 2 Project Image 7" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-08.jpg" alt="Peninsula 2 Project Image 8" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-09.jpg" alt="Peninsula 2 Project Image 9" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-10.jpg" alt="Peninsula 2 Project Image 10" /></div>
           </VueSlickCarousel>
+          <VueSlickCarousel v-bind="thumbsettings" ref="c2" :asNavFor="c1" :focusOnSelect="true">
+            <div><g-image src="@/assets/peninsula-2/pennisula-2-01.jpg" alt="Peninsula 2 Project Image 1" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-02.jpg" alt="Peninsula 2 Project Image 2" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-03.jpg" alt="Peninsula 2 Project Image 3" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-04.jpg" alt="Peninsula 2 Project Image 4" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-05.jpg" alt="Peninsula 2 Project Image 5" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-06.jpg" alt="Peninsula 2 Project Image 6" /></div>
+            <div><g-image src="@/assets/peninsula-2/pennisula-2-07.jpg" alt="Peninsula 2 Project Image 7" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-08.jpg" alt="Peninsula 2 Project Image 8" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-09.jpg" alt="Peninsula 2 Project Image 9" /></div>
+           <div><g-image src="@/assets/peninsula-2/pennisula-2-10.jpg" alt="Peninsula 2 Project Image 10" /></div>
+           </VueSlickCarousel>
         </div>
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <div class="text-4xl font-light leading-tight my-4">Bucerias Project</div>
-          <p>Custom Woodworking project made from solid amapa wood.</p>
+          <div class="text-4xl font-light leading-tight my-4">Peninsula 2 Project</div>
           <ul class="list-disc ml-6 mb-4">
-          <li>Solid amapa wood (tropical wood from this region), hard wood</li>
-          <li>3 garage cabinets for storage</li>
-          <li>LeMans corner cabinets</li>
-          <li>Custom glass cabinets</li>
-          </ul>
-
-          <p><g-link to="/blog/types-of-wood-we-use-pros-and-cons/" class="inline-block bg-green-700 hover:bg-accentb text-white hover:text-white text-sm font-semibold tracking-wide uppercase shadow rounded-full cursor-pointer px-6 py-3">Read about types of wood we use</g-link></p>
+          <li>Professional painting and coordinating colors throughout the space</li>
+          <li>Custom lighting design and installation</li>
+          <li>Custom parota shelves, entertainment unit, and kitchen cabinets</li>
+          <li>Natural quartz countertops</li>
+        </ul>
         </div>
       </div>
     </div>
     <div class="warehouse bg-primary">
       <div class="container-inner py-20 lg:py-40 mx-auto px-2">
-        <div class="text-4xl text-white font-hairline italic">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
-        <div class="text-2xl text-white">- Happy Customer</div>
+        <div class="text-4xl text-white font-serif font-light">Outstanding custom design and carpentry company that did a great job restoring existing woodwork and creating new cabinets that match.</div>
+        <div class="text-2xl mt-4 font-light text-white">- Happy Customer</div>
       </div>
     </div>
     <div class="container-inner py-20 mx-auto px-2">
       <div class="flex flex-wrap py-6">
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto pb-8">
-          <div class="text-4xl leading-tight md:text-left sm:text-center">Free Quote</div>
+          <div class="text-4xl font-serif font-light leading-tight md:text-left sm:text-center">Free Quote</div>
           <div class="text-1xl leading-tight mt-4">
             <strong>Centro Cerpintero PV</strong><br>
             Carretera a las Palmas #2523<br>
@@ -54,7 +67,7 @@
           </div>
         </div>
         <div class="sw:w-full md:w-full lg:w-1/2 w-full px-8 mx-auto">
-          <div class="text-4xl leading-tight">Send Us A Message</div>
+          <div class="text-4xl font-serif font-light leading-tight">Get a Quote</div>
           <div class="contact-me pt-4">
             <form name="hpcontact" method="post" v-on:submit.prevent="handleSubmit" action="/thankyou/" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
@@ -111,19 +124,33 @@ export default {
   components: { VueSlickCarousel },
   data() {
     return {
+      c1: undefined,
+      c2: undefined,
       settings: {
-        "dots": true,
+        "dots": false,
         "arrows": true,
         "infinite": true,
         "centerMode": false,
         "centerPadding": "0px",
         "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "variableWidth": true
+        "slidesToScroll": 1
+      },
+      thumbsettings: {
+        "dots": false,
+        "arrows": false,
+        "infinite": true,
+        "centerMode": false,
+        "centerPadding": "0px",
+        "slidesToShow": 5,
+        "slidesToScroll": 1
       },
       formData: {}
     }
   },
+  mounted() {
+    this.c1 = this.$refs.c1;
+    this.c2 = this.$refs.c2;
+    },
   methods: {
     encode(data) {
       return Object.keys(data)
@@ -160,3 +187,50 @@ export default {
 }
 </script>
 
+<style scoped>
+/* Main carousel images - consistent height with object-fit */
+::v-deep .slick-slider:first-of-type .slick-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 4px;
+}
+
+/* Thumbnail carousel images - smaller consistent height */
+::v-deep .slick-slider:last-of-type .slick-slide img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+/* Thumbnail hover effect */
+::v-deep .slick-slider:last-of-type .slick-slide img:hover {
+  opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  ::v-deep .slick-slider:first-of-type .slick-slide img {
+    height: 250px;
+  }
+  
+  ::v-deep .slick-slider:last-of-type .slick-slide img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  ::v-deep .slick-slider:first-of-type .slick-slide img {
+    height: 200px;
+  }
+  
+  ::v-deep .slick-slider:last-of-type .slick-slide img {
+    height: 50px;
+  }
+}
+</style>
