@@ -21,6 +21,18 @@
 
   --border-border-color-primary: white;
 }
+.vsc-popup-header {
+  background-color: #003d34 !important;
+}
+button.vsc-popup-button.vsc-popup-button--default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25d366;
+}
+.vsc-popup-button:focus, .vsc-popup-button:hover {
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #25d366 !important;
+}
 p {
   margin: 0 0 15px;
 }

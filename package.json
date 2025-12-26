@@ -20,7 +20,9 @@
     "vue-gtag": "^1.10.0",
     "vue-image-lightbox": "^7.2.0",
     "vue-scrollto": "^2.18.2",
-    "vue-slick-carousel": "^1.0.6"
+    "vue-slick-carousel": "^1.0.6",
+    "vue-social-chat": "^0.1.6",
+    "vue-whatsapp-widget": "^1.0.0"
   },
   "devDependencies": {
     "gridsome-plugin-manifest": "^0.3.5"
