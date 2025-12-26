@@ -24,6 +24,11 @@
 .vsc-popup-header {
   background-color: #003d34 !important;
 }
+@media(max-width:767px) {
+  .vsc-popup {
+      bottom: 81px;
+  }
+}
 button.vsc-popup-button.vsc-popup-button--default {
     display: flex;
     align-items: center;
