@@ -42,7 +42,7 @@
 
 <page-query>
 query Posts ($page: Int) {
-  posts: allEsPost (sortBy: "date", order: DESC, perPage: 10, page: $page) @paginate {
+  posts: allEsPost (sortBy: "date", order: DESC, perPage: 10, page: $page, filter: { date: { lte: "now" } }) @paginate {
     totalCount
     pageInfo {
       totalPages
