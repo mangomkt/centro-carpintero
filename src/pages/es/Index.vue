@@ -687,7 +687,7 @@
 </template>
 <page-query>
 query Posts ($page: Int) {
-  posts: allEsPost (sortBy: "date", order: DESC, perPage: 3, page: $page, filter: { date: { lte: "now" } }) @paginate {
+  posts: allEsPost (sortBy: "date", order: DESC, perPage: 3, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages

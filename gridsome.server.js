@@ -7,5 +7,25 @@
 
 module.exports = function (api, options) {
   api.loadSource(store => {
+    // Remove future-dated posts from the data layer
+    const posts = store.getCollection('Post')
+    const esPosts = store.getCollection('EsPost')
+    const now = new Date()
+
+    // Filter English posts
+    posts.data().forEach(post => {
+      const postDate = new Date(post.date)
+      if (postDate > now) {
+        posts.removeNode(post.id)
+      }
+    })
+
+    // Filter Spanish posts
+    esPosts.data().forEach(post => {
+      const postDate = new Date(post.date)
+      if (postDate > now) {
+        esPosts.removeNode(post.id)
+      }
+    })
   })
 }
