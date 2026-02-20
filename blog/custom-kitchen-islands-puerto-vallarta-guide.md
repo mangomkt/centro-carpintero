@@ -10,8 +10,6 @@ corresponding_post: /islas-de-cocina-personalizadas-puerto-vallarta-guia
 
 ![Custom Kitchen Island](./images/kitchen.jpg)
 
-# Custom Kitchen Islands in Puerto Vallarta: The Ultimate Design Guide for 2026
-
 A custom kitchen island isn't just a trend—it's the heart of modern kitchen design in Puerto Vallarta. Whether you're renovating your vacation home or upgrading your permanent residence, a well-designed island transforms your kitchen into a functional masterpiece that reflects the beauty of coastal Mexican living.
 
 At Centro Carpintero, we've designed and built hundreds of custom kitchen islands for discerning homeowners throughout Puerto Vallarta. Here's everything you need to know to create the perfect island for your space.
