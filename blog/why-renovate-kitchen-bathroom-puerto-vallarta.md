@@ -1,7 +1,7 @@
 ---
 title: "Why Renovate Your Kitchen or Bathroom in Puerto Vallarta: Boost Property Value & Rental Income"
 path: /why-renovate-kitchen-bathroom-puerto-vallarta
-date: 2026-02-16
+date: 2026-02-19
 summary: Discover how kitchen and bathroom renovations in Puerto Vallarta can increase your property value by up to 25% and boost rental income by 10-20%. Learn the facts about ROI and why these upgrades are essential for homeowners and investors.
 tags: ['kitchen renovation', 'bathroom remodel', 'Puerto Vallarta', 'property value', 'ROI', 'rental income', 'home investment', 'real estate']
 cover_image: ./images/renovations-kitchen.jpg
