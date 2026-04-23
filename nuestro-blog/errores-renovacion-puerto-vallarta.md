@@ -8,8 +8,6 @@ cover_image: ./images/remodeling.jpg
 corresponding_post: /remodeling-mistakes-puerto-vallarta
 ---
 
-# 5 Errores Costosos en Remodelaciones que Debes Evitar en Puerto Vallarta (Guía 2026)
-
 Remodelar tu hogar en Puerto Vallarta es emocionante… pero también puede volverse muy costoso si no se planifica correctamente.
 
 En Centro Carpintero PV, hemos visto los mismos errores una y otra vez. La buena noticia es que se pueden evitar.

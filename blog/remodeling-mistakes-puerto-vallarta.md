@@ -8,8 +8,6 @@ cover_image: ./images/remodeling.png
 corresponding_post: /errores-renovacion-puerto-vallarta
 ---
 
-# 5 Costly Remodeling Mistakes to Avoid in Puerto Vallarta Homes (2026 Guide)
-
 Renovating your home in Puerto Vallarta is exciting—but it can also become expensive fast if you don’t plan properly.
 
 At Centro Carpintero PV, we’ve seen the same mistakes happen over and over again. The good news? They’re completely avoidable.
